@@ -21,7 +21,7 @@ function customcursor(element, imgUrl) {
             .css('top', e.clientY + 1);
     });
 }
-customcursor($('*'),'images/cur.png');
+//customcursor($('*'),'images/cur.png');
 $('#events').css('height',window.innerHeight/1.5);
 $('#aboutus').css('height',window.innerHeight/1.5);
 $('#pronites').css('height',window.innerHeight/1.75);
@@ -162,7 +162,7 @@ $('.close').click(function(e) {
 		$("#pronites #tag").animate({height:"inherit",top:"60%"},{duration:'400',queue:false});
 		$("#sponsors #tag").animate({height:"inherit",top:"50%"},{duration:'400',queue:false});
 		$("#teasar #tag").animate({height:"inherit",top:"15%"},{duration:'400',queue:false});
-		
+		$('.data').hide();
 	$('#events').animate({height:window.innerHeight/1.5});
 	$('#aboutus').animate({height:window.innerHeight/1.5});
 	$('#pronites').animate({height:window.innerHeight/1.75});
@@ -182,6 +182,7 @@ $('.close').click(function(e) {
 		$("#events #ftag").animate({height:"100%",width:"30%"},{duration:'400',queue:false});	
 		$(".v").hide();		
 		$("#events .clo").show();
+		$("#ed").show();
 			}});
 //		$("#events #ftag").animate({height:"100%"},{duration:'400',queue:false});
 	//	$("#events #tag").animate({height:"100%",top:"0%"},{duration:'400',queue:false});
