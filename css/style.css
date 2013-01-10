@@ -295,6 +295,13 @@ background:#3cc16e;
 	color:#FFF;
 background:#169998;
 }
+#sponserdata{
+display:none;	
+}
+#trail{
+display:none;
+width:100%;
+}
 #hospital:hover:after{
 	border-left: 30px solid #169998;}
 #eventm:hover{color:#FFF;
