@@ -90,7 +90,7 @@ to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
 	margin:25% auto;
 	width:100%;
 	text-align:center;
-	font-size:10em;
+	#font-size:10em;
 	visibility:collapse;
 }
 @keyframes myfirst
@@ -303,11 +303,7 @@ background:#229dee;
 #eventm:hover:after{
 	border-left: 30px solid #229dee;}
 
-td:hover{
-
-	}
-
-ul li{
+ul.contactimages li{
 width:33%;
 display:inline-block;
 list-style-type:none;	
@@ -373,6 +369,11 @@ width:66px;
 display:none;
 text-align:left;
 padding:10% 0% 0 15.0%;
+font-size:0.6em;
+}
+
+.data{display:none;
+text-align:left;
 font-size:0.6em;
 }
 #credit{

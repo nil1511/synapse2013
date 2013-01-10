@@ -2,6 +2,11 @@ $(function() {
 	//alert();
 	//$('#dp').animate({width:'300px'},1500,'easeOutBounce',function(){});
 //	$('#navf li').css('width',window.innerWidth/14);
+	$('.buttonclose a').on('click', function() {
+		$(this).parent().parent().fadeOut(1000);
+		$(this).off('click');
+		return false;
+	});
 function customcursor(element, imgUrl) {
     $('body')
         .append('<img style="position:absolute;display:none;cursor:none;" id="mycursor" src="' + imgUrl + '" />');
@@ -42,35 +47,32 @@ $('#crc').click(function(e) {
 });
 $("#convener").hover(function(e){
 //	$("#condata").css('background','#de4206');
-$('#condata').html('<ul><li><div id="mem"><img id="conimg" src="images/contact/1.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/1.png"></div></li></ul>');
 });
 $("#dconvener").hover(function(e){
 //$("#condata").css('background','#fd7c2a');
-$('#condata').html('<ul><li><div id="mem"><img id="conimg" src="images/contact/2.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/2.png"></div></li></ul>');
 });
 $("#mentor").hover(function(e){
 //$("#condata").css('background','#efb62b');
-$('#condata').html('<ul><li><div id="mem"><img id="conimg" src="images/contact/3.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/4.png"></div></li></ul>');
-
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/3.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/4.png"></div></li></ul>');
 });
 $("#prm").hover(function(e){
 //	$("#condata").css('background','#9aca27');
-$('#condata').html('<ul><li><div id="mem"><img id="conimg" src="images/contact/5.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/6.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/13.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/5.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/6.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/13.png"></div></li></ul>');
 
 });
 $("#sponsorship").hover(function(e){
 //	$("#condata").css('background','#3cc16e');
-$('#condata').html('<ul><li><div id="mem"><img id="conimg" src="images/contact/7.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/11.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/7.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/11.png"></div></li></ul>');
 });
 $("#hospital").hover(function(e){
 //	$("#condata").css('background','#169998');
-$('#condata').html('<ul><li><div id="mem"><img id="conimg" src="images/contact/8.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/14.png"></div></li></ul>');
-
-
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/8.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/14.png"></div></li></ul>');
 });
 $("#eventm").hover(function(e){
 //	$("#condata").css('background','#229dee');
-$('#condata').html('<ul><li><div id="mem"><img id="conimg" src="images/contact/9.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/10.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/12.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/9.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/10.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/12.png"></div></li></ul>');
 });
 
 $('#conc').click(function(e) {
@@ -132,6 +134,32 @@ $('.close').click(function(e) {
 		    $('.crigth').animate({marginRight:'-10%'},{duration:'200',queue:false});
 			$('.cleft').animate({marginLeft:'-2%'},{duration:'200',queue:false});
 		}
+	$("#viewsponsor").click(function(e) {
+	$('.data,.clo').hide();
+	$('#events').animate({height:window.innerHeight/1.5},{duration:'200',queue:false});
+	$('#aboutus').animate({height:window.innerHeight/1.5},{duration:'200',queue:false});
+	$('#pronites').animate({height:window.innerHeight/1.75},{duration:'200',queue:false});
+	$('#sponsors').animate({height:window.innerHeight/2},{duration:'200',queue:false});
+	$('#teasar').animate({height:window.innerHeight/3},{duration:'200',queue:false});
+	$('.crigth').animate({width:"57.75%",marginTop:'-18%'},{duration:'200',queue:false});
+	$(".clt,.crt").animate({width:'150px',fontSize:'25pt',paddingTop:"0",height:"40px"},{duration:'200',queue:false});
+	$('.cleft').animate({width:"53.75%",marginTop:"-5%"},{duration:'200',queue:false,complete:function(e){
+		ani=0;
+	        $('.cleft').animate({marginLeft:"-60%"},600,function(){
+			$('.cleft').css('visibility','collapse');
+			$('.cleft').css('margin-left','0%');
+			$('#mainclose,#content').css('visibility','visible');
+			});
+		$('.crigth').animate({marginRight:"-70%"},600,function(){
+			$('.crigth').css('visibility','collapse');
+			$('.crigth').css('margin-right','-12%');		
+			});
+
+
+		
+		}});	
+    });
+			$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
 		/*$('#events,#aboutus,#pronites,#teasar,#sponsors').click(function(e) {
 			if(!ani)
 			return;
@@ -229,13 +257,16 @@ $('.close').click(function(e) {
 		$("#sponsors #ftag").animate({height:"100%",width:"30%",paddingTop:"7%"},{duration:'400',queue:false});	
 		$(".v").hide();		
 		$("#sponsors .clo").show();
+		$("#sd").show();
 		}});
 	});
 	$("#teasar").click(function(e) {
 		if(!ani)
 		return;
 		ani=0;
-		$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
+		$('.cleft,.crigth').animate({opacity:'0.1'});
+		
+		/*$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
 		$("#teasar").animate({height:window.innerHeight},{duration:'400',queue:false});
 		$(".crigth").animate({marginTop:'-40%'},{duration:'400',queue:false});
 		$('.cleft').animate({width:"17.75%"},{duration:'400',queue:false,complete:function(e){
@@ -243,9 +274,9 @@ $('.close').click(function(e) {
 		$("#teasar #ftag").animate({height:"100%",width:"30%"},{duration:'400',queue:false});	
 		$(".v").hide();
 		$("#teasar .clo").show();
-		}});
+		}});*/
 	});
-/*	$("#sponsors").click(function(e) {
+	/*	$("#sponsors").click(function(e) {
         //alert();
     });*/
 	$('#mainclose').click(function(e) {
@@ -254,6 +285,12 @@ $('.close').click(function(e) {
         $('.cleft').animate({marginLeft:"0%"},600,function(){});
 		$('.crigth').css('margin-right','-70%');		
 		$('.crigth').css('visibility','visible');
+		$("#events #tag").animate({height:"inherit",top:"60%"},{duration:'400',queue:false});
+		$("#aboutus #tag").animate({height:"inherit",top:"30%"},{duration:'400',queue:false});
+		$("#pronites #tag").animate({height:"inherit",top:"60%"},{duration:'400',queue:false});
+		$("#sponsors #tag").animate({height:"inherit",top:"50%"},{duration:'400',queue:false});
+		$("#teasar #tag").animate({height:"inherit",top:"15%"},{duration:'400',queue:false});
+		$(".clt,.crt").animate({width:'150px',height:'40px',fontSize:'25pt'},{duration:'200',queue:false});
 		$('.crigth').animate({marginRight:"-12%"},600,function(){});
 		$('#mainclose,#content').css('visibility','collapse');
 		ani=1;
