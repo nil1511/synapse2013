@@ -6,6 +6,12 @@ $(function() {
 		$(this).off('click');
 		return false;
 	});
+$('.box_skitter_large').skitter();
+/* 	$('ul.box_skitter_ul').load('feed.php',
+        function() {
+
+        }
+    );*/
 function customcursor(element, imgUrl) {
     $('body')
         .append('<img style="position:absolute;display:none;cursor:none;" id="mycursor" src="' + imgUrl + '" />');
@@ -77,8 +83,8 @@ $('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg"
 $('#conc').click(function(e) {
 	$('.pop').css('visibility','collapse');
     $('#contact').css('visibility','visible');
+	$("#convener").trigger('mouseover');
 		$('.pop').animate({height:'60%',top:'15%'},'400','easeOutQuart');
-
 	$('.close').css('visibility','visible');
 	ani=0;
 });
