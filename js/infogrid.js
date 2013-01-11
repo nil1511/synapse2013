@@ -133,8 +133,7 @@ $('.close').click(function(e) {
 		    $('.crigth').animate({marginRight:'-10%'},{duration:'200',queue:false});
 			$('.cleft').animate({marginLeft:'-2%'},{duration:'200',queue:false});
 		}
-	$("#viewsponsor").click(function(e) {
-	$('.data,.clo').hide();
+	function opendoor(){
 	$('#events').animate({height:window.innerHeight/1.5},{duration:'200',queue:false});
 	$('#aboutus').animate({height:window.innerHeight/1.5},{duration:'200',queue:false});
 	$('#pronites').animate({height:window.innerHeight/1.75},{duration:'200',queue:false});
@@ -153,7 +152,14 @@ $('.close').click(function(e) {
 			$('.crigth').css('visibility','collapse');
 			$('.crigth').css('margin-right','-12%');		
 			});
-		}});	
+		}});		
+		
+		
+		}
+	
+	$("#viewsponsor").click(function(e) {
+	$('.data,.clo').hide();
+	opendoor();	
 	$("#sponserdata").fadeIn();
     });
 			$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
@@ -257,6 +263,11 @@ $('.close').click(function(e) {
 		$("#sd").show();
 		}});
 	});
+	$("ul#eventlabels li").click(function(e) {
+			$('.data,.clo').hide();
+			opendoor();	
+	$("#eventdata").fadeIn();
+    });
 	$("#teasar").click(function(e) {
 		if(!ani)
 		return;
@@ -267,6 +278,7 @@ $('.close').click(function(e) {
 		$('#sponsors').css('height',window.innerHeight/2);
 		$("#content").css("visibility",'visible');
 		$("#trail").show();
+		$("#player").css('width','640px');
 //		$("#teasar").animate({height:window.innerHeight/3},200,'linear',function(e){});		
 	
 		/*$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
@@ -283,6 +295,9 @@ $('.close').click(function(e) {
         //alert();
     });*/
 	$('#mainclose').click(function(e) {
+		javascript:stopVideo();
+		$("#player").width(0);
+		$("#trail").hide();
 		$('.cleft').css('margin-left','-60%');
 		$('.cleft').css('visibility','visible');
 		$('.cleft,.crigth').animate({opacity:'1'});
@@ -297,7 +312,7 @@ $('.close').click(function(e) {
 		$(".clt,.crt").animate({width:'150px',height:'40px',fontSize:'25pt'},{duration:'200',queue:false});
 		$('.crigth').animate({marginRight:"-12%"},600,function(){});
 		$('#mainclose,#content').css('visibility','collapse');
-		$("#trail").css('visibility','collapse');
+		$('.indata').hide();
 		ani=1;
     });
 	$('#events').mouseover(function(e) {	
