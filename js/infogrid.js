@@ -53,7 +53,7 @@ $('#crc').click(function(e) {
 });
 $("#convener").hover(function(e){
 //	$("#condata").css('background','#de4206');
-$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/1.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://facebook.com/AakashParmar09" target="_blank" ><img id="conimg" src="images/contact/1.png"></a></div></li></ul>');
 });
 $("#dconvener").hover(function(e){
 //$("#condata").css('background','#fd7c2a');
@@ -61,24 +61,24 @@ $('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg"
 });
 $("#mentor").hover(function(e){
 //$("#condata").css('background','#efb62b');
-$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/3.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/4.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://facebook.com/ashish.soni.777" target="_blank" ><img id="conimg" src="images/contact/3.png"></a></div></li><li><div id="mem"><a href="http://facebook.com/malvaniaviral" target="_blank" ><img id="conimg" src="images/contact/4.png"></a></div></li></ul>');
 });
 $("#prm").hover(function(e){
 //	$("#condata").css('background','#9aca27');
-$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/5.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/6.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/13.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://facebook.com/swatmohit" target="_blank" ><img id="conimg" src="images/contact/5.png"></a></div></li><li><div id="mem"><a href="http://facebook.com/manasvi.batra" target="_blank" ><img id="conimg" src="images/contact/6.png"></a></div></li><li><div id="mem"><a href="http://facebook.com/tushar.juneja.18" target="_blank" ><img id="conimg" src="images/contact/13.png"></a></div></li></ul>');
 
 });
 $("#sponsorship").hover(function(e){
 //	$("#condata").css('background','#3cc16e');
-$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/7.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/11.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://facebook.com/abhishek.panday.311" target="_blank" ><img id="conimg" src="images/contact/7.png"></a></div></li><li><div id="mem"><a href="http://facebook.com/ompatel224" target="_blank" ><img id="conimg" src="images/contact/11.png"></a></div></li></ul>');
 });
 $("#hospital").hover(function(e){
 //	$("#condata").css('background','#169998');
-$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/8.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/14.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://facebook.com/ram.varanasi.1" target="_blank" ><img id="conimg" src="images/contact/8.png"></a></div></li><li><div id="mem"><a href="http://facebook.com/kunal.l.chawla" target="_blank" ><img id="conimg" src="images/contact/14.png"></a></div></li></ul>');
 });
 $("#eventm").hover(function(e){
 //	$("#condata").css('background','#229dee');
-$('#condata').html('<ul class="contactimages"><li><div id="mem"><img id="conimg" src="images/contact/9.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/10.png"></div></li><li><div id="mem"><img id="conimg" src="images/contact/12.png"></div></li></ul>');
+$('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://facebook.com/ashish.raj.710" target="_blank" ><img id="conimg" src="images/contact/9.png"></a></div></li><li><div id="mem"><a href="http://facebook.com/aviral.varshney.1" target="_blank" ><img id="conimg" src="images/contact/10.png"></a></div></li><li><div id="mem"><a href="http://facebook.com/ankit.patel.779642" target="_blank" ><img id="conimg" src="images/contact/12.png"></a></div></li></ul>');
 });
 
 $('#conc').click(function(e) {
@@ -201,12 +201,13 @@ $('.close').click(function(e) {
 		$("#pronites #tag").animate({height:"inherit",top:"60%"},{duration:'400',queue:false});
 		$("#sponsors #tag").animate({height:"inherit",top:"50%"},{duration:'400',queue:false});
 		$("#teasar #tag").animate({height:"inherit",top:"15%"},{duration:'400',queue:false});
-		$('.data').hide();
+		$('.data,.rsd').hide();
 	$('#events').animate({height:window.innerHeight/1.5});
 	$('#aboutus').animate({height:window.innerHeight/1.5});
 	$('#pronites').animate({height:window.innerHeight/1.75});
 	$('#sponsors').animate({height:window.innerHeight/2});
 	$('#teasar').animate({height:window.innerHeight/3});
+	
 //	$(".clt,.crt").animate({height:"100%",width:"30%"},{duration:'400',queue:false});	
 		
     });
@@ -221,6 +222,7 @@ $('.close').click(function(e) {
 		$("#events #ftag").animate({height:"100%",width:"30%"},{duration:'400',queue:false});	
 		$(".v").hide();		
 		$("#events .clo").show();
+		$("#edata").show();
 		$("#ed").show();
 			}});
 //		$("#events #ftag").animate({height:"100%"},{duration:'400',queue:false});
@@ -238,6 +240,8 @@ $('.close').click(function(e) {
 		$("#aboutus #ftag").animate({height:"100%",width:"30%",paddingTop:"2%"},{duration:'400',queue:false});	
 		$("#aboutus #tag").animate({height:"100%",top:"0%"},{duration:'400',queue:false});
 		$(".v").hide();
+		$('#ad').show();
+		$("#asd").show();
 		$("#aboutus .clo").show();
 		}
 	});
@@ -252,7 +256,9 @@ $('.close').click(function(e) {
 		$('.cleft').animate({width:"17.75%"},{duration:'400',queue:false,complete:function(e){
 		$("#pronites #tag").animate({height:"100%",top:"0%"},{duration:'400',queue:false});
 		$("#pronites #ftag").animate({height:"100%",width:"30%",paddingTop:"10%"},{duration:'400',queue:false});	
-		$(".v").hide();		
+		$(".v").hide();	
+		$('#pd').show();	
+		$("#pnd").show();
 		$("#pronites .clo").show();
 		}});
 	});
@@ -271,24 +277,50 @@ $('.close').click(function(e) {
 		$("#sd").show();
 		}});
 	});
+	$("#teasar").click(function(e) {
+		if(!ani)
+		return;
+		ani=0;
+		$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
+		$("#teasar").animate({height:window.innerHeight},{duration:'400',queue:false});
+		$(".crigth").animate({marginTop:'-40%'},{duration:'400',queue:false});
+		$('.cleft').animate({width:"17.75%"},{duration:'400',queue:false,complete:function(e){
+		$("#teasar #tag").animate({height:"100%",top:"0%"},{duration:'400',queue:false});
+		$("#teasar #ftag").animate({height:"100%",width:"30%"},{duration:'400',queue:false});	
+		$(".v").hide();
+		$("#teasar .clo").show();
+		}});
+    });
 	$("ul#eventlabels li").click(function(e) {
 			$('.data,.clo').hide();
 			opendoor();	
 	$("#eventdata").fadeIn();
     });
-	$("#teasar").click(function(e) {
-		if(!ani)
-		return;
-		ani=0;
+	/*$("ul#proniteslabels li").click(function(e) {
+        	$('.data,.clo').hide();
+			opendoor();	
+	$("#prodata").fadeIn();
+    });*/
+	$("#ram").mouseover(function(e) {
+       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Divy Thakkar - +91-9173703535<br>Shivani Thakkar - <br>Sakshi Gupta - +91-9737538623");
+    });
+	$("#rag").mouseover(function(e) {
+       $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br> ");
+    });
+	$("#cyn").mouseover(function(e) {
+       $("#pnd").html("<p>Stars brighten up the night. But the kind cynosure offer can set the night ablaze. The celebrity walks up to the stage amidst loud cheers from the crowd. The next few hours of the night will leave you mesmerized, for sure . The Raghu Dixit Project, Agnee , Indian Ocean , Aditya Narayan , Tochi Raina and still counting…</p><br>Date : <br>Co-Ordinators : <br>");
+    });
+	$("#yttrailer").click(function(e) {
 		$("#mainclose").css("visibility",'visible');
-		$(".v").hide();
-		$('.cleft,.crigth').animate({opacity:'0.1'});
-		$('#sponsors').css('height',window.innerHeight/2);
 		$("#content").css("visibility",'visible');
 		$("#trail").show();
 		$("#player").css('width','640px');
-//		$("#teasar").animate({height:window.innerHeight/3},200,'linear',function(e){});		
-	
+					$(".v").hide();
+		$('.cleft,.crigth').animate({opacity:'0.1'});
+		//$('#sponsors').css('height',window.innerHeight/2);
+		//$("#teasar").animate({height:window.innerHeight/3},200,'linear',function(e){
+		
+		//	});
 		/*$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
 		$("#teasar").animate({height:window.innerHeight},{duration:'400',queue:false});
 		$(".crigth").animate({marginTop:'-40%'},{duration:'400',queue:false});
@@ -299,13 +331,11 @@ $('.close').click(function(e) {
 		$("#teasar .clo").show();
 		}});*/
 	});
-	/*	$("#sponsors").click(function(e) {
-        //alert();
-    });*/
 	$('#mainclose').click(function(e) {
 		javascript:stopVideo();
 		$("#player").width(0);
 		$("#trail").hide();
+		$('.clo').trigger('click');
 		$('.cleft').css('margin-left','-60%');
 		$('.cleft').css('visibility','visible');
 		$('.cleft,.crigth').animate({opacity:'1'});
@@ -397,7 +427,7 @@ $('.close').click(function(e) {
       	$('#sponsors').animate({height:window.innerHeight/2.25},'200');
 		$('#pronites').animate({height:window.innerHeight/2},'200');
 		$('#teasar').animate({height:window.innerHeight/2.5},'200');
-		$('#teasar #ftag').animate({width:'170px',height:'60px',fontSize:'35pt'},{duration:'200',queue:false,complete:function(e){
+		$('#teasar #ftag').animate({width:'200px',height:'60px',fontSize:'30pt'},{duration:'200',queue:false,complete:function(e){
 		$("#teasar .v").fadeIn('fast');
 		}});
 	});

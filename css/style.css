@@ -87,7 +87,7 @@ to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
 }
 #content{
 	position:absolute;
-	margin:25% auto;
+	#margin:25% auto;
 	width:100%;
 	text-align:center;
 	#font-size:10em;
@@ -132,12 +132,12 @@ text-align:center;
 }
 #syn{
 font-family:chikenbutt;
-#background:url(../images/synapse.png) center center no-repeat;	
 position:absolute;
-font-size:7em;
-top:20%;
+background:url(../images/synapse2.png) center 16% no-repeat;	
 width:100%;
+height:100%;
 text-align:center;
+-webkit-transform:scale(0.65);
 }
 #dt{
 color:rgba(102,102,0,1);
@@ -198,7 +198,6 @@ top:0px;right:0px;
 	font-size:25pt;
 	}
 #footer{
-
 position:fixed;
 bottom:0;
 width:100%;
@@ -234,7 +233,6 @@ height:80%;
 	#-webkit-animation-name: greenPulse;
 	#-webkit-animation-duration: 2s;
 	#-webkit-animation-iteration-count: infinite;
-
 }
 .clo{
 	background:url(../../synapse/images/closew.png) center no-repeat;
@@ -300,6 +298,7 @@ display:none;
 }
 #trail{
 display:none;
+margin:8% auto;
 width:100%;
 }
 ul#eventlabels li{
@@ -308,7 +307,13 @@ list-style-type:footnotes;
 ul#eventlabels li:hover{
 color:rgba(0,204,102,1);
 }
-#eventdata{
+ul#proniteslabels li{
+	list-style-type:footnotes;
+}
+ul#proniteslabels li:hover{
+color:rgba(255,153,204,1);
+}
+#eventdata,#prodata{
 	color:#FFF;
 	font-size:10em;
 }
@@ -328,14 +333,49 @@ display:inline-block;
 list-style-type:none;	
 }
 #conimg{
--webkit-transform:scale(0.55);
--moz-transform:scale(0.55);
--ms-transform:scale(0.55);
--o-transform:scale(0.55);
-transform:scale(0.55);
+-webkit-transform:scale(0.6);
+-moz-transform:scale(0.6);
+-ms-transform:scale(0.6);
+-o-transform:scale(0.6);
+transform:scale(0.6);
 margin-left:-20%;
 margin-top:-6%;
 margin-bottom:-6%;
+}
+.rsd{
+	display:none;
+	position:absolute;
+	top:5%;
+	font-size:16pt;
+	}
+#asd{
+	color:#FFF;
+	width:50%;
+	top:15%;
+	font-size:13pt;
+	border-radius:5px;
+	padding:1%;
+	box-shadow:0px 0px 5px 5px #fff;
+	margin-left:15%;
+	text-align:justify;
+	background:#000;
+	opacity:0.6;
+}
+#pnd{
+
+	margin:0 11% 0 33%;
+	border-radius:5px;
+	color:#FFF;
+	padding:1%;
+	opacity:0.6;
+	background:#000;
+	box-shadow:0px 0px 5px 5px #fff;
+	text-align:justify;
+}
+#edata{
+	top:28%;
+	width:70%;
+	text-align:center;
 }
 #condata{
 width:75%;
@@ -393,7 +433,7 @@ font-size:0.6em;
 
 .data{display:none;
 text-align:left;
-font-size:0.6em;
+font-size:0.5em;
 }
 #credit{
 }
