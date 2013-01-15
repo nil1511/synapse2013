@@ -5,6 +5,7 @@ $(function() {
 		$(this).parent().parent().fadeOut(1000);
 		$(this).off('click');
 		return false;
+		
 	});
 /* 	$('ul.box_skitter_ul').load('feed.php',
         function() {
@@ -45,11 +46,14 @@ $("#jpreButton").click(function(e) {
 });
 var ani=1;
 $('ul.box_skitter_ul').load('feed.php',function(e){
-	   $('.box_skitter_large').skitter();
+//	   $('.box_skitter_large').skitter();
+		$('.box_skitter_large').skitter({label: false,is_paused:true});
+
 	});
 	
 
 $('#crc').click(function(e) {
+		$('.clo').trigger('click');
 	$('.pop').css('visibility','collapse');
     $('#credit').css('visibility','visible');
 	$('.pop').animate({height:'80%',top:'5%'},'400','easeOutQuart');
@@ -87,6 +91,7 @@ $('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://
 });
 
 $('#conc').click(function(e) {
+	$('.clo').trigger('click');
 	$('.pop').css('visibility','collapse');
     $('#contact').css('visibility','visible');
 	$("#convener").trigger('mouseover');
@@ -95,6 +100,7 @@ $('#conc').click(function(e) {
 	ani=0;
 });
 $('#mapc').click(function(e) {
+		$('.clo').trigger('click');
 	$('.pop').css('visibility','collapse');
     $('#maps').css('visibility','visible');
 		$('.pop').animate({height:'80%',top:'5%'},'400','easeOutQuart');
@@ -103,10 +109,10 @@ $('#mapc').click(function(e) {
 	ani=0;
 });
 $('#gallc').click(function(e) {
+		$('.clo').trigger('click');
 	$('.pop').css('visibility','collapse');
     $('#gallery').css('visibility','visible');
 		$('.pop').animate({height:'90%',top:'3%'},'400','easeOutQuart');	
-//$('.box_skitter_large').skitter();
 	$('.close').css('visibility','visible');
 	ani=0;
 });
@@ -114,7 +120,7 @@ $('.close').click(function(e) {
 		$('.pop').animate({height:'0%',top:'5%'},'400','easeInCubic',function(e){
 	    $('.pop').css('visibility','collapse');			
 			});
-
+//		$('.box_skitter_large').skitter({is_paused:true});
 		$('.close').css('visibility','collapse');
 		ani=1;
 });
@@ -336,7 +342,11 @@ $('.close').click(function(e) {
 		}});*/
 	});
 	$('#mainclose').click(function(e) {
-		javascript:stopVideo();
+		try{
+		javascript:stopVideo();}
+		catch (error){
+
+			}
 		$("#player").width(0);
 		$("#trail").hide();
 		$('.clo').trigger('click');
@@ -435,4 +445,10 @@ $('.close').click(function(e) {
 		$("#teasar .v").fadeIn('fast');
 		}});
 	});
+	$(document).click(function(e) {
+        if(ani)
+		return ;
+//		alert(ani);
+    });	
+
 });
