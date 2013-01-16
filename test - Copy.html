@@ -1,0 +1,49 @@
+<html>
+<head>
+<script type='text/javascript' src='js/jquery-1.8.3.min.js'></script>
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+@-webkit-keyframes myfirst
+{
+from {background: #f00;
+-webkit-transform:rotate(-30deg);
+-webkit-transform-origin:50% 0;
+}
+to {background: yellow;
+-webkit-transform:rotate(30deg);
+-webkit-transform-origin:50% 0;
+}
+}
+#moving {
+	background: url(../synapse/images/top.png) center center no-repeat;
+	width: 50px;
+	height: 200px;
+	position: absolute;
+	left: 100px;
+	background:#0F0;
+
+}
+#moving:hover {
+	-webkit-animation: myfirst 1s;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+}
+</style>
+<script>
+$(document).ready(function(e) {
+	$("#moving").mouseover(function(e){
+//	$("#moving").css('transform','rotate(-30deg)');
+	});
+	//$("#moving").hover(function(e){alert();},function(e){});
+});
+
+</script>
+<body>
+<div id="moving">fwe</div>
+</body>
+</html>

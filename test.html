@@ -1,4 +1,160 @@
 <html>
+<head>
+<script type='text/javascript' src='js/jquery-1.8.3.min.js'></script>
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #FFF;
+}
+.list {
+	display: inline-block;
+	height:80%;
+	margin-top:5%;
+	margin-bottom:4%;
+}
+#cult {
+	position: relative;
+	left: 0px;
+	background: url(images/1.png) center center no-repeat;
+	height: 100%;
+	width: 95px;
+}
+#tech {
+	position: relative;
+	left: 0px;
+	height: 100%;
+	background: url(images/2.png) center center no-repeat;
+	width: 95px;
+}
+#work {
+	position: relative;
+	left: 0px;
+	height: 100%;
+	background: url(images/3.png) center center no-repeat;
+	width: 95px;
+}
+#online {
+	position: relative;
+	left: 0px;
+	height: 100%;
+	background: url(images/4.png) center center no-repeat;
+	width: 95px;
+}
+.cont {
+	background: url(images/bg.jpg);
+	display: inline-block;
+	position: absolute;
+	width: 0px;
+	height: 100%;
+}
+</style>
+<script>
+$(document).ready(function(e) {
+	$(".cont").hide();
+	$('#tech,#work,#online,#cult').css('width',window.innerWidth*7/100);
+    $("#cult").click(function(e) {
+       // $("#cult .cont").show();
+	   	   $('.cont').hide();
+	   var m=window.innerWidth*69.5/100;
+	   $("#cult").animate({left:'0px'});
+		$("#tech,#work,#online").animate({left:m+'px'},'fast','linear',function(){
+		$("#cult .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
+		});
+    });
+
+	$("#tech").click(function(e) {
+       // $("#cult .cont").show();
+	   $('.cont').hide();
+	   var m=window.innerWidth*69.5/100;
+	   	   $("#cult,#tech").animate({left:'0px'});
+		$("#work,#online").animate({left:m+'px'},'fast','linear',function(){
+		$("#tech .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
+		});
+    });
+	
+	$("#work").click(function(e) {
+       // $("#cult .cont").show();
+	   $('.cont').hide();
+	   var m=window.innerWidth*69.5/100;
+	   	   $("#cult,#tech,#work").animate({left:'0px'});
+		$("#online").animate({left:m+'px'},'fast','linear',function(){
+		$("#work .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
+		});
+    });
+	$("#online").click(function(e) {
+   // $("#cult .cont").show();
+   	$('.cont').hide();
+	   var m=window.innerWidth*69.5/100;
+	   $("#cult,#tech,#work,#online").animate({left:'0px'},'fast','linear',function(){
+		$("#online .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();			   
+		   });
+	});
+
+});
+
+</script>
 <body>
-    <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/xD5Xyzmpi18?rel=0" frameborder="0" allowfullscreen></iframe>
-</body></html>
+<div class="list">
+  <div id="cult">
+    <div class="cont">	<table id="cultdata" width="100%" border="1px">
+    <tr>
+    	<td><h1>FELICITY</h1>
+        <p>Are words always necessary to express yourself? Felicity is all about expressing your feelings
+through various forms of Drama.<br /><br /><br /></p></td>
+        <td><h1>RHAPSODY</h1>
+        <p>When their music plays the world dissolves, all that remains is just you, and their magic. You
+attain ultimate salvation when their music touches your life. Come along, discover the
+possibilities in Rhapsody the event for the new-age Beethoven like you.</p></td>
+    </tr>
+    <tr>
+    	<td><h1>FOOTLOOSE</h1>
+        <p>Can&acute;t stop your tapping when you listen to your favourite tune? Bingo then , because
+footloose brings you the perfect opportunity to portray your art. Be it salsa, hip-hop or fusion.
+Be a part of this mega event and keep the audience mesmerized by your graceful moves.</p></td>
+        <td><h1>NAACH</h1>
+        <p>Tired of dancing on these modern senseless tracks? Naach gives you the chance to explore
+your style of classical dance and show the audience that even today "OLD is GOLD" !!<br /><br /></p></td>
+    </tr>
+    <tr>
+    	<td><h1>PROSCENIUM</h1>
+        <p>A live audience, a story and a spotlight shinning in your face. If you were born to act, to
+enchant the audience with your charisma then a night full of wonderful plays awaits you.</p></td>
+        <td><h1>INSTINCT</h1>
+        <p>Ready. Set. Act. No lines, no scripts. Just you, the actor inside and the character
+you are to play. Awaken the actor within<br /><br /></p></td>
+    </tr>
+    <tr>
+    	<td><h1>NAIVETE</h1>
+        <p>Shakespeare said &quot;all the world&acute;s a stage and every man plays his part.&quot; The
+street is a platform and the actor face to face with the audience. Its all about
+coming alive and setting the streets on fire<br /><br /></p></td>
+        <td><h1>VIBERANT</h1>
+        <p>The soul of a movie is the story and stories are best told with the right voice. No
+faces, no senses just the voices of the character narrating their story. An old
+fashioned radio is all you need to experience that soulful sound of a movie.</p></td>
+    </tr>
+    </table>
+</div>
+  </div>
+</div>
+<div class="list">
+  <div id="tech">
+    <div class="cont">tech data comes</div>
+  </div>
+</div>
+<div class="list">
+  <div id="work">
+    <div class="cont">wrgrbtntnfb</div>
+  </div>
+</div>
+<div class="list">
+  <div id="online">
+    <div class="cont">fgewgrehtnt</div>
+  </div>
+</div>
+</body>
+</html>
