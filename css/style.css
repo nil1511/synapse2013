@@ -99,7 +99,7 @@ background-color: #330099;
 -webkit-box-shadow: 0 0 18px #91bd09;
 }
 60% {
-background-color: #006699;
+background-color: #990099;
 -webkit-box-shadow: 0 0 18px #91bd09;
 }
 70% {
@@ -118,6 +118,11 @@ to {
 	background-color: #cc0000;
 	-webkit-box-shadow: 0 0 9px #333;
 }
+}
+#yttrailer{
+font-size:1.5em;
+text-transform:uppercase;
+cursor:pointer;	
 }
 .ribbon-wrapper-green {
 	width: 150px;
@@ -337,9 +342,10 @@ color:#ef3c39;}
 	width: 800px;
 }
 .clo {
-	background: url(../../synapse/images/closew.png) center no-repeat;
-	width: 66px;
-	height: 22px;
+	background: url(../images/closew.png) center no-repeat;
+	background-size:100%;
+	padding:5%;
+	margin-left:-5%;
 	float: right;
 	display: none;
 	z-index: 100;
@@ -487,6 +493,7 @@ ul.contactimages li {
 	background: #000;
 	box-shadow: 0px 0px 5px 5px #fff;
 	text-align: justify;
+	display:none;
 }
 #edata {
 	top: 28%;
@@ -524,9 +531,8 @@ td {
 	top: 0px;
 	cursor: pointer;
 	background: url(../images/closew.png) center no-repeat;
-	height: 22px;
-	width: 66px;
-	padding: 20px;
+	background-size:100%;
+	padding: 2%;
 	right: 3px;
 	visibility: collapse;
 }
@@ -556,10 +562,10 @@ td {
 .spons h1{
 color:rgba(204,204,204,1);	
 font-size:0.95em;
-padding:15px 0 0 15px;	
+padding:5px 0 0 15px;	
 }
 .spons h2{
-font-size:1.25em;
+font-size:1.2em;
 padding:0px 0 0 20px;	
 }
 #fb {
@@ -622,27 +628,31 @@ padding:0px 0 0 20px;
 	box-shadow: black 0px 0px 0px 1px inset;
 	background: url(../images/about1.jpg) center center no-repeat;
 	height: 450px;
-	object-fit: contain;
+background-size:cover;
 }
 #sponsors {
 	box-shadow: black 0px 0px 0px 1px inset;
 	background: url(../images/sponsor1.jpg) right top no-repeat;
 	height: 300px;
+	background-size:cover;
 }
 #events {
 	box-shadow: black 0px 0px 0px 1px inset;
 	background: url(../images/event1.jpg) top center no-repeat;
 	height: 450px;
+	background-size:cover;
 }
 #pronites {
 	box-shadow: black 0px 0px 0px 1px inset;
 	background: url(../images/pronite.jpg) center center no-repeat;
 	height: 450px;
+	background-size:cover;
 }
 #teasar {
 	box-shadow: black 0px 0px 0px 1px inset;
-	background: url(../images/teaser1.png) right center no-repeat;
+	background: url(../images/teaser1.jpg) right center no-repeat;
 	height: 200px;
+	background-size:cover;
 }
 dt {
 	color: white;
@@ -670,6 +680,7 @@ font-size:3em;
 	background: url(../images/1.png) center center no-repeat;
 	height: 100%;
 	width: 95px;
+	background-size:100%;
 }
 #tech {
 	position: relative;
@@ -677,12 +688,14 @@ font-size:3em;
 	height: 100%;
 	background: url(../images/2.png) center center no-repeat;
 	width: 95px;
+	background-size:100%;
 }
 #work {
 	position: relative;
 	left: 0px;
 	height: 100%;
 	background: url(../images/3.png) center center no-repeat;
+	background-size:100%;
 	width: 95px;
 }
 #online {
@@ -691,6 +704,7 @@ font-size:3em;
 	height: 100%;
 	background: url(../images/4.png) center center no-repeat;
 	width: 95px;
+	background-size:100%;
 }
 .cont {
 	background: url(../images/bg.jpg);
@@ -698,4 +712,61 @@ font-size:3em;
 	position: absolute;
 	width: 0px;
 	height: 100%;
+	background-size:100%;
+	z-index:1;
+}
+#epc,#ept,#epo,#epw{
+	background: url(../images/closew.png) center no-repeat;
+	background-size:100%;
+	padding:2%;
+	position:absolute;
+	top:-4%;
+	right:-2%;
+	cursor:pointer;
+}
+.eventpop{
+	font-family:heb;
+	display:table;
+	position:fixed;
+	top:6%;
+	left:10%;
+	height:88%;
+	width:80%;
+	z-index:2;
+	opacity:0.95;
+	background:#333;
+	border-radius:5% 0%;
+}
+.tnam,.cnam,.onam,.wnam{
+font-family:heb;
+cursor:pointer;
+float:left;
+padding:0.25em;
+min-width:45%;
+text-align:center;
+}
+.tnam{color:#66cc66;}
+.cnam{color:#66cccc;}
+.onam{color:#EBB;}
+.wnam{color:#ff6666;}
+.cnam:hover,.tnam:hover,.wnam:hover,.onam:hover{
+	text-shadow: 2px 2px 1px #255;
+}
+.en{
+	padding-top:0.75em;
+	font-size:3em;
+text-align:center;}
+.onn{
+padding:2% 0% 0.5% 10%;}
+.conn{
+padding:1% 0% 1% 10%;}
+.eo{
+display:inline-block;	
+font-size:2em;
+padding:5% 0% 1% 10%;
+}
+.co{
+display:inline-block;
+font-size:2em;
+padding:5% 0% 1% 10%;
 }

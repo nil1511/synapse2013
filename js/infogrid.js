@@ -1,7 +1,7 @@
 $(function() {
 	//$('#dp').animate({width:'300px'},1500,'easeOutBounce',function(){});
 //	$('#navf li').css('width',window.innerWidth/14);
-		$(".cont").hide();
+		$(".cont,.eventpop").hide();
 	$('.buttonclose a').on('click', function() {
 		$(this).parent().parent().fadeOut(1000);
 		$(this).off('click');
@@ -13,7 +13,20 @@ $(function() {
 
         }
     );*/
-
+function c(t){
+	$(document).unbind('keydown');
+		$(document).keydown(function(e) {
+        if(e.keyCode==27)
+		{
+		if(t=='pop')
+		$('.close').trigger('click');
+		else if(t=='main')
+		$('#mainclose').trigger('click');
+		else if(t=='cl')
+		$('.clo').trigger('click');
+		}
+    });
+}
 function customcursor(element, imgUrl) {
     $('body')
         .append('<img style="position:absolute;display:none;cursor:none;" id="mycursor" src="' + imgUrl + '" />');
@@ -55,6 +68,8 @@ $('ul.box_skitter_ul').load('feed.php',function(e){
 
 $('#crc').click(function(e) {
 	//clo();
+	c('pop');
+	$("#page-wrap").css('opacity','0.5');
 	$('.pop').css('visibility','collapse');
     $('#credit').css('visibility','visible');
 	$('.pop').animate({height:'80%',top:'5%'},'400','easeOutQuart');
@@ -93,6 +108,8 @@ $('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://
 
 $('#conc').click(function(e) {
 	//clo();
+		c('pop');
+		$("#page-wrap").css('opacity','0.5');
 	$('.pop').css('visibility','collapse');
     $('#contact').css('visibility','visible');
 	$("#convener").trigger('mouseover');
@@ -102,14 +119,19 @@ $('#conc').click(function(e) {
 });
 $('#mapc').click(function(e) {
 	//clo();
+		c('pop');
+	$("#page-wrap").css('opacity','0.5');
 	$('.pop').css('visibility','collapse');
     $('#maps').css('visibility','visible');
-		$('.pop').animate({height:'80%',top:'5%'},'400','easeOutQuart');
+	$('.pop').animate({height:'80%',top:'5%'},'400','easeOutQuart');
 	$('.close').css('visibility','visible');
 	ani=0;
 });
 $('#gallc').click(function(e) {
 	//clo();
+		c('pop');
+			$("#page-wrap").css('opacity','0.5');
+
 	$('.pop').css('visibility','collapse');
     $('#gallery').css('visibility','visible');
 		$('.pop').animate({height:'90%',top:'3%'},'400','easeOutQuart');	
@@ -118,11 +140,13 @@ $('#gallc').click(function(e) {
 });
 $('.close').click(function(e) {
 	clo();
+	$("#page-wrap").css('opacity','1');
 		$('.pop').animate({height:'0%',top:'5%'},'400','easeInCubic',function(e){
 	    $('.pop').css('visibility','collapse');			
 			});
 //		$('.box_skitter_large').skitter({is_paused:true});
 		$('.close').css('visibility','collapse');
+//		console.log(e);
 		ani=1;
 });
 	$('.cleft').mouseover(function(e) {
@@ -177,6 +201,7 @@ $('.close').click(function(e) {
 		}
 	
 	$("#viewsponsor").click(function(e) {
+	c('main');
 	$('.data,.clo').hide();
 	opendoor();	
 	$("#sponserdata").fadeIn();
@@ -184,7 +209,8 @@ $('.close').click(function(e) {
 	$("#viewyouth").click(function(e) {
 	$('.data,.clo').hide();
 	opendoor();	
-	$("#yrun").fadeIn();
+	window.open('http://synapse.daiict.ac.in/youthrun/','_self');
+	//$("#yrun").fadeIn();
     });
 			$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
 		/*$('#events,#aboutus,#pronites,#teasar,#sponsors').click(function(e) {
@@ -235,6 +261,7 @@ $('.close').click(function(e) {
 		if(!ani)
 		return;
 		ani=0;
+		c('cl');
 		$("#events").animate({height:window.innerHeight});
 		$('.crigth').animate({width:"23.75%"},{duration:'400',queue:false});
 		$('.cleft').animate({width:"87.75%"},{duration:'400',queue:false,complete:function(e){
@@ -252,7 +279,8 @@ $('.close').click(function(e) {
 	$("#aboutus").click(function(e) {
 		if(!ani)
 		return;
-	ani=0;
+		ani=0;
+		c('cl');
 		$('.crigth').animate({width:"23.75%"},{duration:'400',queue:false});
 		$("#aboutus").animate({height:window.innerHeight},{duration:'400',queue:false});
 		$(".cleft").animate({marginTop:'-22%'},{duration:'400',queue:false});
@@ -270,6 +298,7 @@ $('.close').click(function(e) {
 		if(!ani)
 		return;
 		ani=0;
+		c('cl');
 		$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
 		$("#pronites").animate({height:window.innerHeight},{duration:'400',queue:false});
 		$(".crigth").animate({marginTop:'0%'},{duration:'400',queue:false});
@@ -278,7 +307,7 @@ $('.close').click(function(e) {
 		$("#pronites #ftag").animate({height:"100%",width:"30%",paddingTop:"10%"},{duration:'400',queue:false});	
 		$(".v").hide();	
 		$('#pd').show();	
-		$("#pnd").show();
+		//$("#pnd").show();
 		$("#pronites .clo").show();
 		}});
 	});
@@ -286,6 +315,7 @@ $('.close').click(function(e) {
 		if(!ani)
 		return;
 		ani=0;
+		c('cl');
 		$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
 		$("#sponsors").animate({height:window.innerHeight},{duration:'400',queue:false});
 		$(".crigth").animate({marginTop:'-20%'},{duration:'400',queue:false});
@@ -301,6 +331,7 @@ $('.close').click(function(e) {
 		if(!ani)
 		return;
 		ani=0;
+		c('cl');
 		$('.crigth').animate({width:"93.75%"},{duration:'400',queue:false});
 		$("#teasar").animate({height:window.innerHeight},{duration:'400',queue:false});
 		$(".crigth").animate({marginTop:'-40%'},{duration:'400',queue:false});
@@ -342,12 +373,14 @@ $('.close').click(function(e) {
 	$("#prodata").fadeIn();
     });*/
 	$("#ram").mouseover(function(e) {
-       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Divy Thakkar - +91-9173703535<br>Shivani Thakkar - <br>Sakshi Gupta - +91-9737538623");
+		$("#pnd").show();
+       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Utkarsh Bhatla - <br>Shivani Thakkar - <br>Sakshi Gupta - +91-9737538623");
     });
 	$("#rag").mouseover(function(e) {
+				$("#pnd").show();
        $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br> ");
     });
-	$("#cyn").mouseover(function(e) {
+	$("#cyn").mouseover(function(e) {		$("#pnd").show();
        $("#pnd").html("<p>Stars brighten up the night. But the kind cynosure offer can set the night ablaze. The celebrity walks up to the stage amidst loud cheers from the crowd. The next few hours of the night will leave you mesmerized, for sure . The Raghu Dixit Project, Agnee , Indian Ocean , Aditya Narayan , Tochi Raina and still counting…</p><br>Date : <br>Co-Ordinators : <br>");
     });
 	$("#yttrailer").click(function(e) {
@@ -476,6 +509,18 @@ $('.close').click(function(e) {
 		}});
 	});
 	$('#tech,#work,#online,#cult').css('width',window.innerWidth*7/100);
+	$("#epc").click(function(e) {
+	$('#cult .eventpop').hide();
+    });
+	$('#ept').click(function(e) {
+        	$('#tech .eventpop').hide();
+    });
+	$('#epo').click(function(e) {
+        	$('#online .eventpop').hide();
+    });
+	$('#epw').click(function(e) {
+        	$('#work .eventpop').hide();
+    });
     $("#cult").click(function(e) {
        // $("#cult .cont").show();
 	   if($("#cult .cont").width()!=0)
@@ -486,8 +531,15 @@ $('.close').click(function(e) {
 		$("#tech,#work,#online").animate({left:m+'px'},'fast','linear',function(){
 		$("#cult .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
 		});
+		$("#cult .cont").load('c.php?t=events',function(e){
+				$(".cnam").click(function(e) {
+					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
+							$("#cult .d").load('c.php?d='+a);
+							$("#cult .eventpop").show();
+							 });			
+			});
     });
-
+	
 	$("#tech").click(function(e) {
        // $("#cult .cont").show();
 	   if($("#tech .cont").width()!=0)
@@ -498,6 +550,16 @@ $('.close').click(function(e) {
 		$("#work,#online").animate({left:m+'px'},'fast','linear',function(){
 		$("#tech .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
 		});
+		$("#tech .cont").load('t.php?t=events',function(e){
+				$(".tnam").click(function(e) {
+					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
+							console.log(a);
+							$("#tech .d").load('t.php?d='+a);
+							$("#tech .eventpop").show();
+							 });			
+			});
+
+
     });
 	
 	$("#work").click(function(e) {
@@ -510,6 +572,15 @@ $('.close').click(function(e) {
 		$("#online").animate({left:m+'px'},'fast','linear',function(){
 		$("#work .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
 		});
+		$("#work .cont").load('o.php?t=events',function(e){
+				$(".onam").click(function(e) {
+					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
+							console.log(a);
+							$("#work .d").load('o.php?d='+a);
+							$("#work .eventpop").show();
+							 });			
+			});
+
     });
 	$("#online").click(function(e) {
    // $("#cult .cont").show();
@@ -520,6 +591,15 @@ $('.close').click(function(e) {
 	   $("#cult,#tech,#work,#online").animate({left:'0px'},'fast','linear',function(){
 		$("#online .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();			   
 		   });
+		$("#online .cont").load('w.php?t=events',function(e){
+				$(".wnam").click(function(e) {
+					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
+							console.log(a);
+							$("#online .d").load('w.php?d='+a);
+							$("#online .eventpop").show();
+							 });			
+			});
+
 	});
 
 	$(document).click(function(e) {
