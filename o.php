@@ -1,25 +1,36 @@
 <?php
 if (isset($_GET['t'])||isset($_GET['d'])){
 	$s="";
-include('class.events.php');
 $f='online.csv';
 $d=fopen($f,'r');
 $ev =array();
+$na=array();
+$cna=array();
+$n="";
+$cn="";
 $curr="";
 while(($fr=fgetcsv($d,105,','))!==FALSE){
 	if($fr[0]!=="")
 	{
+		if($n!=""&&$cn!=""){
+			$na[$curr]=$n;
+			$cna[$curr]=$cn;
+			
+			
+			}	
 	$fr[0]=str_replace(' ','_',$fr[0]);
 	$e=$fr[0];	
-	$fr[0]=new event($fr[0],$fr[1],$fr[2]);
+	//$fr[0]=new event($fr[0],$fr[1],$fr[2]);
+	$n=$fr[1];
+	$cn=$fr[2];
 	$curr=$fr[0];
 	$ev[$e]=$fr[0];
 	}
 	else{
 	if($fr[1]!="")
-	$curr->addo($fr[1]);
+	$n.=':'.$fr[1];
 	if($fr[2]!="")
-	$curr->addco($fr[2]);
+	$cn.=':'.$fr[2];
 	}
 }
 if(isset($_GET['t'])&&$_GET['t']=='events')
@@ -28,9 +39,9 @@ foreach ($ev as $k => $v){
 $s.='<h1 class=onam>'.$k1.'</h1>';
 }
 if(isset($_GET['d'])){
-$names=explode(':',$ev[$_GET['d']]->organiser);
-$cnames=explode(':',$ev[$_GET['d']]->coordinator);
-$k1=str_replace('_',' ',$ev[$_GET['d']]->name);
+$names=explode(':',$na[$_GET['d']]);
+$cnames=explode(':',$cna[$_GET['d']]);
+	$k1=str_replace('_',' ',$ev[$_GET['d']]);
 echo '<h1 class=en>'.$k1.'</h1>';
 echo '<label class=eo>Event Organizers</label>';
 for($i=0;$i<sizeof($names);$i++)
