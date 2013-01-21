@@ -13,13 +13,13 @@ body {
 }
 #jpreLoader {
 	width: 300px;
-	height: 25px;
+	/*height: 25px;
 	box-shadow: 0 0 7px 3px #fff;
 	-moz-box-shadow: 0 0 7px 3px #fff;
 	-webkit-box-shadow: 0 0 7px 3px #fff;
 	border-radius: 25px;
 	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;
+	-webkit-border-radius: 25px;*/
 }
 #jpreBar {
 	border-radius: 25px;

@@ -1,0 +1,128 @@
+ {
+ "id" : "event-events", "name" : "Events",
+ "children" : [
+    { "id" : "event-cultural", "name" : "Cultural",
+     "children" : [ 
+        { 
+            "id" : "event-masquerade", "name" : "Masquerade",
+            "children" : [
+                { "id" : "event-proscenium", "name": "Proscenium" }
+                ,{ "id" : "event-naivete", "name": "Naivete" }
+                ,{ "id" : "event-instinct", "name": "Instinct" }
+                ,{ "id" : "event-viberant", "name": "Viberant" }
+                ,{ "id" : "event-felicity", "name": "Felicity" }
+            ]
+        },
+
+        {
+            "id" : "event-seventhavenue", "name" : "Seventh Avenue",
+            "children" : [
+                { "id" : "event-rampage", "name": "Rampage" }
+                ,{ "id" : "event-ragnarock", "name": "Ragnarock" }
+                ,{ "id" : "event-cynosure", "name": "Cynosure" }
+                ,{ "id" : "event-djnight", "name": "DJ Night" }
+            ]
+        },
+
+        {
+            "id" : "event-zing", "name" : "Zing",
+            "children" : [ 
+                { "id" : "event-rhapsody", "name": "Rhapsody" }
+                ,{ "id" : "event-footloose", "name": "Footloose" }
+                ,{ "id" : "event-naach", "name": "Naach" }
+            ]
+        },
+
+        {
+        	"id" : "event-knottsncrosses", "name" : "Knotts N Crosses",
+        	"children" : [
+        	    { "id" : "event-headrush", "name": "HeadRush" }
+                ,{ "id" : "event-jam", "name": "JAM" }
+                ,{ "id" : "event-rhubarb", "name": "Rhubarb" }
+                ,{ "id" : "event-mizmaze", "name": "Mizmaze" }
+                ,{ "id" : "event-warofwords", "name": "War of Words" }
+            ]
+        },
+
+        { "id" : "event-dlounge", "name": "D-Lounge" },
+
+        { "id" : "event-synapcity", "name": "Synapcity" }
+    ]
+    },
+
+    { 
+    	"id" : "event-technical", "name" : "Technical",
+    	"children" : [
+            {
+            	"id" : "event-odyssey", "name" : "Odyssey",
+            	"children" : [
+                    { "id" : "event-rekriti", "name": "Rekriti" }
+                    ,{ "id" : "event-inc", "name": "Inc" }
+                    ,{ "id" : "event-solution", "name": "Solution" }
+                ]
+            },
+
+            {
+            	"id" : "event-nexus", "name" : "Nexus",
+                "children" : [
+                    { "id" : "event-catechize", "name": "Catechize" }
+                    ,{ "id" : "event-webunleashed", "name": "Web Unleashed" }
+                ]
+            },
+
+            {
+            	"id" : "event-kernel", "name" : "Kernel",
+            	"children" : [
+                    { "id" : "event-algorythmus", "name": "Algorythmus" }
+                    ,{ "id" : "event-codemutants", "name": "Code Mutants" }
+                    ,{ "id" : "event-techmarket", "name": "Tech Market" }
+                    ,{ "id" : "event-collaborate", "name": "Collaborate" }
+                    ,{ "id" : "event-appsdreamer", "name": "Apps Dreamer" }
+                ]
+            },
+
+            {
+            	"id" : "event-surge", "name" : "Surge",
+            	"children" : [
+                    { "id" : "event-vista", "name": "Vista" }
+                    ,{ "id" : "event-imagineer", "name": "Imagineer" }
+                    ,{ "id" : "event-synapshot", "name": "Synapshot" }
+                ]
+            },
+
+            {
+            	"id" : "event-overclock", "name" : "Overclock",
+            	"children" : [
+                    { "id" : "event-excogitate", "name": "Excogitate" }
+                    ,{ "id" : "event-forage", "name": "Forage" }
+                ]
+            },
+
+
+            { "id" : "event-battledrome", "name": "Battledrome" }
+
+    ]
+    },
+
+    {
+    	"id" : "event-online", "name" : "Online",
+    	"children" : [
+            { "id" : "event-googlockholmes", "name": "Googlock Holmes" }
+            ,{ "id" : "event-bullzbear", "name": "Bullz Bear" }
+            ,{ "id" : "event-csi", "name": "CSI" }
+            ,{ "id" : "event-crazyganith", "name": "Crazy Ganith" }
+            ,{ "id" : "event-teamtwister", "name": "Team Twister" }
+            ,{ "id" : "event-cozener", "name": "Cozener" }
+        ]
+    },
+
+    {
+    	"id" : "event-workshops", "name" : "Workshops",
+    	"children" : [
+            { "id" : "event-humanrobotics", "name": "Human Robotics" }
+            ,{ "id" : "event-ethicalhacking", "name": "Ethical Hacking" }
+			, {"id" : "event-shiamak_workshop", "name": "Shiamak Workshop" }
+        ]
+    }
+    ]
+}

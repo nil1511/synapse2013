@@ -39,18 +39,27 @@ foreach ($ev as $k => $v){
 $s.='<h1 class=tnam>'.$k.'</h1>';
 }
 if(isset($_GET['d'])){
+		if(isset($na[$_GET['d']]))
 $names=explode(':',$na[$_GET['d']]);
+	if(isset($cna[$_GET['d']]))
 $cnames=explode(':',$cna[$_GET['d']]);
 	$k1=str_replace('_',' ',$ev[$_GET['d']]);
 echo '<h1 class=en>'.$k1.'</h1>';
-echo '<label class=eo>Event Organizers</label>';
+echo '<div class=con>';
+
+echo '<label class=eo>Co-ordinator</label>';
+	if(isset($na[$_GET['d']]))
 for($i=0;$i<sizeof($names);$i++)
 echo '<h3 class=onn>'.$names[$i].'</h3>';
+/*
 echo '<label class=co>Co-ordinator</label>';
+	if(isset($cna[$_GET['d']]))
 for($i=0;$i<sizeof($cnames);$i++)
-echo '<h3 class=conn>'.$cnames[$i].'</h3>';
+echo '<h3 class=conn>'.$cnames[$i].'</h3>';*/
+echo '</div>';
+
 }
-	echo'<div class=pt><br> <br></div>';
+	echo'<div class=pt style="height:2%;"></div>';
 
 echo $s;
 fclose($d);}

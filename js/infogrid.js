@@ -13,6 +13,15 @@ $(function() {
 
         }
     );*/
+/*var mp3snd = "audio.mp3";
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="1">');
+document.write('<![endif]-->');
+document.write('</audio>');
+*/
+
 function c(t){
 	$(document).unbind('keydown');
 		$(document).keydown(function(e) {
@@ -27,26 +36,6 @@ function c(t){
 		}
     });
 }
-function customcursor(element, imgUrl) {
-    $('body')
-        .append('<img style="position:absolute;display:none;cursor:none;" id="mycursor" src="' + imgUrl + '" />');
-    element.css('cursor', 'none');
-    $(element)
-        .hover(function() {
-        $('#mycursor')
-            .show();
-    }, function() {
-        $('#mycursor')
-            .hide();
-    });
-    $(element)
-        .mousemove(function(e) {
-        $('#mycursor')
-            .css('left', e.clientX - 1)
-            .css('top', e.clientY + 1);
-    });
-}
-
 //customcursor($('*'),'images/cur.png');
 $('#events').css('height',window.innerHeight/1.5);
 $('#aboutus').css('height',window.innerHeight/1.5);
@@ -374,7 +363,7 @@ $('.close').click(function(e) {
     });*/
 	$("#ram").mouseover(function(e) {
 		$("#pnd").show();
-       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Utkarsh Bhatla - <br>Shivani Thakkar - <br>Sakshi Gupta - +91-9737538623");
+       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Divy Thakkar - <br>Shivani Thakkar - <br>Sakshi Gupta - +91-9737538623");
     });
 	$("#rag").mouseover(function(e) {
 				$("#pnd").show();
@@ -433,16 +422,18 @@ $('.close').click(function(e) {
 	$('#events').mouseover(function(e) {	
 		if(!ani)
 		return;
-		$("#sponsors .v,#pronites .v,#aboutus .v,#teasar .v").fadeOut();
-				$('*').clearQueue();		
-		$(".clt,.crt").animate({width:'150px',height:'40px',fontSize:'25pt'},{duration:'200',queue:false});
-		$('#events').animate({height:window.innerHeight/1.2},'200');		
-		$('#aboutus').animate({height:window.innerHeight/1.8},'200');
-      	$('#sponsors').animate({height:window.innerHeight/1.75},'200');
-		$('#pronites').animate({height:window.innerHeight/2},'200');
-		$('#teasar').animate({height:window.innerHeight/3},'200');
-		$('#events #ftag').animate({width:'170px',height:'60px',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e){
-		$("#events .v").show('fast');
+	//	console.log(e.relatedTarget)
+		$('*').clearQueue();
+		$(".clt,.crt").animate({width:'150px',height:'1em',fontSize:'20pt'},{duration:'200',queue:false});
+		$('#events').animate({height:window.innerHeight/1.2},{duration:'100',queue:false});		
+		$('#aboutus').animate({height:window.innerHeight/1.8},{duration:'100',queue:false});
+      	$('#sponsors').animate({height:window.innerHeight/1.75},{duration:'100',queue:false});
+		$('#pronites').animate({height:window.innerHeight/2},{duration:'100',queue:false});
+		$('#teasar').animate({height:window.innerHeight/3},{duration:'100',queue:false});
+		$('#events #ftag').animate({width:'170px',height:'1.75em',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e1){
+		if(e.currentTarget.id=='events'&&$("#events .v").is(":hidden")){
+		$(".v").hide();
+		$("#events .v").show('fast');}
 		}});
 		
     });
@@ -450,76 +441,89 @@ $('.close').click(function(e) {
 		$('#aboutus').mouseover(function(e) {
 		if(!ani)
 		return;
-		$("#sponsors .v,#events .v,#pronites .v,#teasar .v").fadeOut();		
-				$('*').clearQueue();	
-		$(".clt,.crt").animate({width:'150px',height:'40px',fontSize:'25pt'},{duration:'200',queue:false});
-		$('#events').animate({height:window.innerHeight/2},'200');		
-		$('#aboutus').animate({height:window.innerHeight/1},'200');
-      	$('#sponsors').animate({height:window.innerHeight/1.75},'200');
-		$('#pronites').animate({height:window.innerHeight/2},'200');
-		$('#teasar').animate({height:window.innerHeight/3},'200');
-		$('#aboutus #ftag').animate({width:'170px',height:'60px',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e){
+		$('*').clearQueue();
+		$(".clt,.crt").animate({width:'150px',height:'1em',fontSize:'20pt'},{duration:'200',queue:false});
+		$('#events').animate({height:window.innerHeight/2},{duration:'100',queue:false});		
+		$('#aboutus').animate({height:window.innerHeight/1},{duration:'100',queue:false});
+      	$('#sponsors').animate({height:window.innerHeight/1.75},{duration:'100',queue:false});
+		$('#pronites').animate({height:window.innerHeight/2},{duration:'100',queue:false});
+		$('#teasar').animate({height:window.innerHeight/3},{duration:'100',queue:false});
+		$('#aboutus #ftag').animate({width:'170px',height:'1.75em',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e1){
+//		console.log(e.currentTarget.id);
+		if(e.currentTarget.id=='aboutus'&&$("#aboutus .v").is(":hidden")){
+		$(".v").hide();
 		$("#aboutus .v").show('fast');
+		}
 		}});
 	 });
 	$('#pronites').mouseover(function(e) {	
 		if(!ani)
 		return;		
-		$("#sponsors .v,#events .v,#aboutus .v,#teasar .v").fadeOut();		
-				$('*').clearQueue();
-		$(".clt,.crt").animate({width:'150px',height:'40px',fontSize:'25pt'},{duration:'200',queue:false});
-		$('#events').animate({height:window.innerHeight/1.5},'200');		
-		$('#aboutus').animate({height:window.innerHeight/1.5},'200');
-      	$('#sponsors').animate({height:window.innerHeight/2.45},'200');
-		$('#pronites').animate({height:window.innerHeight/1.3},'200');
-		$('#teasar').animate({height:window.innerHeight/3},'200');
-		$('#pronites #ftag').animate({width:'170px',height:'60px',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e){
-		$("#pronites .v").show('fast');
+		$('*').clearQueue();
+		$(".clt,.crt").animate({width:'150px',height:'1em',fontSize:'20pt'},{duration:'200',queue:false});
+		$('#events').animate({height:window.innerHeight/1.5},{duration:'100',queue:false});		
+		$('#aboutus').animate({height:window.innerHeight/1.5},{duration:'100',queue:false});
+      	$('#sponsors').animate({height:window.innerHeight/2.45},{duration:'100',queue:false});
+		$('#pronites').animate({height:window.innerHeight/1.3},{duration:'100',queue:false});
+		$('#teasar').animate({height:window.innerHeight/3},{duration:'100',queue:false});
+		$('#pronites #ftag').animate({width:'170px',height:'1.75em',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e1){
+//		$("#pronites .v").show('fast');
+		if(e.currentTarget.id=='pronites'&&$("#pronites .v").is(":hidden")){
+		$(".v").hide();
+		$("#pronites .v").show('fast');}
 		}});
 	});
 		
 	$('#sponsors').mouseover(function(e) {	
 		if(!ani)
 		return;		
-		$("#pronites .v,#events .v,#aboutus .v,#teasar .v").fadeOut();		
-				$('*').clearQueue();
-		$(".clt,.crt").animate({width:'150px',height:'40px',fontSize:'25pt'},{duration:'200',queue:false});
-		$('#events').animate({height:window.innerHeight/1.5},'200');		
-		$('#aboutus').animate({height:window.innerHeight/1.5},'200');
-      	$('#sponsors').animate({height:window.innerHeight/1.55},'200');
-		$('#pronites').animate({height:window.innerHeight/2.2},'200');
-		$('#teasar').animate({height:window.innerHeight/3},'200');
-		$('#sponsors #ftag').animate({width:'170px',height:'60px',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e){
-		$("#sponsors .v").show('fast');
+		$('*').clearQueue();
+		$(".clt,.crt").animate({width:'150px',height:'1em',fontSize:'20pt'},{duration:'200',queue:false});
+		$('#events').animate({height:window.innerHeight/1.5},{duration:'100',queue:false});		
+		$('#aboutus').animate({height:window.innerHeight/1.5},{duration:'100',queue:false});
+      	$('#sponsors').animate({height:window.innerHeight/1.55},{duration:'100',queue:false});
+		$('#pronites').animate({height:window.innerHeight/2.2},{duration:'100',queue:false});
+		$('#teasar').animate({height:window.innerHeight/3},{duration:'100',queue:false});
+		$('#sponsors #ftag').animate({width:'170px',height:'1.75em',fontSize:'35pt'},{duration:'100',queue:false,complete:function(e1){
+		if(e.currentTarget.id=='sponsors'&&$("#sponsors .v").is(":hidden")){
+		$(".v").hide();
+		$("#sponsors .v").show('fast');}
 		}});
     });
 	$('#teasar').mouseover(function(e) {
 		if(!ani)
 		return;
-		$("#sponsors .v,#events .v,#aboutus .v,#pronites .v").fadeOut();		
-				$('*').clearQueue();		
-		$(".clt,.crt").animate({width:'150px',height:'40px',fontSize:'25pt'},{duration:'200',queue:false});
-		$('#events').animate({height:window.innerHeight/1.5},'200');		
-		$('#aboutus').animate({height:window.innerHeight/1.5},'200');
-      	$('#sponsors').animate({height:window.innerHeight/2.25},'200');
-		$('#pronites').animate({height:window.innerHeight/2},'200');
-		$('#teasar').animate({height:window.innerHeight/2.5},'200');
-		$('#teasar #ftag').animate({width:'200px',height:'60px',fontSize:'30pt'},{duration:'100',queue:false,complete:function(e){
-		$("#teasar .v").show('fast');
+		$(".v").hide(5,function(){
+		$('*').clearQueue();
+		});		
+		$(".clt,.crt").animate({width:'150px',height:'1em',fontSize:'20pt'},{duration:'200',queue:false});
+		$('#events').animate({height:window.innerHeight/1.5},{duration:'100',queue:false});		
+		$('#aboutus').animate({height:window.innerHeight/1.5},{duration:'100',queue:false});
+      	$('#sponsors').animate({height:window.innerHeight/2.25},{duration:'100',queue:false});
+		$('#pronites').animate({height:window.innerHeight/2},{duration:'100',queue:false});
+		$('#teasar').animate({height:window.innerHeight/2.5},{duration:'100',queue:false});
+		$('#teasar #ftag').animate({width:'200px',height:'1.75em',fontSize:'28pt'},{duration:'100',queue:false,complete:function(e1){
+		if(e.currentTarget.id=='teasar'&&$("#teasar .v").is(":hidden")){
+		$(".v").hide();
+		$("#teasar .v").show('fast');}
 		}});
 	});
 	$('#tech,#work,#online,#cult').css('width',window.innerWidth*7/100);
 	$("#epc").click(function(e) {
-	$('#cult .eventpop').hide();
+		$('.overlay').fadeOut();
+	$('#cult .eventpop').fadeOut();
     });
 	$('#ept').click(function(e) {
-        	$('#tech .eventpop').hide();
+				$('.overlay').fadeOut();
+        	$('#tech .eventpop').fadeOut();
     });
 	$('#epo').click(function(e) {
-        	$('#online .eventpop').hide();
+				$('.overlay').fadeOut();
+        	$('#online .eventpop').fadeOut();
     });
 	$('#epw').click(function(e) {
-        	$('#work .eventpop').hide();
+				$('.overlay').fadeOut();
+        	$('#work .eventpop').fadeOut();
     });
     $("#cult").click(function(e) {
        // $("#cult .cont").show();
@@ -535,7 +539,8 @@ $('.close').click(function(e) {
 				$(".cnam").click(function(e) {
 					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
 							$("#cult .d").load('c.php?d='+a);
-							$("#cult .eventpop").show();
+							$(".overlay").fadeIn();
+							$("#cult .eventpop").fadeIn();
 							 });			
 			});
     });
@@ -555,7 +560,8 @@ $('.close').click(function(e) {
 					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
 							console.log(a);
 							$("#tech .d").load('t.php?d='+a);
-							$("#tech .eventpop").show();
+							$(".overlay").fadeIn();							
+							$("#tech .eventpop").fadeIn();
 							 });			
 			});
 
@@ -577,7 +583,8 @@ $('.close').click(function(e) {
 					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
 							console.log(a);
 							$("#work .d").load('o.php?d='+a);
-							$("#work .eventpop").show();
+							$(".overlay").fadeIn();						
+							$("#work .eventpop").fadeIn();
 							 });			
 			});
 
@@ -596,7 +603,8 @@ $('.close').click(function(e) {
 					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
 							console.log(a);
 							$("#online .d").load('w.php?d='+a);
-							$("#online .eventpop").show();
+							$(".overlay").fadeIn();			
+							$("#online .eventpop").fadeIn();
 							 });			
 			});
 
