@@ -20,11 +20,11 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>1. Syashi Gupta  +91-7698800761</li>
-<li>2. Aiman </li>
-<li>3. Arnav Goyal    +91-9727775558</li>
-<li>4. Himanshu Chhawal  +91-9510630192</li>
-<li>5. Ankit Sharma    +91-9016555340</li>
+			<li>Shondhi Singhal 
+<li>Yash Kumbhani     
+<li>Utkarsh Bhatla          
+<li>Sakshi Gupta            
+<li>Shivani Thakkar         
 
 		</ul>
 	</div>

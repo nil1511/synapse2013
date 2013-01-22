@@ -58,8 +58,6 @@ Be it with your friends or by yourself, this is the place you should rather be a
     
     <h2>Contact us</h2>
     <div class="pane">
-	Follow us and Contact us for passes or any inquiries:<br>
 
-	<font color="white">Aakash Parmar</font> - <font color="yellow">9913146603</font>	
     </div>
  </div>  

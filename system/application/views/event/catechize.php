@@ -56,5 +56,12 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
+	<ul>
+	<li>Shashank Jain
+<li>Chirag Gaur
+<li>Himank Agarwal
+<li>Ronak Kothari
+<ul>
+	
 	</div>
 </div>

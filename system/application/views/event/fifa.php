@@ -7,7 +7,7 @@
 		Synapse is back with the best FIFA to date. If you think you are the
 one who can control every player and compete against the best in the
 game, then this where you need to be. Unleash your skills and
-management capabilities. Lets FIFA 11!!
+management capabilities. Lets FIFA!!
 		</p>
 		<?= register_link(); ?>
 	</div>
@@ -43,8 +43,9 @@ students.</li></ul>
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-		<li>Mudit Somani : +919624064783.</li>
-		<li>Rishabh Jain : +918000086135.</li>
+		<li>Rahul Trivedi 
+		<li>Rrishu Jain 
+
 	</ul>
 	</div>
 	

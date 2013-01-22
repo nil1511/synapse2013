@@ -20,6 +20,14 @@
     
     <h2>Co-ordinators</h2>
     <div class="pane">
+	<ul>
+	<li>Swena Gupta
+<li>Meghana Jain
+<li>Apurva Singhai
+<li>Prerna Garg
+
+	
+	</ul>
     </div>
  
     

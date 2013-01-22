@@ -3,7 +3,7 @@
 
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
-		<img src="<?= base_url(); ?>images/bb_logo.png" width="400"></img>
+		<!--<img src="<?= base_url(); ?>images/bb_logo.png" width="400"></img>-->
 		<p>
 		Market is a funny place. Stocks, money, tension, losses, profits - come alive and fight it out in the ruthless battleground of the market.
 		</p>
@@ -24,7 +24,7 @@
 	
 	<h2>Registration</h2>
 	<div class="pane">
-		<p>Registration starts from 13th February, 2011!</p>
+	<!--	<p>Registration starts from 13th February, 2013!</p>-->
 
 		<p>For Registration, go through the following steps:</p>
 
@@ -47,7 +47,7 @@
 			<li> Client can execute both Intra-Day and Delivery trade on all the scripts available from trading.</li>
 			<li> Every client is provided with a margin facility of six times his available cash balance in intraday trade.</li>
 			<li> Names of the highest gainers of the Day, Week and Month shall be displayed on the KHILADI page. </li>
-			<li> Event goes on for 5 days (21st Feb-25th Feb , 2011).</li>
+			<li> Event goes on for 5 days <!--(21st Feb-25th Feb , 2011)-->.</li>
 			<li>The participants would be competing for the top 2 winner positions and 5 consolation positions.</li>
 		</ul>
 
@@ -79,6 +79,9 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
+	<ul>
+	<li>Abhinav Tripathi (201101001)
+</ul>
 	</div>
 
 </div>

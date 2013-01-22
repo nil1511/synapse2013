@@ -13,8 +13,8 @@
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<p>The event will be held on the second day of Synapse (18th  Feb &lsquo;12) from 1 30 pm to 3 30 pm. The problem statement and materials will be  given to each team on the spot, using which the model will have to be  constructed. The team will have 2hrs to prepare the model.<br />
-Registrations can be done online here:         
-Registrations are open up till <b>16th  Feb &lsquo;12</b>. On the spot registrations will also be accepted.</div>
+Registrations can be done online
+<!--Registrations are open up till <b>16th  Feb &lsquo;12</b>. On the spot registrations will also be accepted.</div>-->
 	
 	<h2>Rules</h2>
 	<div class="pane">
@@ -30,11 +30,11 @@ Registrations are open up till <b>16th  Feb &lsquo;12</b>. On the spot registrat
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	  <ol>
-	    <li>Numrata Navada (+91 96380 06517)</li>
-	    <li>Kaushik Shelat (+91 86908 37980)</li>
-	    <li>Mansi Gokhale (+91 99798 63767)</li>
-      </ol>
-	</div>
+	  <ul><li>SWATI JHAWAR
+ <li>ANJALI SHASTRI
+ <li>RIA GUPTA
+<li>YESHA SHAH
+
+</ul>
 	
 </div>

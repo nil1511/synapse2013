@@ -12,7 +12,7 @@
 		<?= register_link(); ?>
 
 		<h4>
-		 LAST DATE FOR REGISTRATION : 14 FEBRUARY
+		<!-- LAST DATE FOR REGISTRATION : 14 FEBRUARY-->
 		</h4>
 
 
@@ -35,7 +35,7 @@
 		<ul>
 		<li>YOU CAN USE ANY PLATFORM AND LANGUAGE YOU LIKE!!!</li>
 
-		<li>First round judging will be based on the content overview of your application/site.(content overview must be submitted in a .doc/pdf file to <span style="color:orange">synapse.webunleashed@gmail.com</span> by 14 february)</li>
+		<li>First round judging will be based on the content overview of your application/site.(content overview must be submitted in a .doc/pdf file to <span style="color:orange">synapse.webunleashed@gmail.com</span> by xx february)</li>
 		<li>Second round will be based on the marks awarded by the judge as per the various functionalities and features added by the participants which is to be presented at SYNASPE on event date.(you can also add features that were NOT in content overview!)</li>
 		<li>Credit will be awarded on the basis of UNIQUENESS IN BACKEND and USER FRIENDLY INTERFACE.</li>
 		</ul>
@@ -44,9 +44,10 @@
 	<h2>Co-ordinators</h2>
     <div class="pane">
 		<ul>
-		<li>JAYDEEP MARVANIYA (9033672703)</li>
-		<li>PETLU KRISHNA CHAITANYA:PKC (9737836133)</li>
-		<li>Email: <span style="color:orange">synapse.webunleashed@gmail.com</span></li>
+		<li>Shashank Jain
+<li>Chirag Gaur
+<li>Himank Agarwal
+<li>Ronak Kothari
 		</ul>
     </div>
     

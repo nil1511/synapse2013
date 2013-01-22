@@ -51,6 +51,12 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
+	 <ul><li>SWATI JHAWAR
+ <li>ANJALI SHASTRI
+ <li>RIA GUPTA
+<li>YESHA SHAH
+
+</ul>
 	</div>
 	
 </div>

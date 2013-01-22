@@ -53,8 +53,10 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	Shubendu Saurabh - 07874003949<br/>
-	Sagar Chandrana - 08141043477<br/>
-	Shreya Shah - 09033673189<br/>
+	<ul>Swarnim Vyas 
+<li>Aman Grover
+<li>Harshita Bhatnagar and Team
+</uL>
+
 	</div>
 </div>

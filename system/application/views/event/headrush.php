@@ -41,11 +41,12 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	Chinmay Maheshwari - 8905272131<br>
-	Ankit Naugariya - 9723880075<br>
-	Dhruv Bhatnagar - 9033000901<br>
-	Vaishali Behl - 9909155978<br>
-	Ketav Patel - 9426336602<br>
+	<ul>
+	<li>Dhruv Bhatnagar
+<li>Anirudha Mitra
+<li>Vipul Garg
+
+	</ul>
 	</div>
 	
 </div>

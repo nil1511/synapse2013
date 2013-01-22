@@ -21,13 +21,15 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
+    <ul>
+	<li>Shantanu Jain(201101073)
+	<li>Harsh Nisar(201101074) 
+	<li>Zubin Kapadia(201101067)
+	<li>Mayank Hinger(201101004)
+	</ul>
 	</div>
-</div>
 
-<h1>CSI</h1>
-
-
-
+<!--
 <h2></h2>
 
 <p>23rd Feb, 2011. Wednesday<br>
@@ -37,3 +39,4 @@ Time: 9pm - 10pm</p>
 
 <p>1st prize: Rs. 1500<br>
 2nd prize: Rs. 1000</p>
+-->

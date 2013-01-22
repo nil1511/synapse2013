@@ -10,7 +10,7 @@
 		 your own army on one of the 
 		 oldest and most popular strategic games played ever
 		  ? Age Of Empires II ? The Conquerors.
-		  Fight out your enemies on the virtual battlefield in Battledrome 2012.
+		  Fight out your enemies on the virtual battlefield in Battledrome 2013.
 		</p>
 
 		<?= register_link(); ?>
@@ -45,9 +45,8 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>Dharmik Patel (7383757316) - dharmik47@live.com</li>
-			<li>Chandraraj Solanki (9904316843)</li>
-			<li>Dhaval Trivedi (8141235438)</li>
+			<li>Prasoon</li>
+			<li>Pushkar dwivedi</li>
 		</ul>
 	</div>
 

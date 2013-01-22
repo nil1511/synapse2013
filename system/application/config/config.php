@@ -11,9 +11,9 @@
 |	http://example.com/
 |
 */
-//$config['base_url']	= "http://synapse.daiict.ac.in/test2013/";
+$config['base_url']	= "http://synapse.daiict.ac.in/2013/";
 
-$config['base_url']	= "http://localhost/synapse_0.7/";
+//$config['base_url']	= "http://localhost/synapse_0.7/";
 /*
 |--------------------------------------------------------------------------
 | Index File

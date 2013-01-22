@@ -39,7 +39,7 @@ class Forgotpassword extends Controller {
                 $mailstr, "From: synapse-noreply@daiict.ac.in");
 
 /*** MAIL TO some one inside DA so that we can manually notify outside people ***/
-$internal = "201001018@daiict.ac.in";
+$internal = "201101147@daiict.ac.in";
 $intmsg = "Please send a mail to ".$this->input->post('email')." that his/her new password is\n".
           "'$newpass' (without quotes)\n";
 if( substr( $this->input->post('email'), -strlen("daiict.ac.in") ) != "daiict.ac.in" )

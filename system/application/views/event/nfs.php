@@ -16,7 +16,7 @@
     <div class="pane">
 		<h3>Phase 1: Hostel Rounds</h3>
 		<ul>
-			<li>We will select around 40 participants for Lab round (40 will vary according to participation in hostel round). Hostel round will be conducted on 10th and 11th February 2012.</li>
+			<li>We will select around 40 participants for Lab round (40 will vary according to participation in hostel round).<!-- Hostel round will be conducted on 10th and 11th February 2012.</li>-->
 		</ul>
 		
 		<h3>Phase 2: Lab Rounds</h3>
@@ -47,12 +47,12 @@
 
 <h2>Schedule</h2>
 	<div class="pane">
-	<h3>Lab round timing:</h3>
+<!--	<h3>Lab round timing:</h3>
 	<p>Venue: Lab 001, Lab building</p>
 	<p>Time: 18th FEB, 1 PM</p>
 	<h3>Final round timing:</h3>
 	<p>Venue: Lab 001, Lab building</p>
-	<p>Time: 18th FEB, 3:30 PM</p>
+	<p>Time: 18th FEB, 3:30 PM</p>-->
 
 	</div>
 
@@ -61,9 +61,8 @@
     <h2>co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>Bhavin Zalavadia(9428148579)</li>
-			<li>Rachit Govila(9016231266)</li>
-			<li>Sahil Goyal(8347796612)</li>
+		<li>Amit Agarwal
+
 		</ul>
 	</div>
  </div>   

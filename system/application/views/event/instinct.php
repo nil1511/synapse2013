@@ -32,8 +32,12 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	Sahil Shah - 09033666898<br/>
-	Anurag Mundra - 09510757608<br/>
-	Saheb Motiani - 09724445808<br/>
+	<ul>
+
+<li>Swarnim Vyas 
+<li>Aman Grover 
+<li>Harshita Bhatnagar
+<li>And team
+</ul>
 	</div>
 </div>

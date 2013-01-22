@@ -22,7 +22,7 @@
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
-		<ol>
+		<!--<ol>
 			<li> The event would be conducted in two phases:
 				<ul>
 					<li> Phase 1. Preliminary Round</li>
@@ -49,7 +49,7 @@
 					<li> Group:	15</li>
 				</ul>
 			  </li>
-		</ol>
+		</ol>-->
 	</div>
 	
 	<h2>Rules</h2>
@@ -82,26 +82,12 @@
 
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	<p><strong>Viral Malvania</strong></br>
-	+91 7405381224</br>
-	malvaniaviral@gmail.com</p></br>
+	<ul>
+	<li>Unnikrishnan Patel 
+<li>Mohit Thakkar
+<li>Rushi Shukla
 
-	<p><strong>Srishti Gupta</strong></br>
-	+91 9726153970</br>
-	srishti.g03@gmail.com</p></br>
-
-	<p><strong>Janki Mehta</strong></br>
-	+91 8905850055</br>
-	jvmehta.92@gmail.com</p></br>
-
-	<p><strong>Pratik Jain</strong></br>
-	+91 7878779455</br>
-	tunetopj@gmail.com</p></br>
-
-	
-
-	<p>or</br>
-	naach.synapse2012.daiict@gmail.com</p>
+	</ul>
 	
 	</div>
 	

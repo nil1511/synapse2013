@@ -26,19 +26,12 @@ there!
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-<li>
-		Ankit Khandelwal -8905301730
-</li><li>
-		Mayank shrivastava -9016136613
-</li><li>
-		Jaspratap Singh -9510944137
-</li><li>
-		Utsav chadda -9924203677
-</li><li>
-		Prashant Pandey -7878778863
-</li><li>
-		Harleen Kaur -9016242740
-</li>
+<li>Naman Gupta
+<li>Sushant Pritmani
+<li>Abhishek William
+<li>Kumar Shrey
+<li>Aditya Paliwal
+<li>Yasir Rentiya
 </ul>
 	</div>
 	

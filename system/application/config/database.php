@@ -38,8 +38,8 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "root";//synapse
-$db['default']['password'] = "";//ss1123
+$db['default']['username'] = "synapse";//synapse
+$db['default']['password'] = "ss1123";//ss1123
 $db['default']['database'] = "synapse";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";

@@ -54,19 +54,14 @@
 	</div>
     <h2>Co-ordinators</h2>
     <div class="pane">
-	<p>
-		Radhika Kedia        (+91 9824283531)</br>
+	<ul>
+	<li>Shondhi Singhal      
+	<li>Yash Kumbhani       
+	<li>Uttkarsh Bhatla    
+	<li>Sakshi Gupta          
+	<li>Shivani Thakkar         
 
-		Vaibhav Jain           (+91 9978941672)</br>
-
-		Sharan Shodhan     (+91 9737073420)</br>
-
-		Rohan Parikh          (+91 9825819410)</br>
-
-		Angi Adani              (+91 9925024390)</br>
-
-		Malhar Shah            (+91 9099758768)</br>
-	</p>
+	</ul>
     </div>
     
 </div>

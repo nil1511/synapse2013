@@ -30,7 +30,7 @@
 <li>	Event will be held in two categories both independent of each other.
 <li>	In category I, participants can send any photographs of their choice.
 <li>	In category II, only photos shot during Synapse 2012 should be submitted.
-<li>	Mail your entries to <a href="mailto:synapshot2012@gmail.com">synapshot2012@gmail.com</a>
+<li>	Mail your entries to <a href="mailto:synapshot2013@gmail.com">synapshot2012@gmail.com</a>
 </ul>
     </div>
     
@@ -48,7 +48,7 @@
     
     <h2>Dates</h2>
     <div class="pane">
-    Mail your entries before <b>23:59:59, Feb 16th, 2012</b> for Phase I and <b>23:59:59, Feb 22th, 2012</b> for Phase II.
+   <!-- Mail your entries before <b>23:59:59, Feb 16th, 2012</b> for Phase I and <b>23:59:59, Feb 22th, 2012</b> for Phase II.-->
     </div>
 	
     <h2>Sponsors</h2>
@@ -60,13 +60,11 @@
 	
     <h2>Co-ordinators</h2>
     <div class="pane">
-    For any queries or information, contact<br>
-Puneet Kala – puneet.0191@gmail.com   
-(+917405590169)<br>
+<ul><li>  Kunal Doshi 
+<li>Arkit Vora   
+<li>Manan Dhawan
 
-Unique Jain – uniquejain91@gmail.com 
-(+919601999225)<br>
-
+</ul>
     </div>
     
 </div>

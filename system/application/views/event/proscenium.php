@@ -41,8 +41,12 @@
 	<h2>Co-ordinators</h2>
 	
 	<div class="pane">
-	Swarnim Vyas - 07878778890<br/>
-	Akshay Jain - 07878723950<br/>
-	Rashi Joshi - 08905141712<br/>
+	<ul>
+
+<li>Swarnim Vyas 
+<li>Aman Grover 
+<li>Harshita Bhatnagar
+<li>And team
+</ul>
 	</div>	
 </div>

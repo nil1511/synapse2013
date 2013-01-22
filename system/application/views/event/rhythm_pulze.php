@@ -19,8 +19,7 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>Mukund (9510214169)</li>
-			<li>Ishan (9909926026)</li>
+			<li>
 		</ul>
 	</div>
 	

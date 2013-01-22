@@ -13,12 +13,12 @@
        
    <p>In case you are a new user, you will need to first <a href="http://www.codechef.com/user/register/">register</a> for a CodeChef ID</p>
 
-<p>Then  <a href="http://synapse.daiict.ac.in/2012/index.php/register/codemutants">register</a> at the Synapse website.</p>
+<p>Then  <a href="http://synapse.daiict.ac.in/2013/index.php/register/codemutants" target="_blank">register</a> at the Synapse website.</p>
 <br>
 
-<p> <strong>Contest page link <a href="http://www.codechef.com/CDMT2012" target="_blank">CODECHEF</strong></a>
+<!--<p> <strong>Contest page link <a href="http://www.codechef.com/CDMT2012" target="_blank">CODECHEF</strong></a>
 <h3> Date: 16 Feb 2012 Time: 8:30PM - 11:00PM</h3>
-</p>
+</p>-->
 	</div>
 	
 	<h2>Event structure</h2>
@@ -39,7 +39,7 @@
 			<li>	Teams need to register on the Synapse site as well to be eligible for prizes.</li>
 			<li>	Teams will be able to view problems individually, but will be able to submit solutions only by logging in with their team id.</li>
 			<li>	Discussion of strategy, suggestions or tips in the comments during a live contest shall lead to disqualification. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest.</li>
-			<li>	If you have any further queries, organizers will be available for chat during the contest at <span style="color: orange">codemutants2012@gmail.com</span></li>
+			<li>	If you have any further queries, organizers will be available for chat during the contest at <span style="color: orange">codemutants2013@gmail.com</span></li>
 		</ul>
 	</div>
 	

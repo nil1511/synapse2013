@@ -3,7 +3,7 @@
 
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
-		<img src="<?= base_url(); ?>images/dota.jpg" width="300"></img>
+	<!--	<img src="<?= base_url(); ?>images/dota.jpg" width="300"></img>-->
 
 		<br>
 		<?= register_link(); ?>
@@ -56,7 +56,7 @@
 	<h2>Rules</h2>
 	<div class="pane">
 		<ul>
-		<li>Each clan should register on the synapse website by midnight of 15th Feb 2011.</li>
+		<!--<li>Each clan should register on the synapse website by midnight of 15th Feb 2011.</li>-->
 		<li>Registration fees
 			<ul>
 			<li>Online : Rs. 500
@@ -70,7 +70,8 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-    Jinay Kothari                             9913818156<br />
-	Fenil Kanjani                       9979973883<br />
-    Anand Mudgerikar               9924136179 </div>	
+    <ul><li>Hardik dhimmar
+	<li>Jatan panchal
+	<li>Nirav sharda
+</ul>
 </div>

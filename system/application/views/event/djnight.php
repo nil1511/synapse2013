@@ -17,8 +17,12 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>Prateek Joshi (9712385086)</li>
-			<li>Sumit</li>
+			<li>Shondhi Singhal 
+<li>Yash Kumbhani     
+<li>Utkarsh Bhatla          
+<li>Sakshi Gupta            
+<li>Shivani Thakkar         
+
 		</ul>
 	</div>
 	

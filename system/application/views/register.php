@@ -3,7 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"> </meta>
-    <script type="text/javascript" language="javascript" src="js/jquery-1.8.3.min.js"> </script>
+    <script type="text/javascript" language="javascript" src="<?= base_url(); ?>js/jquery-1.8.3.min.js"> </script>
+    <style>
+    body{
+		background:#0d0d0d;
+		color:#fff;
+		margin:0 auto;
+		text-align:center;
+		}
+		ul li{
+			list-style-type:none;
+			}
+    </style>
 	<script type="text/javascript" language="javascript">
 	var Register = {
 		setup: function() {

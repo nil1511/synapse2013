@@ -3,28 +3,24 @@
 
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
-		<center><img src="<? echo base_url() ?>images/algorythmus.jpg"></center>
-		<ul>
-				<li><a href="http://synapse.daiict.ac.in/2012/index.php/register/algorythmus" target="_blank">Synapse Algorythmus registration</a></li>
-				 <li><a href="http://www.codechef.com/ALGO2012/" target="_blank">CodeChef Contest Page</a></li>
-				 <li><a href="http://www.codechef.com/teams/register/ALGO2012/ target="_blank"">Register on Codechef for Algorythmus</a></li>
-				 </ul>
+	<!--	<center><img src="<? echo base_url() ?>images/algorythmus.jpg"></center>-->
+		
 		<p>
 		Programming is definitely fun , but when you are up against hundreds of people trying to work out the best possible way to solve the problem , it is one heck of a challenge !! Your result matters less , here what matters is your approach and the speed with which you crack the code !! Algorythmus is about designing an elegant and efficient algorithm that can tackle the complexity and requirement of the problem, producing desired result. Given various problems, the teams will have to work their way through the algorithms and submit their codes respectively. Ranking will be based on number of problems solved, number of attempts and runtime in decreasing order of priority.</p>
 <ul>
-				<li><a href="http://synapse.daiict.ac.in/2012/index.php/register/algorythmus" target="_blank">Synapse Algorythmus registration</a></li>
-				 <li><a href="http://www.codechef.com/ALGO2012/" target="_blank">CodeChef Contest Page</a></li>
-				 <li><a href="http://www.codechef.com/teams/register/ALGO2012/ target="_blank"">Register on Codechef for Algorythmus</a></li>
+				<li><a href="http://synapse.daiict.ac.in/2013/index.php/register/algorythmus" target="_blank">Synapse Algorythmus registration</a></li>
+<!--				 <li><a href="http://www.codechef.com/ALGO2013/" target="_blank">CodeChef Contest Page</a></li>
+				 <li><a href="http://www.codechef.com/teams/register/ALGO2013/ target="_blank"">Register on Codechef for Algorythmus</a></li>-->
 				 </ul>
 	</div>
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<p>
-		The contest will begin on  <font color="white">11th February 2012 at 21:00 hrs IST.</font> 
+		<!--The contest will begin on  <font color="white">11th February 2012 at 21:00 hrs IST.</font> -->
 		</p>
 
-<a href="http://www.codechef.com/ALGO2012/" target="_blank">CodeChef Contest Page</a>
+<!--<a href="http://www.codechef.com/ALGO2012/" target="_blank">CodeChef Contest Page</a>-->
 <p>
 There will be a total of 5 problems of varying difficulty levels.<br>
 Max Team Size - 3<br>
@@ -38,11 +34,11 @@ Total prize money to be won - <font color="white">Rs 3000/-</font> <br>
 		<ul>
 			<li>Its a team event. A max of 3 persons per team.</li>
 			<li>Each team has to register in BOTH websites to participate in the event:
-				<ul>
+			<!--	<ul>
 				<li><a href="http://synapse.daiict.ac.in/2012/index.php/register/algorythmus" target="_blank">Synapse Algorythmus registration</a></li>
 				 <li><a href="http://www.codechef.com/ALGO2012/" target="_blank">CodeChef Contest Page</a></li>
 				 <li><a href="http://www.codechef.com/teams/register/ALGO2012/ target="_blank"">Register on Codechef for Algorythmus</a></li>
-				 </ul>
+				 </ul>-->
 </ul>
 			<strong>Codechef Judging Criteria:</strong>
 <ul>

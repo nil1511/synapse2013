@@ -15,7 +15,7 @@
 		Phases of event
 		<ul>
 		<li><u>Phase I: Poster Design</u><br>
-Participants will submit their posters based on the theme "CARNIVAL" till <u>16th February, 2012.</u></li>
+Participants will submit their posters<!-- based on the theme "CARNIVAL" till <u>16th February, 2012.</u>--></li>
 <li><u>Phase II: Exhibition</u><br>
 Top 20 entries from the Phase I would be exhibited during Synapse. </li>
 	<ul>
@@ -37,21 +37,14 @@ Top 20 entries from the Phase I would be exhibited during Synapse. </li>
     
     <h2>Important Dates</h2>
     <div class="pane">
-		<ul>
-		<li>Last date of submission for Phase 1: February 16, 2012 - 11:59pm</li>
-		<li>Date of exhibition: February 19, 2012</li>
-		</ul>
-	</div>
-    
-    <h2>Co-ordinators</h2>
+Coming Soon
+    </div>
+<h2>Co Ordinatons</h2>
     <div class="pane">
-	<ul>
-		<li>Himanshu Aggarwal - 9601374791</li>
-<li>Nevil Ladani - 9978836625</li>
-
+	<ul><li>Kunal Doshi 
+<li>Arkit Vora    
+<li>Manan Dhawan
 </ul>
-<span style="color:orange; font-face:bold">psd.synapse@gmail.com</span>
-
     </div>
 </div>
 	

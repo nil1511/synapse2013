@@ -10,7 +10,7 @@
 		</p>
 
 		<p>
-		<h3>"Democracy Dialogues" </h3>An open forum discussion on issues of Science, Technology and Democracy on 19th February, 2012
+		<h3>"Democracy Dialogues" </h3>An open forum discussion on issues of Science, Technology and Democracy on <!--19th February, 2012-->
 		</p>
 
 		<a href="mailto:parley.daiict@gmail.com">Mail to Parley event coordinators to register (parley.daiict@gmail.com)</a>
@@ -19,19 +19,19 @@
     
    <h2>Venue And Schedule</h2>
 	<div class="pane">
-	<p>		
+	<!--<p>		
 	Venue : CEP Building <br>
 	Date : 19th February, 2012
-	</p>
+	</p>-->
 	</div>
     
     <h2>Co-ordinators</h2>
     <div class="pane">
 	<ul>
-		<li>Tarunima Prabhakar</li>
-		<li>Sandeep Mertia (9374949418)</li>
-		<li>Neel Parikh (9879013521)</li>
-		<li>Jigar Raisinghani (9510965329)</li>
+		<li>Akshay Ratan
+<li>AYognik Baghel
+ <li>AShubham Srivastava
+
 	</ul>
    </div>
 </div>

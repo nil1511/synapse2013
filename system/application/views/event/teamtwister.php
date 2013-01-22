@@ -14,6 +14,11 @@
     
     <h2>Co-ordinators</h2>
     <div class="pane">
+	<ul>
+	<li>Raj Buddhdev</li>
+<li>Shubhanshu Gupta</li>
+<li>Yash N Shah</li>
+</ul>
     </div>
     
     

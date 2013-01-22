@@ -49,7 +49,12 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	Vasu Gandhi - 08866755127<br/>
-	Palak Shah - 09510944316<br/>
+	<ul>
+
+<li>Swarnim Vyas 
+<li>Aman Grover 
+<li>Harshita Bhatnagar
+<li>And team
+</ul>
 	</div>
 </div>

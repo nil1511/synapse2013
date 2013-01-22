@@ -16,7 +16,7 @@
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<p>This is a two phase event.</p>
-		<h3>Phase 1: 16th Feb 2012 </h3>
+		<h3>Phase 1<!--: 16th Feb 2012--> </h3>
 		<ul>
 			<li>It will be a basic online electronics and communication quiz.</li>
 			<li>Time limit : 30 minutes</li>
@@ -24,7 +24,7 @@
 			<li>Registrants will be provided with platform and login details 3 days before the event.</li>
 		</ul>
 
-		<h3>Phase 2: 19th Feb 2012</h3>
+		<h3>Phase 2<!--: 19th Feb 2012--></h3>
 		<ul>
 			<li>The selected teams (number of teams depends on marks obtained in phase 1) have to appear for a hardware level coding in DA-IICT Campus</li>
 			<li>It will have 1 on spot problem statement </li>
@@ -37,7 +37,7 @@
 	<h2>Rules</h2>
 	<div class="pane">
 		<ul>
-			<li><strong>Registration Deadline: 13th Feb 2012</strong></li>
+			<!--<li><strong>Registration Deadline: 13th Feb 2012</strong></li>-->
 			<li>Pre registration is mandatory.</li>
 			<li>Team Size: Maximum 2</li>
 			<li>Final Scoring:
@@ -56,7 +56,10 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-		<p>Megha Tak – +919016079507</p>
-		<p>Mohit Setia - +919510944138</p>
+		<ul>
+		<li>Dharak Shah
+<li>Smit Sanghavi
+<li>Rajat Gupta
+</ul>
 	</div>
 </div>

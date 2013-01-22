@@ -8,19 +8,6 @@ $(function() {
 		return false;
 		
 	});
-/* 	$('ul.box_skitter_ul').load('feed.php',
-        function() {
-
-        }
-    );*/
-/*var mp3snd = "audio.mp3";
-document.write('<audio autoplay="autoplay">');
-document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
-document.write('<!--[if lt IE 9]>');
-document.write('<bgsound src="'+mp3snd+'" loop="1">');
-document.write('<![endif]-->');
-document.write('</audio>');
-*/
 
 function c(t){
 	$(document).unbind('keydown');
@@ -195,6 +182,15 @@ $('.close').click(function(e) {
 	opendoor();	
 	$("#sponserdata").fadeIn();
     });
+	
+/*	$("#register").click(function(e) {
+	c('main');
+	$('.data,.clo').hide();
+	opendoor();	
+	$("#register").fadeIn();
+        
+    });*/
+	
 	$("#viewyouth").click(function(e) {
 	$('.data,.clo').hide();
 	opendoor();	
@@ -339,22 +335,32 @@ $('.close').click(function(e) {
 			switch (e.currentTarget.innerHTML){
 			case "Cultural":
 			$("#cult").trigger('click');
+			$("#eventdata").fadeIn();
 			break;
 			
 			case "Technical":	
 						$("#tech").trigger('click');
+						$("#eventdata").fadeIn();
 			break;
 			
 			case "Online":			
 						$("#work").trigger('click');
+						$("#eventdata").fadeIn();
 			break;
 
 			case "Workshop":				
 						$("#online").trigger('click');
+						$("#eventdata").fadeIn();
+
+			break;
+			case "Register":	
+
+							$('#reg').attr('src', $('#reg').attr('src'));
+						$("#register").trigger('click');
 			break;
 
 			}
-	$("#eventdata").fadeIn();
+	
     });
 	/*$("ul#proniteslabels li").click(function(e) {
         	$('.data,.clo').hide();
@@ -535,15 +541,18 @@ $('.close').click(function(e) {
 		$("#tech,#work,#online").animate({left:m+'px'},'fast','linear',function(){
 		$("#cult .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
 		});
-		$("#cult .cont").load('c.php?t=events',function(e){
+//		$("#cult .cont").load('c.php?t=events',function(e){
 				$(".cnam").click(function(e) {
-					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
-							$("#cult .d").load('c.php?d='+a);
-							$(".overlay").fadeIn();
-							$("#cult .eventpop").fadeIn();
+					var a=e.currentTarget.innerHTML.replace(/ /g,"");
+							$('#cult .en').html(a);
+							a=a.toLowerCase();
+							$("#cult .d").html('<div style="text-align:center;font-size:1.5em;padding:5% 0;">Loading...');
+							$("#cult .d").load('index.php/event/'+a);	
+							$(".overlay").show();							
+							$("#cult .eventpop").show();
 							 });			
 			});
-    });
+  //  });
 	
 	$("#tech").click(function(e) {
        // $("#cult .cont").show();
@@ -555,15 +564,21 @@ $('.close').click(function(e) {
 		$("#work,#online").animate({left:m+'px'},'fast','linear',function(){
 		$("#tech .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
 		});
-		$("#tech .cont").load('t.php?t=events',function(e){
+//		$("#tech .cont").load('t.php?t=events',function(e){
 				$(".tnam").click(function(e) {
-					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
-							console.log(a);
-							$("#tech .d").load('t.php?d='+a);
-							$(".overlay").fadeIn();							
-							$("#tech .eventpop").fadeIn();
+					
+					var a=e.currentTarget.innerHTML.replace(/ /g,"");
+												$('#tech .en').html(a);
+
+					a=a.toLowerCase();
+							//console.log(a);
+							a=(a=='ageofempires')?'aoe':a;
+							$("#tech .d").html('<div style="text-align:center;font-size:1.5em;padding:5% 0;">Loading...');
+							$("#tech .d").load('index.php/event/'+a);	
+							$(".overlay").show();							
+							$("#tech .eventpop").show();
 							 });			
-			});
+	//		});
 
 
     });
@@ -578,15 +593,21 @@ $('.close').click(function(e) {
 		$("#online").animate({left:m+'px'},'fast','linear',function(){
 		$("#work .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
 		});
-		$("#work .cont").load('o.php?t=events',function(e){
 				$(".onam").click(function(e) {
-					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
-							console.log(a);
-							$("#work .d").load('o.php?d='+a);
-							$(".overlay").fadeIn();						
-							$("#work .eventpop").fadeIn();
+					var a=e.currentTarget.innerHTML;
+							$('#work .en').html(a);
+							a=a.replace(/ /g,"");
+							if(a=='TeamTwister'){
+							window.open('http://synapse.daiict.ac.in/teamtwister/','_blank');
+							return;
+							}
+							a=a.toLowerCase();
+							$("#work .d").html('<div style="text-align:center;font-size:1.5em;padding:5% 0;">Loading...');
+							$("#work .d").load('index.php/event/'+a);	
+							$(".overlay").show();							
+							$("#work .eventpop").show();
 							 });			
-			});
+	//		});
 
     });
 	$("#online").click(function(e) {
@@ -598,17 +619,20 @@ $('.close').click(function(e) {
 	   $("#cult,#tech,#work,#online").animate({left:'0px'},'fast','linear',function(){
 		$("#online .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();			   
 		   });
-		$("#online .cont").load('w.php?t=events',function(e){
-				$(".wnam").click(function(e) {
-					var a=e.currentTarget.innerHTML.replace(/ /g,"_");
+//		$("#online .cont").load('w.php?t=events',function(e){
+		$(".wnam").click(function(e) {
+										var a=e.currentTarget.innerHTML.replace(/ /g,"_");
+							$('#online .en').html(a);
 							console.log(a);
-							$("#online .d").load('w.php?d='+a);
-							$(".overlay").fadeIn();			
-							$("#online .eventpop").fadeIn();
+							a=a.toLowerCase();
+							$("#online .d").html('<div style="text-align:center;font-size:1.5em;padding:5% 0;">Loading...');
+							$("#online .d").load('index.php/event/'+a);	
+							$(".overlay").show();							
+							$("#online .eventpop").show();
 							 });			
 			});
 
-	});
+//	});
 
 	$(document).click(function(e) {
         if(ani)

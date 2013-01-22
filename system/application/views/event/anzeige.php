@@ -3,7 +3,7 @@
 
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
-		<img src="<?= base_url(); ?>images/algorythmus.jpg" width="500"></img><br>
+		<!--<img src="<?= base_url(); ?>images/algorythmus.jpg" width="500"></img><br>-->
 
 		<p>
 		Are you the one who believes that Video ads and posters attract more attention than literature ? Or are you the one who has innovative ideas to allay Social evils and can convert that ideas into a Poster? Or are you the one who have ever dreamt of making an advertisement better than the one they have seen in their daily lives? Then this event is for you.</p>
@@ -31,7 +31,7 @@
 	
 	<h2>Event structure</h2>
 	<div class="pane">
-		<p>The last date for submission is 25th February 2011. </p>
+<!--		<p>The last date for submission is 25th February 2011. </p>-->
 
 		<p>Event is divided into 2 categories:</p>
 		<ol>

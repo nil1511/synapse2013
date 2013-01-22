@@ -181,15 +181,13 @@ Use the latest technology and multimedia to create an enthralling experience.
 	
 	<h2>Co-ordinators / Submissions</h2>
 	<div class="pane">
-<p>
-Kartikeya Arora - 9016330235<br>
-Aswin Ram - 73592457479<br>
-Surya kiran - 9714507018<br>
-COORDINATORS' EMAIL:  <font color="yellow">imagineer.synapse12@gmail.com</font><br>
-ALL SUBMISSIONS MUST BE DONE ON OR BEFORE  <font color="yellow">5:00 PM, 12TH FEBRUARY, 2012. </font><br>
-REGARDING WHAT TO BE SUBMITTED, READ RULES FOR SEPARATE CATEGORIES!<br>
+<ul>
+<li>Mudit Jumnani
+<li>Shikha Chowdhary
+<li>Ritu Gatiyala
+<li>Ronit Patel
 
-</p>
+</ul>
 	</div>
 	
 </div>

@@ -71,6 +71,10 @@ visibility:collapse;
 	font-family: hp;
 	src: url(../harry.ttf) format('truetype');
 }
+@font-face {
+	font-family: eve;
+	src: url(../jor.ttf) format('truetype');
+}
 .v {
 	font-size: 0.5em;
 	text-align: center;
@@ -176,7 +180,7 @@ top:0px;
 	width: 100%;
 	height: 100%;
 	!background:#0d0d0d;
-	background: url(../images/synapse.png) center center no-repeat;
+	background: url(../images/synapse.jpg) center center no-repeat;
 	background-size:100%;
 #visibility:collapse;
 }
@@ -632,22 +636,27 @@ font-size:3em;
 	background: url(../images/1.png) center center no-repeat;
 	height: 100%;
 	width: 95px;
-	background-size:100%;
+	background-size:100% 100%;
 }
+/*#register{
+display:none;
+width:100%;
+height:100%;	
+}*/
 #tech {
 	position: relative;
 	left: 0px;
 	height: 100%;
 	background: url(../images/2.png) center center no-repeat;
 	width: 95px;
-	background-size:100%;
+	background-size:100% 100%;
 }
 #work {
 	position: relative;
 	left: 0px;
 	height: 100%;
 	background: url(../images/3.png) center center no-repeat;
-	background-size:100%;
+	background-size:100% 100%;
 	width: 95px;
 }
 #online {
@@ -656,7 +665,7 @@ font-size:3em;
 	height: 100%;
 	background: url(../images/4.png) center center no-repeat;
 	width: 95px;
-	background-size:100%;
+	background-size:100% 100%;
 }
 .cont {
 	background: url(../images/bg.jpg);
@@ -664,7 +673,7 @@ font-size:3em;
 	position: absolute;
 	width: 0px;
 	height: 100%;
-	background-size:100%;
+	background-size:100% 100%;
 	z-index:1;
 }
 #epc,#ept,#epo,#epw{
@@ -708,23 +717,22 @@ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F58423), to(#EB4701))
 	border-radius:7px;
 }
 .tnam,.cnam,.onam,.wnam{
-font-family:heb;
-cursor:pointer;
-float:left;
-padding:0.25em;
-min-width:45%;
-text-align:center;
-font-size:2.5em;
+cursor:pointer !important;
+font-weight:bold;
 }
-.tnam{color:#66cc66;}
-.cnam{color:#66cccc;}
+.cnam,.tnam{
+font-size:1.5em;
+}
+/*.tnam{color:#66cc66;}
+.1cnam{color:#66cccc;}
 .onam{color:#EBB;}
-.wnam{color:#ff6666;}
+.wnam{color:#ff6666;}*/
 .cnam:hover,.tnam:hover,.wnam:hover,.onam:hover{
-	text-shadow: 2px 2px 1px #255;
+	text-shadow:5px 5px 5px #6d4a37;
+
 }
 .en{
-padding:0.35em 0;
+padding:0.2em 0;
 font-size:3em;
 text-align:center;
 background:#bbb;
@@ -763,3 +771,17 @@ overflow-x:hidden;
 .pt{
 height:10%;
 }
+.item{
+margin-left:4%;
+padding:0 2%;
+cursor:pointer;
+font-family:eve;
+}
+.cat{
+margin:0% 0 1% 8%;
+padding:1px 5px;
+font-family:eve;
+font-size:2em;
+width:50%;
+cursor:default;
+	}

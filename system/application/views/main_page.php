@@ -10,7 +10,7 @@
     <link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
 
     <!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
-    <script type='text/javascript' src='js/jquery-1.8.3.min.js'></script>
+    <script type='text/javascript' src='<? echo base_url(); ?>js/jquery-1.8.3.min.js'></script>
     <script>
       var tag = document.createElement('script');
       tag.src = "http://www.youtube.com/iframe_api";
@@ -34,13 +34,13 @@
       function stopVideo(){
         player.stopVideo();}
     </script>
-    <script type='text/javascript' src='js/jpreloader.min.js'></script>
-    <script type='text/javascript' src='js/jquery.easing.min.js'></script>
-    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <script type='text/javascript' src='js/infogrid.js'></script>
-    <script type='text/javascript' src='js/script.js'></script>
-    <script src="js/jquery.skitter.min.js"></script>
-    <script src="js/jquery.animate-colors-min.js"></script>
+    <script type='text/javascript' src='<? echo base_url(); ?>js/jpreloader.min.js'></script>
+    <script type='text/javascript' src='<? echo base_url(); ?>js/jquery.easing.min.js'></script>
+    <script type="text/javascript" src="<? echo base_url(); ?>js/jquery.hoverdir.js"></script>
+    <script type='text/javascript' src='<? echo base_url(); ?>js/infogrid.js'></script>
+    <script type='text/javascript' src='<? echo base_url(); ?>js/script.js'></script>
+    <script src="<? echo base_url(); ?>js/jquery.skitter.min.js"></script>
+    <script src="<? echo base_url(); ?>js/jquery.animate-colors-min.js"></script>
     </head>
     <body>
 <audio controls id="music" loop>
@@ -64,7 +64,8 @@
               <li>Technical</li>
               <li>Online</li>
               <li>Workshop</li>
-            </ul>
+            <!--  <li>Register<li>  -->            
+             </ul>
               </div>
           </span> </div>
       </dt>
@@ -176,45 +177,28 @@ ideas that one believes are right and hence realizing their true potential.</div
 <div class="list">
   <div id="cult">
     <div class="cont">
-<!--<table id="cultdata" border="0">
- <tr>
-    	<td><h1>FELICITY</h1>
-        <p>Are words always necessary to express yourself? Felicity is all about expressing your feelings
-through various forms of Drama.<br /><br /><br /></p></td>
-        <td><h1>RHAPSODY</h1>
-        <p>When their music plays the world dissolves, all that remains is just you, and their magic. You
-attain ultimate salvation when their music touches your life. Come along, discover the
-possibilities in Rhapsody the event for the new-age Beethoven like you.</p></td>
-    </tr>
-    <tr>
-    	<td><h1>FOOTLOOSE</h1>
-        <p>Can&acute;t stop your tapping when you listen to your favourite tune? Bingo then , because
-footloose brings you the perfect opportunity to portray your art. Be it salsa, hip-hop or fusion.
-Be a part of this mega event and keep the audience mesmerized by your graceful moves.</p></td>
-        <td><h1>NAACH</h1>
-        <p>Tired of dancing on these modern senseless tracks? Naach gives you the chance to explore
-your style of classical dance and show the audience that even today "OLD is GOLD" !!<br /><br /></p></td>
-    </tr>
-    <tr>
-    	<td><h1>PROSCENIUM</h1>
-        <p>A live audience, a story and a spotlight shinning in your face. If you were born to act, to
-enchant the audience with your charisma then a night full of wonderful plays awaits you.</p></td>
-        <td><h1>INSTINCT</h1>
-        <p>Ready. Set. Act. No lines, no scripts. Just you, the actor inside and the character
-you are to play. Awaken the actor within<br /><br /></p></td>
-    </tr>
-    <tr>
-    	<td><h1>NAIVETE</h1>
-        <p>Shakespeare said &quot;all the world&acute;s a stage and every man plays his part.&quot; The
-street is a platform and the actor face to face with the audience. Its all about
-coming alive and setting the streets on fire<br /><br /></p></td>
-        <td><h1>VIBERANT</h1>
-        <p>The soul of a movie is the story and stories are best told with the right voice. No
-faces, no senses just the voices of the character narrating their story. An old
-fashioned radio is all you need to experience that soulful sound of a movie.</p></td>
-    </tr>    </table>-->
+    <div>
+    <br><br>
+<div class="cat">Masquerade</div>
+    <span class="item cnam">Proscenium</span>
+    <span class="item cnam">Naivete</span>
+    <span class="item cnam">Instinct</span>
+    <span class="item cnam">Felicity</span>
+  	<div class="cat">Zing</div>
+    <span class="item cnam">Rhapsody</span>
+    <span class="item cnam">Hip Hop Street</span>
+    <span class="item cnam">Footloose</span>
+    <span class="item cnam">Naach</span>
+  	<div class="cat">Knotts N Crosses</div>
+    <span class="item cnam">HeadRush</span>
+    <span class="item cnam">JAM</span>
+    <span class="item cnam">Mizmaze</span>
+    <span class="item cnam">Parley</span>
+  	<div class="cat cnam">D Lounge</div>
+  	<div class="cat cnam">Synapcity</div>
     </div>
-        <div class="eventpop"><div id="epc">Close</div><div class="d"></div></div>
+    </div>
+        <div class="eventpop"><div class="en">f3e3f</div><div id="epc">Close</div><div class="d"></div></div>
         <div class="overlay"></div>
 
   </div>
@@ -222,33 +206,71 @@ fashioned radio is all you need to experience that soulful sound of a movie.</p>
 <div class="list">
   <div id="tech">
     <div class="cont">
+    <div style="overflow-x:auto;height:inherit;">
+        <br>
+	<div class="cat">Odyssey</div>
+    <span class="item tnam">Rekriti</span>
+    <span class="item tnam">Inc</span>
+  	<div class="cat">Nexus</div>
+    <span class="item tnam">Catechize</span>
+    <span class="item tnam">Web Unleashed</span>
+  	<div class="cat">Kernel</div>
+    <span class="item tnam">Algorythmus</span>
+    <span class="item tnam">Code Mutants</span>
+	    <span class="item tnam">Collaborate</span>
+    <span class="item tnam">Apps Dreamer</span>
+  	<div class="cat">Surge</div>
+    <span class="item tnam">Vista</span>
+    <span class="item tnam">Imagineer</span>
+    <span class="item tnam">Synapshot</span>
+    <span class="item tnam">Anzeige</span>
+    <span class="item tnam">PSD</span>
+  	<div class="cat">Overclock</div>
+    <span class="item tnam">Excogitate</span>
+    <span class="item tnam">Forage</span>
+  	<div class="cat">Battledrome</div>
+	<span class="item tnam">Counterstrike</span>
+    <span class="item tnam">NFS</span>
+    <span class="item tnam">Quake 3</span>
+    <span class="item tnam">Age of Empires</span>
+    <span class="item tnam">FIFA</span>
+    <span class="item tnam">DOTA</span> 
+        <br><br>        <br><br>   
+    </div>
 </div>
- <div class="eventpop"><div id="ept">Close</div><div class="d"></div></div>
+ <div class="eventpop"><div class="en"></div><div id="ept">Close</div><div class="d"></div></div>
   </div>
 </div>
 <div class="list">
   <div id="work">
-    <div class="cont">
+    <div class="cont"><div style="overflow-x:auto;height:inherit;"><br><br>
+    <div class="cat onam">Googlock Holmes</div>
+  	<div class="cat onam">CSI</div>
+  	<div class="cat onam">Solution</div>
+  	<div class="cat onam">Bullz Bear</div>
+  	<div class="cat onam">Crazy Ganith</div>
+  	<div class="cat onam">Team Twister</div>
+  	<div class="cat onam">Cozener</div></div>
     </div>
-              <div class="eventpop"><div id="epw">Close</div><div class="d"></div></div>
+              <div class="eventpop"><div class="en"></div><div id="epw">Close</div><div class="d"></div></div>
   </div>
 </div>
 <div class="list">
   <div id="online">
-    <div class="cont"></div>
-              <div class="eventpop"><div id="epo">Close</div><div class="d"></div></div>
+    <div class="cont">
+    <div style="width:100%;font-size:2em;position:relative;top:25%;text-align:center;">
+    Coming Soon
+    </div>
+    
+    </div>
+              <div class="eventpop"><div class="en"></div><div id="epo">Close</div><div class="d"></div></div>
   </div>
 </div></div>
 
 
 		</div>
       <div id="prodata" class="indata"> Coming Soon </div>
-      <div id="yrun" class="indata"><!--VISION
-Youth run provides a platform for the youth to get together and do something out of the
-daily routine. By making the youth change their lifestyle even for a day, we can say we bring
-about a change in the positive direction. Creating energy in the process, the run provides an
-opportunity to quit waiting for the ‘moment of glory’ and start working hard towards the
-ideas that one believes are right and hence realizing their true potential.--> </div>
+      <div id="yrun" class="indata"> </div>
       
       <div id="sponserdata" class="indata">
     <ul id="da-thumbs" class="da-thumbs">
@@ -362,6 +384,11 @@ ideas that one believes are right and hence realizing their true potential.--> <
       <div id="trail">
     <div id="player"></div>
   </div>
+  
+<!--  <div id="register">
+  <iframe id="reg" src="index.php/register" width="100%" height="100%" frameborder="0" ></iframe>
+  </div>-->
+  
     </div>
 <div id="mainclose"></div>
 <div id="credit" class="pop">

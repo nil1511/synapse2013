@@ -3,10 +3,14 @@
 	color: #36c;
 	font-weight: bolder;
 }
-
+a{
+text-decoration:none;
+padding:1% 0;	
+}
 .register-subnav {
+	color:#fff;
 	list-style-type: none;
-    width: 150px;
+    width: 30%;
     padding: 0 20px;
     float:left;
     display: inline;
@@ -14,7 +18,10 @@
 
 #register .register-subnav ul {
 	list-style-type: none;
+	padding:1% 0;	
+
 }
+
 
 .register-subnav span {
     padding: 0 0 10px 0;

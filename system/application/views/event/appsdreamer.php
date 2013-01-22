@@ -54,9 +54,9 @@ Prize Money :<font color="white"> Rs.5000</font>
 	<h2>Dates</h2>
 	<div class="pane">
 		<ul>
-			<li>Start Registration and Phase 1: 25th January, 2012</li>
-			<li>End of Phase 1: 23:59, 15th February, 2012</li>
-			<li>Result of Phase 1: sTo be declared</li>
+			<li>Start Registration and Phase 1: To be declared</li>
+			<li>End of Phase 1: To be declared</li>
+			<li>Result of Phase 1: To be declared</li>
 			<li>Start of Phase 2: To be declared</li>
 			<li>End of Phase 2: To be declared</li>
 			<li>Winners Announced: To be declared</li>
@@ -66,9 +66,9 @@ Prize Money :<font color="white"> Rs.5000</font>
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-		1) Smit Patel (+918866112580)<br>
-2) Brijesh Patel (+919662529440)<br>
-3) Gajendra Agrawal (+919724512205)<br>
+	<li>Dhaval Trivedi </li>
+	<li>Raikva Gandhi</li>
+
 </ul>
 	</div>
 </div>

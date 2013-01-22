@@ -12,5 +12,11 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
+	<ul>
+	<li>Vineet Pandey
+	<li>Abhishek Kumar
+	<li>Dhairya Rachh
+	</ul>
+
 	</div>
 </div>

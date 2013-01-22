@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(E_ALL);
 
 include_once("registrations_array.php");
 class Page extends Controller {
@@ -16,7 +19,7 @@ class Page extends Controller {
 	}
 	
 	function start_main_page($view)
-	{	echo $view;
+	{
 		$page = array();
 		$page["tarot_technical"] =  $this->load->view('tarots/technical', '',true);
 		$page["tarot_cultural"] =  $this->load->view('tarots/cultural', '',true);
@@ -42,7 +45,6 @@ class Page extends Controller {
 		$this->load->helper("registerlink");
 		$this->start_event_page($this->load->view('event/' . $event_name, '', true), $event_name);
 	}
-	
 	function start_event_page($event_body, $title)
 	{
 		$page = array();

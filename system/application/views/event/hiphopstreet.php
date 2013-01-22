@@ -70,10 +70,13 @@
 	</div>
 	
 	<h2>Co-ordinators</h2>
-	<div class="pane">Akansha Singh  7359473380   <a href="mailto:sweet.akansha@gmail.com" target="_blank">sweet.akansha@gmail.com</a><br />
-	  Kushagra  Jain  9016191135   <a href="mailto:udr.2050@gmail.com" target="_blank">udr.2050@gmail.com</a><br />
-	  Yash Luhadiya  7878778893   <a href="mailto:yluhadiya7@gmail.com" target="_blank">yluhadiya7@gmail.com</a><br />
-    Aakriti Varma   8000844191   <a href="mailto:aakritivrm147@gmail.com" target="_blank">aakritivrm147@gmail.com</a>
+	<div class="pane"><uL>
+	<li>Atur Somani
+<li>Nikhil Pritmani
+<li>Vishnu Meena
+<li>Saharsh Yaslaha
+
+	</uL>
     </div>
 	
 </div>

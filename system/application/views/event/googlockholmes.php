@@ -36,22 +36,10 @@
 	
   <h2>Co-ordinators</h2>
   	<div class="pane">
-  	  <table border="0" cellspacing="0" cellpadding="0" width="470">
-  	    <tr>
-  	      <td width="150" valign="top"><p>Anshul    Pahwa</p></td>
-  	      <td width="150" valign="top"><p>9016476928</p></td>
-  	      <td width="170" valign="top"><p><a href="mailto:anshul_pahwa@daiict.ac.in">anshul_pahwa@daiict.ac.in</a></p></td>
-        </tr>
-  	    <tr>
-  	      <td width="150" valign="top"><p>Anshul    Agrawal</p></td>
-  	      <td width="150" valign="top"><p>9377924080</p></td>
-  	      <td width="170" valign="top"><p><a href="mailto:anshul_a@daiict.ac.in">anshul_a@daiict.ac.in</a></p></td>
-        </tr>
-  	    <tr>
-  	      <td width="150" valign="top"><p>Chirag    Kandia</p></td>
-  	      <td width="150" valign="top"><p>9429571357</p></td>
-  	      <td width="170" valign="top"><p><a href="mailto:chirag_kandia@daiict.ac.in">chirag_kandia@daiict.ac.in</a></p></td>
-        </tr>
-      </table>
+  	<ul><li> Shantanu Jain 
+<li>Harsh Nisar 
+<li>Zubin Kapadia 
+<li>Mayank Hinger 
+</ul>
   	</div>
 </div>

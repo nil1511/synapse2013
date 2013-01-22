@@ -38,7 +38,7 @@
 		   <li>If the flag scores at the end of the time limit are equal, the clan having the most no. of frags will be declared winner.</li>
 		   <li>All participants should have valid college IDs.</li>
 		<li>Each clan should have exactly 4 members. Clan name and leader (along with his/her contact number) have to be specified during registration.</li>
-		<li>Each clan should register on the synapse website by midnight of 15th Feb 2012.</li>
+		<!--<li>Each clan should register on the synapse website by midnight of 15th Feb 2012.</li>-->
 		<li><h3>Registration fee is Rs. 100 for each clan.</h3></li>
 		<li>One participant can play from only 1 clan. If found otherwise, his/her clans will be automatically disqualified.</li>
 		<li>Fixtures will be circulated within few days after the registrations end.</li>

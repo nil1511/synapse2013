@@ -14,9 +14,12 @@
     <h2>Co-ordinators</h2>
     <div class="pane">
     	<ul>
-        	<li>Shivaraman Aiyer - (+919714811662)</li>
-			<li>Nityam Vakil - (+919825085160)</li>
-		
+        	<li>PRANAY  K. NERI 
+<li>PRATIK PATWARI 
+<li>VANDIT PATEL
+<li>ROSHNI ADDA 
+<li>MEGHNA TOLANI
+
         </ul>
     </div>
 </div>

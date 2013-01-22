@@ -72,7 +72,7 @@
     </div>
     <h2>Submission Details</h2>
     <div class="pane">
-      <p>Participating  teams must send a CD containing their movie and proper documentation explaining  their theme. They must send a copy of their <strong>College ID cards</strong> along with the CD. They can also submit their  movies by uploading them on any video hosting/video sharing sites like  You-tube, etc. They would then have to send an email containing the link(URL) for  the video, along with the document illuminating their theme and an image of  their College ID cards as attachments to <a href="mailto:vista.synapse2012@gmail.com">vista.synapse2012@gmail.com</a>. Subject  of the mail should contain submission &lt;team_name&gt; &lt;movie_name&gt;<br />
+      <p>Participating  teams must send a CD containing their movie and proper documentation explaining  their theme. They must send a copy of their <strong>College ID cards</strong> along with the CD. They can also submit their  movies by uploading them on any video hosting/video sharing sites like  You-tube, etc. They would then have to send an email containing the link(URL) for  the video, along with the document illuminating their theme and an image of  their College ID cards as attachments to <a href="mailto:vista.synapse2013@gmail.com">vista.synapse2013@gmail.com</a>. Subject  of the mail should contain submission &lt;team_name&gt; &lt;movie_name&gt;<br />
         Submission  can also be made personally to any of the event coordinators in a CD.<br />
         Entries  from outside are to be mailed to the address below:</p>
       <p><br />
@@ -85,17 +85,19 @@
         <strong>Important dates</strong><br />
         Participants  have to register through website before the deadline mentioned below.</p>
       <ul type="disc">
-        <li>Last       date to register:18th February 2012 By this date we must receive       a mail from you on <a href="mailto:vista.synapse2012@gmail.com">vista.synapse2012@gmail.com</a> regarding the confirmation of participation. Subject of mail should be -       Register &lt;team_name&gt; &lt;movie_name&gt; </li>
-        <li>Last       date of submission: 19th February 2012</li>
+<!--        <li>Last       date to register:18th February 2012By this date we must receive       a mail from you on <a href="mailto:vista.synapse2012@gmail.com">vista.synapse2012@gmail.com</a> regarding the confirmation of participation. Subject of mail should be -       Register &lt;team_name&gt; &lt;movie_name&gt; </li>
+        <li>Last       date of submission: 19th February 2012</li>--> 
       </ul>
     </div>
     <h2>Co-ordinators</h2>
     <div class="pane">
-      <p>E-mail: <a href="mailto:vista.synapse2012@gmail.com">vista.synapse2012@gmail.com</a>.<br />
-        Amandeep Singh Ghai     
-        +91-8866633501<br />
-        Aman Jain  	
-        +91-8866576324</p>
+<ul>
+<li>Mudit Jumnani
+<li>Shikha Chowdhary
+<li>Ritu Gatiyala
+<li>Ronit Patel
+
+</ul>
     </div>
     
 </div>

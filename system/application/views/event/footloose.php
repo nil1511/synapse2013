@@ -9,9 +9,9 @@
 		<p>Prize money worth Rs. 50000 to be won!</p>
 		<?= register_link(); ?>
 		
-		<p>There is a free walk-in workshop by Shiamak Davar Institute of Performing Arts. If you are interested, mail us at <span style="color:orange">synapse.footloose2012@gmail.com</span></p>
+		<p>There is a free walk-in workshop by Shiamak Davar Institute of Performing Arts. If you are interested, mail us at <span style="color:orange">synapse.footloose2013@gmail.com</span></p>
 		
-		<p>The final event will take place on 18th february, 2012 during 6:00pm to 9:00pm.</p>
+		<!--<p>The final event will take place on 28th february, 2013 during 6:00pm to 9:00pm.</p>-->
 	</div>
 	
 	<h2>Event structure</h2>
@@ -63,11 +63,12 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>Shubham Srivastava (+91-8905165067)</li>
-			<li>Adarsh Reddy (+91-9016371721)</li>
-			<li>Shrey Mehta (+91-8401972588)</li>
-			<li>Abhimanyu Garg (+91-8128668002)</li>
-			<li>Dharak Shah (+91-9427074174)</li>
+		<li>	Palash Jain
+<li>Mrunmayi Deshmukh
+<li>Ishita Agrawal
+<li>Vinayak Pandey
+<li>Karna Patel
+
 		</ul>
 	</div>
 	

@@ -15,11 +15,11 @@
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<ul>
-			<li>Registration and submission will begin from 20th January, 2012.</li>
+	<!--		<li>Registration and submission will begin from 20th January, 2012.</li>
 			<li>Registration and submission ends on 20th February, 2012.</li>
-			<li>Entries should be mailed to solution.synapse2012@gmail.com</li>
+			<li>Entries should be mailed to solution.synapse2012@gmail.com</li>-->
 		</ul>
-			OR
+			
 			<p>
 			Solution,<br>
 			002, Club House,<br>
@@ -35,12 +35,12 @@
 			<li>Participation is as individuals only.</li>
 			<li>Participants can explain the solution in three ways: </li>
 			<li>Pen and paper</li>
-			<li>E-mail: solution.synapse2012@gmail.com</li>
+			<li>E-mail: solution.synapse2013@gmail.com</li>
 			<li>In person</li>
 			<li>Plagiarism will result in disqualification.</li>
 			<li>The coordinators reserve the right to alter any rule with regard to the event and the same shall be updated on the website regularly.</li>
 			<li>Judges decision shall be deemed final and undisputed with regard to the selection of the winners.</li>
-			<li>For any queries mail <span style="color:orange">solution.synapse2012@gmail.com</span></li>
+			<li>For any queries mail <span style="color:orange">solution.synapse2013@gmail.com</span></li>
 		</ul>
 	</div>
 	
@@ -49,13 +49,11 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>Dharit Chokshi<br>
-				9033884453<br>
-				chokshi_dharit@daiict.ac.in</li>
+		<li>	Shrey Sanghvi
+<li>Aenik Shah 
+<li>Aagam Shah
+<li>Jigar Sharda
 
-			<li>Vivek Vaish<br>
-				8000078857<br>
-				vivek_vaish@daiict.ac.in</li>
 		</ul>
 	</div>
 

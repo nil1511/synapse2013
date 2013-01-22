@@ -1,3 +1,8 @@
+<style>
+#link a{
+padding:0 8%;	
+}
+</style>
 <?php
 if (isset($_GET['t'])||isset($_GET['d'])){
 	$s="";
@@ -44,8 +49,11 @@ $names=explode(':',$na[$_GET['d']]);
 	if(isset($cna[$_GET['d']]))
 $cnames=explode(':',$cna[$_GET['d']]);
 	$k1=str_replace('_',' ',$ev[$_GET['d']]);
+
 echo '<h1 class=en>'.$k1.'</h1>';
 echo '<div class=con>';
+echo '<div style="font-size:1.5em;text-align:center;" id="link"><a href="index.php/event/'.$k2.'" target="_blank">Go to Site</a>';
+echo '<a href="index.php/register/'.$k2.'" target="_blank">Register</a></div>';
 echo '<label class=eo>Co-ordinator</label>';
 	if(isset($na[$_GET['d']]))
 for($i=0;$i<sizeof($names);$i++)
