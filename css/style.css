@@ -275,6 +275,7 @@ color:#ef3c39;}
 	box-shadow: 0px 0px 15px 7px #000;
 	visibility: collapse;
 	height: 80%;
+	z-index:30;
  #-webkit-animation-name: greenPulse;
  #-webkit-animation-duration: 2s;
  #-webkit-animation-iteration-count: infinite;
@@ -633,7 +634,7 @@ font-size:3em;
 #cult {
 	position: relative;
 	left: 0px;
-	background: url(../images/1.png) center center no-repeat;
+	background: url(../images/1.jpg) center center no-repeat;
 	height: 100%;
 	width: 95px;
 	background-size:100% 100%;
@@ -647,7 +648,7 @@ height:100%;
 	position: relative;
 	left: 0px;
 	height: 100%;
-	background: url(../images/2.png) center center no-repeat;
+	background: url(../images/2.jpg) center center no-repeat;
 	width: 95px;
 	background-size:100% 100%;
 }
@@ -655,7 +656,7 @@ height:100%;
 	position: relative;
 	left: 0px;
 	height: 100%;
-	background: url(../images/3.png) center center no-repeat;
+	background: url(../images/3.jpg) center center no-repeat;
 	background-size:100% 100%;
 	width: 95px;
 }
@@ -663,12 +664,12 @@ height:100%;
 	position: relative;
 	left: 0px;
 	height: 100%;
-	background: url(../images/4.png) center center no-repeat;
+	background: url(../images/4.jpg) center center no-repeat;
 	width: 95px;
 	background-size:100% 100%;
 }
 .cont {
-	background: url(../images/bg.jpg);
+	background: url(../images/bg.gif);
 	display: inline-block;
 	position: absolute;
 	width: 0px;
