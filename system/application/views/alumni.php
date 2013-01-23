@@ -8,11 +8,8 @@
 
 <style>
 body {
-    background-color: #590209;
-    color: #F2B705;
-}
-#main-content {
-    height: 700px;
+    background-color: #0d0d0d;
+    color: #fff;
 }
 
 </style>

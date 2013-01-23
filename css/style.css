@@ -33,19 +33,14 @@ width:20%;
 #syn {
 	font-family:hp;
 	position: absolute;
-	'background: url(../images/synapse2.png) no-repeat;
 	color:#592241;
 	font-size:6em;
 	top: 22%;
 	left: 35%;
-	'width: 372px;
-	'height: 136px;
 	visibility:collapse;
 }
 #syn1 {
-
 	position: absolute;
-	'background: url(../images/synapse3.png) no-repeat;
 	color:#592241;
 	top: 16%;
 	left: 35%;
@@ -143,10 +138,11 @@ cursor:pointer;
 }
 #content {
 	position: absolute;
- #margin:25% auto;
+/* #margin:25% auto;
+ #font-size:10em;*/
 	width: 100%;
 	text-align: center;
- #font-size:10em;
+
 	visibility: collapse;
 }
 @keyframes myfirst {
@@ -179,10 +175,8 @@ top:0px;
 #presents {
 	width: 100%;
 	height: 100%;
-	!background:#0d0d0d;
 	background: url(../images/synapse.jpg) center center no-repeat;
 	background-size:100%;
-#visibility:collapse;
 }
 #topLoader {
 position:absolute;
@@ -255,8 +249,7 @@ color:#ef3c39;}
 	background: #0d0d0d;
 	font-family: "Segoe UI";
 	display: inline-block;
-	width: 120px;
-	font-size: 1.5em;
+	padding:0% 1%;
 	margin: 0px -5px 0px 0px;
 	text-align: center;
 	cursor: pointer;
@@ -276,9 +269,6 @@ color:#ef3c39;}
 	visibility: collapse;
 	height: 80%;
 	z-index:30;
- #-webkit-animation-name: greenPulse;
- #-webkit-animation-duration: 2s;
- #-webkit-animation-iteration-count: infinite;
 }
 #gallery {
 	width: 800px;
@@ -298,7 +288,6 @@ color:#ef3c39;}
 	float: left;
 	border-right: 2px thick #999;
 	margin: 4% 0% 0% 0%;
-#background:#4fa601;
 }
 tr {
 	height: 40px;
@@ -474,9 +463,9 @@ td {
 	border-top: 20px solid transparent;           /* Go big on the size, and let overflow hide */
 	border-bottom: 20px solid transparent;
 	border-left: 30px solid hsla(34,85%,35%,1);
- #margin: -20% 0% 0% -5%;
+/* #margin: -20% 0% 0% -5%; #left: 50%;
+*/
 	position: relative;
- #left: 50%;
 	z-index: 2;
 }
 #mainclose {

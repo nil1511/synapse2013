@@ -11,8 +11,8 @@
 </head>
 <style>
 body {
-    background-color: #005545;
-    color: #DBD81E;
+    background-color: #0d0d0d;
+    color: #fff;
 }
 
 </style>

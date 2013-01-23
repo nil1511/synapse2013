@@ -5,9 +5,6 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Events | <? echo $event_title; ?></title> 
-	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>css/skitter.styles.css" media="screen" />
-	
-	<script type="text/javascript" src="<?= base_url(); ?>js/jquery-1.8.3.min.js"></script>
 	<script>
     	$(function() { 
 		$("#accordion > h2").click(function(e) {
