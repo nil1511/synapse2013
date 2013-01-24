@@ -25,10 +25,6 @@
 <li>Meghana Jain
 <li>Apurva Singhai
 <li>Prerna Garg
-
-	
 	</ul>
-    </div>
- 
-    
+    </div>    
 </div>

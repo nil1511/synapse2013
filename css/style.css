@@ -763,15 +763,22 @@ height:10%;
 }
 .item{
 margin-left:4%;
-padding:0 2%;
+padding:0 0 0 2%;
 cursor:pointer;
+font-size:2em;
 font-family:eve;
 }
 .cat{
-margin:0% 0 1% 8%;
-padding:1px 5px;
+margin:0.5% 0 0.5% 8%;
+padding:1px  0 0 5px;
 font-family:eve;
-font-size:2em;
+font-size:2.25em;
 width:50%;
 cursor:default;
-	}
+}
+.sub{
+position:relative;
+top:15px;
+left:-10px;
+font-size:0.75em;	
+}
