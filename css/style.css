@@ -254,6 +254,7 @@ color:#ef3c39;}
 	text-align: center;
 	cursor: pointer;
 	color: #FFF;
+	font-size:1.5em;
 	font-weight: bolder;
 }
 .pop {
@@ -658,7 +659,7 @@ height:100%;
 	background-size:100% 100%;
 }
 .cont {
-	background: url(../images/bg.gif);
+	background: url(../images/bg.png);
 	display: inline-block;
 	position: absolute;
 	width: 0px;
@@ -763,11 +764,11 @@ height:10%;
 }
 .item{
 margin-left:4%;
-padding:0 0 0 2%;
 cursor:pointer;
-font-size:2em;
+font-size:2.2em;
 font-family:eve;
 }
+
 .cat{
 margin:0.5% 0 0.5% 8%;
 padding:1px  0 0 5px;
@@ -776,9 +777,47 @@ font-size:2.25em;
 width:50%;
 cursor:default;
 }
+#cult .cat,#tech .cat{
+margin:1.5% 0 -1.5% 3%;
+padding:0px;
+font-weight:bold;
+font-size:2.9em;
+}
 .sub{
 position:relative;
-top:15px;
-left:-10px;
+top:20px;
+left:-45px;
 font-size:0.75em;	
+}
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+height: 30px;
+display: block;
+background-color: transparent;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: #3b3b3b;
+-webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 50px;
+background-color: #666;
+border: 1px solid #eee;
+-webkit-border-radius: 6px;
+}
+#cult .cat{
+color:#B22222;	
+}
+#tech .cat{
+color:#000066;	
+}
+#work .cat{
+color:#336600;
+}
+#online .cat{
+color:#660033;
 }

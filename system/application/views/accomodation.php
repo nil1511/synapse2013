@@ -14,7 +14,13 @@ body {
     background-color: #0d0d0d;
     color: #fff;
 }
-
+#logo{
+	background:url('<?= base_url(); ?>images/DAIICT.png');
+	width:200px;
+	height:200px;
+	position:absolute;
+	right:20%;
+	}
 </style>
 
 
@@ -48,7 +54,7 @@ on a <strong>first come, first served</strong> basis.
 <table border="1">
 <tr>
 <th>No. of days</th>
-<th>Cost/person/day</th>
+<th>Cost/person</th>
 </tr>
 
 <tr>
@@ -72,7 +78,7 @@ Please fill in the form so our hospitality team can contact you. Thanks!
 </p>
 
 </div>
-
+<div id="logo"></div>
 <div id="col2">
 
 <table id="personal-details" cellspacing="20">

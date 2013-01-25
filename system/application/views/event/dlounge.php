@@ -26,12 +26,12 @@ there!
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-<li>Naman Gupta
-<li>Sushant Pritmani
-<li>Abhishek William
-<li>Kumar Shrey
+<li>Naman Gupta - 8000276347
+<li>Sushant Pritmani - 7659450725
+<li>Abhishek William - 7405279464
+<li>Kumar Shrey - 8690036413
 <li>Aditya Paliwal
-<li>Yasir Rentiya
+<li>Yasir Rentiya - 9924968600
 </ul>
 	</div>
 	

@@ -6,12 +6,12 @@
 		<p>
 		Can't stop your foot tapping when you listen to your favorite tune? Bingo then, because footloose brings you the perfect opportunity to portray your art, be it salsa, hip-hop or fusion. Be a part of this mega event and keep the audience mesmerized by your graceful moves. Just let your ?foot loose? in the cosmos of dance, and create history with your captivating rendition.
 		</p>
-		<p>Prize money worth Rs. 50000 to be won!</p>
+		<p>Prize money worth Rs. 50,000 to be won!</p>
 		<?= register_link(); ?>
 		
-		<p>There is a free walk-in workshop by Shiamak Davar Institute of Performing Arts. If you are interested, mail us at <span style="color:orange">synapse.footloose2013@gmail.com</span></p>
+		<p>There is a free walk-in workshop by Shiamak Davar Institute of Performing Arts. If you are interested, mail us at <span style="color:orange">footloose.synapse2013@gmail.com</span></p>
 		
-		<!--<p>The final event will take place on 28th february, 2013 during 6:00pm to 9:00pm.</p>-->
+		<p>The final event will take place on 2nd March, 2013 during 5:00P.M.</p>
 	</div>
 	
 	<h2>Event structure</h2>
@@ -63,12 +63,11 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-		<li>	Palash Jain
+<li>Karna Patel - 9925685767
+<li>Palash Jain - 8460428583
 <li>Mrunmayi Deshmukh
-<li>Ishita Agrawal
+<li>Ishita Agrawal - 7878778803
 <li>Vinayak Pandey
-<li>Karna Patel
-
 		</ul>
 	</div>
 	

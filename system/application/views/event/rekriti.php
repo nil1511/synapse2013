@@ -21,7 +21,7 @@
     <h2>Co-ordinators</h2>
     <div class="pane">
 	<ul>
-	<li>Swena Gupta
+	<li>Swena Gupta - 9624118722
 <li>Meghana Jain
 <li>Apurva Singhai
 <li>Prerna Garg

@@ -71,9 +71,9 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane"><uL>
-	<li>Atur Somani
-<li>Nikhil Pritmani
-<li>Vishnu Meena
+	<li>Atur Somani - 8000340569
+<li>Nikhil Pritmani - 9429937349
+<li>Vishnu Meena - 7359468604
 <li>Saharsh Yaslaha
 
 	</uL>

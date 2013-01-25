@@ -49,9 +49,7 @@
     <h2>Co-ordinators</h2>
     <div class="pane">
 		<ul>
-			<li>Prit Dalsania  -   9687981969</li>
-			<li>Himanshu Patel  -   9601707058</li>
-			<li>Shivam Khare    -   8000302101</li>
+			<li>Pratik Joshi - 9712385086</li>
 		</ul>
     </div>
  </div>

@@ -51,11 +51,10 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	 <ul><li>SWATI JHAWAR
- <li>ANJALI SHASTRI
- <li>RIA GUPTA
-<li>YESHA SHAH
-
+	 <ul><li>Swati Jhawar - 8511250640
+ <li>Anjali Shastri
+ <li>Ria Gupta
+<li>Yesha Shah - 9898447511
 </ul>
 	</div>
 	

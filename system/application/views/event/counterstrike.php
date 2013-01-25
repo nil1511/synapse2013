@@ -39,10 +39,7 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	  <p>Udit Shastri       : 9558823110<br />
-	    Shaurya Garg    : 9016472817<br />
-	    Jay Oza               : 9879209861<br />
-	    Eshwar Kosuri   : 9601999336<br />
-        Dhruv  Rawal      :  9913766412</p>
+	  Achal Seksaria : 9910988339<br />
+	    Sausktha Saxena : 7405129183<br />
   </div>
 </div>

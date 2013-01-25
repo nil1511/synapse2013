@@ -33,11 +33,9 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-
-<li>Swarnim Vyas 
-<li>Aman Grover 
+<li>Swarnim Vyas - 7878778890
+<li>Aman Grover - 9727257337
 <li>Harshita Bhatnagar
-<li>And team
 </ul>
 	</div>
 </div>

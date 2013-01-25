@@ -11,7 +11,13 @@ body {
     background-color: #0d0d0d;
     color: #fff;
 }
-
+#logo{
+	background:url('<?= base_url(); ?>images/DAIICT.png');
+	width:200px;
+	height:200px;
+	position:absolute;
+	right:20%;
+	}
 </style>
 
     <title>Synapse Alumni</title>
@@ -54,7 +60,7 @@ Your small gesture means the world to us. Help us in associating the alumni with
 </p>
 
 </div>
-
+<div id="logo"></div>
 <div id="col2">
 
 <table id="personal-details" cellspacing="20">
