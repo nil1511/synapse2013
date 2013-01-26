@@ -15,18 +15,20 @@ body {
     color: #fff;
 }
 #logo{
-	background:url('<?= base_url(); ?>images/DAIICT.png');
-	width:200px;
-	height:200px;
-	position:absolute;
-	right:20%;
+	background:url('<?= base_url(); ?>images/DAIICT2.png') no-repeat;
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:10%;
+	top:0;
+	left:70%;
+	padding:0;
 	}
 </style>
 
-
+<div id="logo"></div>
 <body>
-
-<div id="wrapper">
+<div id="wrapper" style="width:70%;">
 <div id="main-content">
 
 <?php if( $success ): ?>
@@ -78,7 +80,6 @@ Please fill in the form so our hospitality team can contact you. Thanks!
 </p>
 
 </div>
-<div id="logo"></div>
 <div id="col2">
 
 <table id="personal-details" cellspacing="20">

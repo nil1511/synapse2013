@@ -10,22 +10,25 @@
 body {
     background-color: #0d0d0d;
     color: #fff;
-}
-#logo{
-	background:url('<?= base_url(); ?>images/DAIICT.png');
-	width:200px;
-	height:200px;
-	position:absolute;
-	right:20%;
+}#logo{
+	background:url('<?= base_url(); ?>images/DAIICT2.png') no-repeat;
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:10%;
+	top:0;
+	left:70%;
+	padding:0;
 	}
 </style>
 
-    <title>Synapse Alumni</title>
+<div id="logo"></div>
+  <title>Synapse Alumni</title>
 
 </head>
 <body>
 
-<div id="wrapper">
+<div id="wrapper" style="width:70%;">
 <div id="main-content">
 
 <?php if( $success ): ?>
@@ -41,8 +44,9 @@ are on the <a href="http://synapse.daiict.ac.in">Synapse website</a>.</p>
 <div id="col1">
 
 <p>
-We the students of DA-IICT, Gandhinagar take immense pleasure in inviting you, that is the college's alumni to your alma mater's annual techno-cultural festival &mdash; Synapse. Synapse 2013 is being organised during 28th February, 2013-3rd March. This student run festival has, over the past seven years since its inception, grown by leaps and bounds every year to acquire the status of one of the leading college fests of India.
-In a nation which lives and breathes cinema, this year we bring Synapse to you in a never seen before avatar of &ldquo;The Carnival!&rdquo;.
+<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We the students of DA-IICT, Gandhinagar take immense pleasure in inviting you, that is the college's alumni to your alma mater's annual techno-cultural festival &mdash; Synapse. Synapse 2013 is being organised during 28th February, 2013-3rd March. This student run festival has, over the past seven years since its inception, grown by leaps and bounds every year to acquire the status of one of the leading college fests of India.
+In a nation which lives and breathes cinema, this year we bring Synapse to you in a never seen before avatar of &ldquo;Magic and Spells..&rdquo;.
 For quite some time now, we've been interacting with some of our alumni who wish to contribute towards Synapse but don't find a channel to do the same. This portal is also a step in that direction. It allows you to support Synapse from the convenience of your home, college or workplace. The idea is to keep all monetary transactions online.
 </p>
 
@@ -60,7 +64,6 @@ Your small gesture means the world to us. Help us in associating the alumni with
 </p>
 
 </div>
-<div id="logo"></div>
 <div id="col2">
 
 <table id="personal-details" cellspacing="20">
@@ -110,20 +113,12 @@ Your small gesture means the world to us. Help us in associating the alumni with
 <td>
 <?= form_textarea( array('name' => 'address', 'rows' => 7, 'cols' => 17), ''); ?>
 </td>
-</tr>
-
-<tr>
 <td>
 <?= form_label( 'T-shirt Size', 'tsize' ); ?>
 <br><span class="sublabel">So it fits</span>
 </td>
 <td>
 <?= form_dropdown( 'tsize', array('S' => 'Small', 'M' => 'Medium', 'L' => 'Large', 'X' => 'Extra Large'), 'L'); ?>
-</td>
-</tr>
-
-<tr>
-<td>
 </td>
 <td>
 <?= form_submit( 'submit', 'Submit' );?>
