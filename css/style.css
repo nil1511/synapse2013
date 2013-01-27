@@ -90,52 +90,6 @@ font-size:1.5em;
 text-transform:uppercase;
 cursor:pointer;	
 }
-.ribbon-wrapper-green {
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-	position: absolute;
-	top: 0px;
-	left: -15px;
-}
-.ribbon-green {
-	font: bold 15px Sans-Serif;
-	color: #333;
-	text-align: center;
-	text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	position: relative;
-	padding: 8px 0;
-	left: -25px;
-	top: 10px;
-	background-color: #BFDC7A;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
-	background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
-	background-image: -moz-linear-gradient(top, #BFDC7A, #8EBF45);
-	background-image: -ms-linear-gradient(top, #BFDC7A, #8EBF45);
-	background-image: -o-linear-gradient(top, #BFDC7A, #8EBF45);
-	color: #6a6340;
-	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-	box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-}
-.ribbon-green:before, .ribbon-green:after {
-	content: "";
-	border-bottom: 3px solid #6e8900;
-	border-left: 3px solid transparent;
-	border-right: 3px solid transparent;
-	position: absolute;
-	bottom: -3px;
-}
-.ribbon-green:before {
-	right: 0;
-}
-.ribbon-green:after {
-	left: 0;
-}
 #content {
 	position: absolute;
 /* #margin:25% auto;
@@ -342,7 +296,10 @@ tr td {
 	color: #FFF;
 	background: #169998;
 }
-#sponserdata {
+#sponserdata12 {
+	display: none;
+}
+#sponserdata13 {
 	display: none;
 }
 #trail {
@@ -374,7 +331,7 @@ ul#proniteslabels li:hover {
 .indata {
 	display: none;
 }
-#viewsponsor:hover{
+#viewsponsor12:hover,#viewsponsor13:hover{
 color:#F90;
 }
 #hospital:hover:after {
@@ -569,31 +526,31 @@ padding:0px 0 0 20px;
 	border-right: 1px solid white;
 }
 #aboutus {
-	box-shadow: black 0px 0px 0px 1px inset;
+	box-shadow: #0d0d0d 0px 0px 10px 3px inset;
 	background: url(../images/about2.jpg) center center no-repeat;
 	height: 450px;
 background-size:cover;
 }
 #sponsors {
-	box-shadow: black 0px 0px 0px 1px inset;
+	box-shadow: #0d0d0d 0px 0px 10px 3px inset;
 	background: url(../images/sponsor1.jpg) right top no-repeat;
 	height: 300px;
 	background-size:cover;
 }
 #events {
-	box-shadow: black 0px 0px 0px 1px inset;
+	box-shadow: #0d0d0d 0px 0px 10px 3px inset;
 	background: url(../images/event1.jpg) top center no-repeat;
 	height: 450px;
 	background-size:cover;
 }
 #pronites {
-	box-shadow: black 0px 0px 0px 1px inset;
+	box-shadow: #0d0d0d 0px 0px 10px 3px inset;
 	background: url(../images/pronite.jpg) center center no-repeat;
 	height: 450px;
 	background-size:cover;
 }
 #teasar {
-	box-shadow: black 0px 0px 0px 1px inset;
+	box-shadow: #0d0d0d 0px 0px 10px 3px inset;
 	background: url(../images/t1.jpg) right center no-repeat;
 	height: 200px;
 	background-size:cover;
@@ -670,10 +627,14 @@ height:100%;
 #epc,#ept,#epo,#epw{
 -moz-border-radius:5px;
 -webkit-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
 border-radius:5px;
 
 -moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.6);
 -webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.6);
+-ms-box-shadow:0 1px 0 rgba(0, 0, 0, 0.6);
+-o-box-shadow:0 1px 0 rgba(0, 0, 0, 0.6);
 box-shadow:0 1px 0 rgba(0, 0, 0, 0.6);
 
 background: -moz-linear-gradient(19% 75% 90deg, #FF4D01, #FF8924);
@@ -820,4 +781,11 @@ color:#336600;
 }
 #online .cat{
 color:#660033;
+}
+.pane ol,.pane ul{
+list-style-type:disc;
+list-style-position:inside;
+}
+.pane p{
+padding-bottom:15px;
 }

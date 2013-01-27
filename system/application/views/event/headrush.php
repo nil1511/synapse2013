@@ -8,12 +8,7 @@
 		</p>
 		<?= register_link(); ?>
 	</div>
-	
-	<h2>Sponsors</h2>
-	<div class="pane">
-	announcing soon !
-	</div>
-	
+		
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<p>Based on the performance in the prelims, 6 teams would qualify to the main rounds. </p>

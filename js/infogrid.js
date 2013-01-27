@@ -176,13 +176,18 @@ $('.close').click(function(e) {
 		
 		}
 	
-	$("#viewsponsor").click(function(e) {
+	$("#viewsponsor12").click(function(e) {
 	c('main');
 	$('.data,.clo').hide();
 	opendoor();	
-	$("#sponserdata").fadeIn();
+	$("#sponserdata12").fadeIn();
     });
-	
+	$("#viewsponsor13").click(function(e) {
+	c('main');
+	$('.data,.clo').hide();
+	opendoor();	
+	$("#sponserdata13").fadeIn();
+    });
 /*	$("#register").click(function(e) {
 	c('main');
 	$('.data,.clo').hide();
@@ -579,6 +584,10 @@ $('.close').click(function(e) {
 							window.open('http://synapse.daiict.ac.in/inc2013/','_blank');
 							return;
 							}
+							if(a=='Rekriti'){
+							window.open('http://synapse.daiict.ac.in/rekriti/','_blank');
+							return;
+							}
 
 					var b=a.replace(/ /g,"");		
 							b=b.toLowerCase();
@@ -607,13 +616,14 @@ $('.close').click(function(e) {
 					var a=e.currentTarget.innerHTML;
 										if(a.search('<label')!=-1)
 							a=a.substr(0,a.search('<label'));
-							$('#work .en').html(b);
+							var c =a;
 							a=a.replace(/ /g,"");
 							if(a=='TeamTwister'){
 							window.open('http://synapse.daiict.ac.in/teamtwister/','_blank');
 							return;
 							}
-							var b=a.replace(/ /g,"");		
+							var b=a.replace(/ /g,"");	
+							$('#work .en').html(c);
 							b=b.toLowerCase();
 							$("#work .d").html('<div style="text-align:center;font-size:1.5em;padding:5% 0;">Loading...');
 							$("#work .d").load('index.php/event/'+b);	

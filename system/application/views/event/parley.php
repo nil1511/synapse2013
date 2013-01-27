@@ -29,8 +29,8 @@
     <div class="pane">
 	<ul>
 		<li>Akshay Ratan
-<li>AYognik Baghel
- <li>AShubham Srivastava
+<li>Yognik Baghel
+ <li>Shubham Srivastava
 
 	</ul>
    </div>

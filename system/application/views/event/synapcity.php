@@ -14,11 +14,11 @@
     <h2>Co-ordinators</h2>
     <div class="pane">
     	<ul>
-        	<li>PRANAY  K. NERI 
-<li>PRATIK PATWARI 
-<li>VANDIT PATEL
-<li>ROSHNI ADDA 
-<li>MEGHNA TOLANI
+<li>Pranay  Kumar
+<li>Pratik Patwari 
+<li>Vandit Patel
+<li>Roshni Adda 
+<li>Meghna Tolani
 
         </ul>
     </div>

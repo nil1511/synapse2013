@@ -12,21 +12,23 @@
 		<p><strong>GET LIVE AND START PLAYING</strong></p>
 
 		<p>For playing click on the link given below, enter user name and password and when it ask for the account click on the "bullzbear account".
-		if it does not ask for the account or "bullzbear account" is not visible then you are not registered for BullzBear. Please register by just clicking on the second link of registration process.</p>
-
-		<a onclick="window.open(this.href); return false;" href="http://www.khelostocks.com/indian/sharemarket/stocks/showTrade.html">http://www.khelostocks.com/indian/sharemarket/stocks/showTrade.html</a>
+		if it does not ask for the account or "bullzbear account" is not visible then you are not registered for BullzBear.<!-- Please register by just clicking on the second link of registration process.-->Coming Soon</p>
+					
+	<!--	<a onclick="window.open(this.href); return false;" href="http://www.khelostocks.com/indian/sharemarket/stocks/showTrade.html">http://www.khelostocks.com/indian/sharemarket/stocks/showTrade.html</a>-->
 	</div>
 	
 	<h2>Sponsors</h2>
 	<div class="pane">
-		<a href="http://www.khelostocks.com"><img border="0" src="<?= base_url(); ?>images/bb_sponsor.jpg"></a>
+		<!--<a href="http://www.khelostocks.com"><img border="0" src="<?= base_url(); ?>images/bb_sponsor.jpg"></a>-->
+		Angel Broking
 	</div>
 	
 	<h2>Registration</h2>
 	<div class="pane">
+	Coming Soon
 	<!--	<p>Registration starts from 13th February, 2013!</p>-->
 
-		<p>For Registration, go through the following steps:</p>
+		<!--<p>For Registration, go through the following steps:</p>
 
 		<p>NOTE: No need to give gmail account id when it is asked just leave that page and click on the second link</p>
 
@@ -34,7 +36,7 @@
 				 <a onclick="window.open(this.href); return false;" href="http://www.khelostocks.com/indian/sharemarket/stocks/signIn.html">http://www.khelostocks.com/indian/sharemarket/stocks/signIn.html</a></p>
 
 		<p>And, now join BullzBear by clicking on the link given below:<br>
-				 <a onclick="window.open(this.href); return false;" href="http://www.khelostocks.com/stocks/india/trading/contest/join/245">http://www.khelostocks.com/stocks/india/trading/contest/join/245</a></p>
+				 <a onclick="window.open(this.href); return false;" href="http://www.khelostocks.com/stocks/india/trading/contest/join/245">http://www.khelostocks.com/stocks/india/trading/contest/join/245</a></p>-->
 	</div>
 	
 	<h2>Event Structure</h2>
@@ -51,7 +53,7 @@
 			<li>The participants would be competing for the top 2 winner positions and 5 consolation positions.</li>
 		</ul>
 
-	   <p><strong>Prize Money worth Rs. 40,000+ in terms of cash and gift vouchers are at stake.</strong></p>
+	   <p><strong>Prize Money worth Rs. 5,000+ in terms of cash and gift vouchers are at stake.</strong></p>
 	</div>
 	
 	<h2>Rules</h2>
@@ -80,7 +82,7 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-	<li>Abhinav Tripathi (201101001)
+	<li>Abhinav Tripathi - 8866139500
 	<li>Aenik Shah
 </ul>
 	</div>

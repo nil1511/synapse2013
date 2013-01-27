@@ -29,8 +29,8 @@
 <ul>
 <li>	Event will be held in two categories both independent of each other.
 <li>	In category I, participants can send any photographs of their choice.
-<li>	In category II, only photos shot during Synapse 2012 should be submitted.
-<li>	Mail your entries to <a href="mailto:synapshot2013@gmail.com">synapshot2012@gmail.com</a>
+<li>	In category II, only photos shot during Synapse 2013 should be submitted.
+<li>	Mail your entries to <a href="mailto:synapse.synapshot@gmail.com">synapse.synapshot@gmail.com</a>
 </ul>
     </div>
     
@@ -42,7 +42,7 @@
 		<li>Minor digital enhancement is acceptable, but borders, frames, special filters, 	text, copyright,    watermarks or signatures are not permitted.</li>
 		<li>All images must be submitted digitally as JPEG files.</li>
 		<li>Photos mailed should be accompanied with full details regarding the title of the photograph, name  of the participant, email id, college name and location.</li>
-		<li>Mail your entries to <a href="mailto:synapshot2012@gmail.com">synapshot2012@gmail.com</a> before <b>23:59:59, Feb 16th, 2012 </b>for Phase I and before <b>23:59:59, Feb 22th, 2012</b> for Phase II.</li>
+		<li>Mail your entries to <a href="mailto:synapse.synapshot@gmail.com">synapse.synapshot@gmail.com</a> before <b>23:59:59, Feb 27th, 2012 </b>for Phase I and before <b>23:59:59, March 5th, 2012</b> for Phase II.</li>
 		</ul>  
     </div>
     

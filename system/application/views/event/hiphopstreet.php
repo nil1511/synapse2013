@@ -6,8 +6,9 @@
 		<p>
 		B-boying , popping , locking , Mcing , rapping , Djing , grafiti #the list is endless. Have you also been bitten by the Hip-Hop bug then join us in "the hip hop street" which is going to mesmerize the crowds this time around in Synapse.Have you got in you too show the world how "hip" you are and can you make the crowds "hop" to your beats. If you are upto the challenge the "the hip hop street" is the place to be this Synapse.   
 		</p>
-
+		<br />
 		<?= register_link(); ?>
+		<p>Mail us at <span style="color:orange">hiphop.synapse13@gmail.com</span></p>
 	</div>
 	
 	<h2>Event Structure</h2>
@@ -74,7 +75,7 @@
 	<li>Atur Somani - 8000340569
 <li>Nikhil Pritmani - 9429937349
 <li>Vishnu Meena - 7359468604
-<li>Saharsh Yaslaha
+<li>Saharsh Yaslaha - 9824362633
 
 	</uL>
     </div>

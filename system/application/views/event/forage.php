@@ -12,7 +12,7 @@
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
-		<p>The event will be held on the second day of Synapse (18th  Feb &lsquo;12) from 1 30 pm to 3 30 pm. The problem statement and materials will be  given to each team on the spot, using which the model will have to be  constructed. The team will have 2hrs to prepare the model.<br />
+		<p>The event will be held on the second day of Synapse (2nd  March &lsquo;13) from 1 30 pm to 3 30 pm. The problem statement and materials will be  given to each team on the spot, using which the model will have to be  constructed. The team will have 2hrs to prepare the model.<br />
 Registrations can be done online
 <!--Registrations are open up till <b>16th  Feb &lsquo;12</b>. On the spot registrations will also be accepted.--></div>
 	

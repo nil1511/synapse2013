@@ -12,7 +12,7 @@
 		  ? Age Of Empires II ? The Conquerors.
 		  Fight out your enemies on the virtual battlefield in Battledrome 2013.
 		</p>
-
+        
 		<?= register_link(); ?>
 	</div>
 	
