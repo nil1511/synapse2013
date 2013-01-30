@@ -374,14 +374,14 @@ $('.close').click(function(e) {
     });*/
 	$("#ram").mouseover(function(e) {
 		$("#pnd").show();
-       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Divy Thakkar - <br>Shivani Thakkar - <br>Sakshi Gupta - +91-9737538623");
+       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Divy Thakkar - <br>Shivani Thakkar - <br>Sakshi Gupta - +91-9737538623<br>Utkarsh Bhatla");
     });
 	$("#rag").mouseover(function(e) {
 				$("#pnd").show();
-       $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br> ");
+       $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br>Kaushal Parmar<br>Tapan Kumar<br>Moxad Thakar<br>Ankit Sharma ");
     });
 	$("#cyn").mouseover(function(e) {		$("#pnd").show();
-       $("#pnd").html("<p>Stars brighten up the night. But the kind cynosure offer can set the night ablaze. The celebrity walks up to the stage amidst loud cheers from the crowd. The next few hours of the night will leave you mesmerized, for sure . The Raghu Dixit Project, Agnee , Indian Ocean , Aditya Narayan , Tochi Raina and still counting…</p><br>Date : <br>Co-Ordinators : <br>");
+       $("#pnd").html("<p>Stars brighten up the night. But the kind cynosure offer can set the night ablaze. The celebrity walks up to the stage amidst loud cheers from the crowd. The next few hours of the night will leave you mesmerized, for sure . The Raghu Dixit Project, Agnee , Indian Ocean , Aditya Narayan , Tochi Raina and still counting…</p><br>Date : <br>Co-Ordinators :<br>Himanshu Singhal<br>Bansari rao<br>");
     });
 	$("#yttrailer").click(function(e) {
 		$("#mainclose").css("visibility",'visible');

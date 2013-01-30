@@ -40,6 +40,7 @@
 	<li>Dhruv Bhatnagar - 9033000901
 <li>Anirudha Mitra
 <li>Vipul Garg
+<li>Zeel Parikh
 
 	</ul>
 	</div>

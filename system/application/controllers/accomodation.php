@@ -2,7 +2,6 @@
 
 define("TABLE", "synapse2013_acco");
 class Accomodation extends Controller {
-
     function verify_form() {
 		$this->load->library( 'form_validation' );
         $this->form_validation->set_rules( 'name', 'Name', 'required|xss_clean' );

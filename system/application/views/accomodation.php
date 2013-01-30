@@ -61,17 +61,17 @@ on a <strong>first come, first served</strong> basis.
 
 <tr>
 <td>1</td>
-<td>Rs. 250</td>
+<td>Rs. 300</td>
 </tr>
 
 <tr>
 <td>2</td>
-<td>Rs. 400</td>
+<td>Rs. 450</td>
 </tr>
 
 <tr>
 <td>3</td>
-<td>Rs. 500</td>
+<td>Rs. 600</td>
 </tr>
 </table>
 

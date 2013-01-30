@@ -40,9 +40,15 @@ class Register extends Controller {
 
 		$extra_rules = null;
 		
-        if( function_exists('validate_'.$event) ) {
+        if( function_exists('validate_'.$event)&&$event!='techdefence' ) {
             $extra_rules = call_user_func('validate_'.$event, $this->form_validation);
         }	
+		if( function_exists('validate_'.$event)&&$event=='techdefence' ) {
+		if( $this->input->post('da_student')!=true ) {
+		   $extra_rules = call_user_func('validate_'.$event, $this->form_validation);
+		}
+		}
+		
 		if ($extra_rules != null)
 			foreach($extra_rules as $rule)
 				$this->form_validation->set_rules( $rule[0], $rule[1], $rule[2] );
@@ -124,7 +130,6 @@ function index($event=NULL) {
         $pass = $this->input->post('password');
         $event = $this->input->post('event');
         $team = $this->input->post('teamname');
-
         $events_list = $this->user_events_list($email);
 
         // check if already registered

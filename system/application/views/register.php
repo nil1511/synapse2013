@@ -14,6 +14,9 @@
 		ul li{
 			list-style-type:none;
 			}
+			.tech{
+			display:none;
+			}
     </style>
 	<script type="text/javascript" language="javascript">
 	var Register = {
@@ -60,6 +63,7 @@
 				$('#email-div').hide();
 				$('#institution-div').hide();
 				$('#accomodation-div').hide();
+				$('.tech').hide();
 			}
 			else {
 				$('#student-id-div').hide()
@@ -67,6 +71,7 @@
                 $('#email').focus();
 				$('#institution-div').show();
 				$('#accomodation-div').show();
+				$('.tech').show();
 			}
 		},
 		accomodationHandler : function() {
