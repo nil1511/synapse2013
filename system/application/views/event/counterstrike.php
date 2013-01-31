@@ -40,6 +40,6 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	  Achal Seksaria : 9910988339<br />
-	    Sausktha Saxena : 7405129183<br />
+	    Saushthav Saxena : 7405129183<br />
   </div>
 </div>

@@ -51,6 +51,7 @@ $GLOBALS['REGISTRATIONS'] = array(
 "rekriti"				=> "Rekriti",
 "vista"                 => "Vista",
 "jam"                 => "JAM",
+"vibrant"=>"Vibrant",
 "webunleashed"                 => "Web Unleashed",
 "rhythm_pulze"		=> "Rhythm Pulze",
 );

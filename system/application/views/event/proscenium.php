@@ -43,9 +43,8 @@
 	
 	<div class="pane">
 	<ul>
-<li>Swarnim Vyas - 7878778890
+<li>Shubhendu Saurabh - 7874003949
 <li>Aman Grover - 9727257337
-<li>Harshita Bhatnagar
 </ul>
 	</div>	
 </div>

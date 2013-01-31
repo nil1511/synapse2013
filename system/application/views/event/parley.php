@@ -28,9 +28,9 @@
     <h2>Co-ordinators</h2>
     <div class="pane">
 	<ul>
-		<li>Akshay Ratan
-<li>Yognik Baghel
- <li>Shubham Srivastava
+		<li>Akshay Ratan - 8866338972
+<li>Yognik Baghel - 9016065063
+ <li>Shubham Srivastava - 7405588348
 
 	</ul>
    </div>

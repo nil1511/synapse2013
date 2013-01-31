@@ -66,8 +66,8 @@ Prize Money :<font color="white"> Rs.5000</font>
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-	<li>Dhaval Trivedi </li>
-	<li>Raikva Gandhi</li>
+	<li>Dhaval Trivedi - 8141235438</li>
+	<li>Raikva Gandhi - 9687353364</li>
 
 </ul>
 	</div>

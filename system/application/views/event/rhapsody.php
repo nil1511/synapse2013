@@ -104,7 +104,7 @@
     
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-		<ul><li>
+		<ul>
 		<li>Vaibhav Devpura - 9016398839
 <li>Shailaja Shah - 8905742457
 <li>Harsh Patel - 8866352906

@@ -13,7 +13,7 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-	<li>Shrey Sanghvi
+	<li>Shrey Sanghvi - 9428329666
 	<li>Aenik Shah 
 	<li>Aagam Shah
 	<li>Jigar Sharda

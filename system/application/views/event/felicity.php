@@ -4,7 +4,7 @@
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
 		<p>Are words always necessary to express yourself? Imagine a world which consists of only words which are just said and not meant! 
-		felicity is all about expressing your feelings through various forms of drama. If you can feel what you want to convey then words are not always necessary to express yourself. &ldquo;Most of the time things are conveyed without words, certain things always remain UNSPOKEN&rdquo;. Come to felicity and let the beats of your heart be heard aloud.</p>
+		Felicity is all about expressing your feelings through various forms of drama. If you can feel what you want to convey then words are not always necessary to express yourself. &ldquo;Most of the time things are conveyed without words, certain things always remain UNSPOKEN&rdquo;. Come to Felicity and let the beats of your heart be heard aloud.</p>
 
 		<?= register_link(); ?>
 	</div>
@@ -54,9 +54,8 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
     <ul>
-<li>Swarnim Vyas - 7878778890
-<li>Aman Grover - 9727257337
-<li>Harshita Bhatnagar
+<li>Prateek Jain - 7567249439
+<li>Sahil Shah - 9033666898
 </ul>
 
 	</div>

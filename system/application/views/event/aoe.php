@@ -45,8 +45,8 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-			<li>Prasoon</li>
-			<li>Pushkar dwivedi</li>
+			<li>Prasoon - 7405485471</li>
+			<li>Pushkar dwivedi - 8460212455</li>
 		</ul>
 	</div>
 

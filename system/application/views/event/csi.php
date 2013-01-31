@@ -22,10 +22,10 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
     <ul>
-	<li>Shantanu Jain(201101073)
-	<li>Harsh Nisar(201101074) 
-	<li>Zubin Kapadia(201101067)
-	<li>Mayank Hinger(201101004)
+<li> Shantanu Jain - 8460622730
+<li>Harsh Nisar - 8128422272
+<li>Zubin Kapadia
+<li>Mayank Hinger - 8460228337
 	</ul>
 	</div>
 
