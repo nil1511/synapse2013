@@ -267,7 +267,7 @@
       </div>
     </div>
   </div>
-  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"> Coming Soon</span> </div>
+  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"><iframe src="sponser.html" scrolling="auto" frameborder="0" id="sp13"></iframe></span> </div>
   <div id="yrun" class="indata"></div>
   <div id="sponserdata12" class="indata">
     <ul id="da-thumbs" class="da-thumbs">

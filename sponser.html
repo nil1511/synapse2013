@@ -14,6 +14,7 @@ div:hover{
 	transform:scale(1.2);
 	box-shadow:0px 0px 6px 4px #000;
 	z-index:5;
+	background-color:#FFF;
 	border-radius:5px;
 	}
 .im{
@@ -24,6 +25,9 @@ color:#fff;
 text-align:center;
 opacity:0.8;
 }
+#d15,#d21{
+	display:none;
+	}
 </style>
 <body onLoad="set()"> 
 <script>
@@ -35,107 +39,107 @@ centery[0]=30;
  var i=0;
  
 var d = document.getElementById("d1");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/Reliance.png');width:20%;height:40%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Reliance.png');width:20%;height:40%;");
 i++;
 centerx[i]=centerx[i-1]-11.5;
 centery[i]=centery[i-1]+41;
  d = document.getElementById("d2");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/ongc.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/ongc.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1]+11;
 centery[i]=centery[i-1];
  d = document.getElementById("d3");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Adani.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1]+11;
 centery[i]=centery[i-1];
 d = document.getElementById("d4");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/IIHMAR.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1]+11;
 centery[i]=centery[i-1];
 d = document.getElementById("d5");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/ORBIS.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[0]-11.5;
 centery[i]=centery[0]-21;
 d = document.getElementById("d6");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/bob.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/bob.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1]+11;
 centery[i]=centery[i-1];
  d = document.getElementById("d7");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Parle.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1]+11;
 centery[i]=centery[i-1];
 d = document.getElementById("d8");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/RadioMircy.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1]+11;
 centery[i]=centery[i-1];
 d = document.getElementById("d9");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/holland.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/studyinholland.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[0]-11.5;
 centery[i]=centery[0];
 d = document.getElementById("d10");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/campusFrance.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]+21;
 d = document.getElementById("d11");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:19%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Omega.png');width:10%;height:19%;");
 i++;
 centerx[i]=centerx[0]+21.5;
 centery[i]=centery[0];
 d = document.getElementById("d12");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Bariki.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]+21;
 d = document.getElementById("d13");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:19%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/KCL.png');width:10%;height:19%;");
 i++;
 centerx[i]=centerx[1]-11;
 centery[i]=centery[1];
 d = document.getElementById("d14");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/CSLI.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]-20;
 d = document.getElementById("d15");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:19%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/sponsorus.png');width:10%;height:19%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]-21;
 d = document.getElementById("d16");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/time.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/timed.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]-21;
 d = document.getElementById("d17");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Asopalov.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[3]+22;
 centery[i]=centery[3];
 d = document.getElementById("d18");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Frank.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]-20;
 d = document.getElementById("d19");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:19%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/dacpl.png');width:10%;height:19%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]-21;
 d = document.getElementById("d20");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/Techdefence.png');width:10%;height:20%;");
 i++;
 centerx[i]=centerx[i-1];
 centery[i]=centery[i-1]-21;
 d = document.getElementById("d21");
-d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background:url('images/spon13/sponsorus.png');width:10%;height:20%;");
+d.setAttribute("style", "position:absolute;left:"+centerx[i]+"%;top:"+centery[i]+"%;background-image:url('images/spon13/sponsorus.png');width:10%;height:20%;");
 i++;
 }
 </script>
@@ -151,7 +155,7 @@ i++;
 <a href="http://www.studyinholland.nl/" target="_blank"><div id="d9" ><label class="im">Study Partner</label></div></a>
 <a href="http://www.campusfrance.org/en" target="_blank"><div id="d10" ><label class="im">Education Partner</label></div></a>
 
-<a href="http://www.adani.com/" target="_blank"><div id="d11" ><label class="im">Hip Hop Partner</label></div></a>
+<a href="" target="_blank"><div id="d11" ><label class="im">Printing Partner</label></div></a>
 <a href="http://www.barikijewellery.com/" target="_blank"><div id="d12" ><label class="im">Footlose Partner</label></div></a>
 <a href="http://www.kclindia.com/" target="_blank"><div id="d13" ><label class="im">Rekriti Sponser</label></div></a>
 <a href="http://www.pcbpower.com/content/" target="_blank"><div id="d14" ><label class="im">Rekriti Sponser</label></div></a>
@@ -173,7 +177,7 @@ i++;
 <a href="" target="_blank"><div id="d29" ></div></a>
 <a href="" target="_blank"><div id="d30" ></div></a>
 <!--
-<div id="2" style="background:url('images/spon13/sponsorus.png');width:25%;height:30%;">
+<div id="2" style="background-image:url('images/spon13/sponsorus.png');width:25%;height:30%;">
 </div></a>
 -->
 </body>

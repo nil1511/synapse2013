@@ -24,6 +24,8 @@ function c(t){
     });
 }
 //customcursor($('*'),'images/cur.png');
+$('#sp13').css('height',window.innerHeight);
+$('#sp13').css('width',window.innerWidth);
 $('#events').css('height',window.innerHeight/1.5);
 $('#aboutus').css('height',window.innerHeight/1.5);
 $('#pronites').css('height',window.innerHeight/1.75);
