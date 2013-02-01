@@ -28,6 +28,8 @@
 			Register.checkboxHandler();
 			Register.accomodationHandler();
             $('#student-id').focus();
+			if("<?= $event_name; ?>"=="Tech Defence")
+			$("td:first").hide();
 		},
         attachConfirmListener : function() {
         },
@@ -63,7 +65,6 @@
 				$('#email-div').hide();
 				$('#institution-div').hide();
 				$('#accomodation-div').hide();
-				$('.tech').hide();
 			}
 			else {
 				$('#student-id-div').hide()
@@ -71,7 +72,6 @@
                 $('#email').focus();
 				$('#institution-div').show();
 				$('#accomodation-div').show();
-				$('.tech').show();
 			}
 		},
 		accomodationHandler : function() {
@@ -109,7 +109,6 @@
 				Register.resetNotification();
 				return;
 			}
-
             var params = $('#da-student, #student-id, #email, #password').serialize();
             $.post( '<?= site_url(); ?>/register/ajaxuserexists'
                 ,  params
