@@ -182,10 +182,10 @@ Use the latest technology and multimedia to create an enthralling experience.
 	<h2>Co-ordinators / Submissions</h2>
 	<div class="pane">
 <ul>
-<li>Mudit Jumnani
-<li>Shikha Chowdhary
+<li>Mudit Jumnani - 8982278215
+<li>Shikha Chowdhary - 7874565996
 <li>Ritu Gatiyala
-<li>Ronit Patel
+<li>Ronit Patel - 9724760072
 
 </ul>
 	</div>

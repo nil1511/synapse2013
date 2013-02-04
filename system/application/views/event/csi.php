@@ -24,7 +24,7 @@
     <ul>
 <li> Shantanu Jain - 8460622730
 <li>Harsh Nisar - 8128422272
-<li>Zubin Kapadia
+<li>Zubin Kapadia - 9998519814
 <li>Mayank Hinger - 8460228337
 	</ul>
 	</div>

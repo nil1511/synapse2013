@@ -60,9 +60,9 @@
 	
     <h2>Co-ordinators</h2>
     <div class="pane">
-<ul><li>  Kunal Doshi 
-<li>Arkit Vora   
-<li>Manan Dhawan
+<ul><li>  Kunal Doshi - 9638810277
+<li>Arkit Vora - 9033098611
+<li>Manan Dhawan - 8866286047
 
 </ul>
     </div>

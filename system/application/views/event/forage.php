@@ -31,8 +31,8 @@ Registrations can be done online
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	 <ul><li>Swati Jhawar - 8511250640
- <li>Anjali Shastri
- <li>Ria Gupta
+ <li>Anjali Shastri - 8511102394
+ <li>Ria Gupta - 7874738334
 <li>Yesha Shah - 9898447511
 </ul>
 	

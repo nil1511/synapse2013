@@ -13,9 +13,9 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-	<li>Vineet Pandey
-	<li>Abhishek Kumar
-	<li>Dhairya Rachh
+	<li>Vinit Pandey - 9624994585
+	<li>Abhishek Kumar - 7405598718
+	<li>Dhairya Rachh - 8980042531
 	</ul>
 
 	</div>

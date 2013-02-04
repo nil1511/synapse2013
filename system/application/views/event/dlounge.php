@@ -30,7 +30,7 @@ there!
 <li>Sushant Pritmani - 7659450725
 <li>Abhishek William - 7405279464
 <li>Kumar Shrey - 8690036413
-<li>Aditya Paliwal
+<li>Aditya Paliwal - 7878408711
 <li>Yasir Rentiya - 9924968600
 </ul>
 	</div>

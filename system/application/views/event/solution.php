@@ -49,10 +49,10 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-		<li>	Shrey Sanghvi - 9428329666
-<li>Aenik Shah 
-<li>Aagam Shah
-<li>Jigar Sharda
+		<li>Shrey Sanghavi - 9408750748
+	<li>Aenik Shah - 9409414991
+	<li>Aagam Shah - 9409084835
+	<li>Jigar Sharda - 7405196233
 
 		</ul>
 	</div>

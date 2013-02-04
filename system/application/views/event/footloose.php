@@ -108,7 +108,7 @@ performance in CD or pen drive</li>
 <li>Karna Patel &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- 9925685767
 <li>Mrunmayi Deshmukh &emsp;- 7878255585 
 <li>Ishita Agrawal &emsp;&emsp;&emsp;&emsp;&nbsp;- 7878778803
-<li>Vinayak Pandey
+<li>Vinayak Pandey &emsp;&emsp;&emsp;&emsp;&nbsp;- 9978727935
 		</ul>
 	</div>
 	
