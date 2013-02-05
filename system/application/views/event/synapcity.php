@@ -16,7 +16,7 @@
     	<ul>
 <li>Pranay  Kumar - 7359473740
 <li>Pratik Patwari - 9511927206
-<li>Vandit Patel - 9429522509
+<li>Mihir Raj
 <li>Roshni Adda - 9924226532
 <li>Meghna Tolani - 8460289430
 

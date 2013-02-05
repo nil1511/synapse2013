@@ -93,7 +93,7 @@ Use the latest technology and multimedia to create an enthralling experience.
 				</ol>
 			</li>
 
-			<li>You can also upload your video on youtube and mail us the link with the script attached at <strong>imagineer.synapse12@gmail.com</strong></li>
+			<li>You can also upload your video on youtube and mail us the link with the script attached at <strong>imagineer.synapse2013@gmail.com</strong></li>
 
 			<li>A short note must be attached with your entry explaining your theme/subject. </li>
 
@@ -182,9 +182,9 @@ Use the latest technology and multimedia to create an enthralling experience.
 	<h2>Co-ordinators / Submissions</h2>
 	<div class="pane">
 <ul>
-<li>Mudit Jumnani - 8982278215
+<li>Mudit Jumnani - 7405757191
 <li>Shikha Chowdhary - 7874565996
-<li>Ritu Gatiyala
+<li>Ritu Gatiyala -9724130945
 <li>Ronit Patel - 9724760072
 
 </ul>

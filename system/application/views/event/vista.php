@@ -60,6 +60,7 @@
         <br />
   <strong>Category #2:</strong><br />
         They say brevity is the wit in adds. Well if you are one of those  individuals who thinks a few minutes is more than enough to put across a point,  this is very much the event for you.<br />
+		Video on any issue that world faces today like social issue<br>
   <strong>Rules For  Category #2:</strong> <br />
         1.  Plagiarism will lead to disqualification.<br />
         2.  Maximum 6 participants in a team.<br />
@@ -85,16 +86,16 @@
         <strong>Important dates</strong><br />
         Participants  have to register through website before the deadline mentioned below.</p>
       <ul type="disc">
-<!--        <li>Last       date to register:18th February 2012By this date we must receive       a mail from you on <a href="mailto:vista.synapse2012@gmail.com">vista.synapse2012@gmail.com</a> regarding the confirmation of participation. Subject of mail should be -       Register &lt;team_name&gt; &lt;movie_name&gt; </li>
-        <li>Last       date of submission: 19th February 2012</li>--> 
+       <li>Last       date to register:22th February 2013 By this date we must receive       a mail from you on <a href="mailto:vista.synapse2013@gmail.com">vista.synapse2013@gmail.com</a> regarding the confirmation of participation. Subject of mail should be -       Register &lt;team_name&gt; &lt;movie_name&gt; </li>
+        <li>Last       date of submission: 27th February 2013</li>
       </ul>
     </div>
     <h2>Co-ordinators</h2>
     <div class="pane">
 <ul>
-<li>Mudit Jumnani - 8982278215
+<li>Mudit Jumnani - 7405757191
 <li>Shikha Chowdhary - 7874565996
-<li>Ritu Gatiyala
+<li>Ritu Gatiyala - 9724130945
 <li>Ronit Patel - 9724760072
 
 </ul>
