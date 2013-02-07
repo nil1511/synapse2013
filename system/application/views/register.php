@@ -65,6 +65,7 @@
 				$('#email-div').hide();
 				$('#institution-div').hide();
 				$('#accomodation-div').hide();
+				$('#acco_query').hide();
 			}
 			else {
 				$('#student-id-div').hide()
@@ -78,9 +79,11 @@
 			if( $('#accomodation').is(':checked') ) {
 				$('#accomodation-count-div').show();
                 $('#accomodation_count').focus();
+				$('#acco_query').show();
 			}
 			else {
 				$('#accomodation-count-div').hide();
+				$('#acco_query').hide();
 			}
 		},
 
@@ -299,9 +302,14 @@ if( isset($event_view) )
 </td>
 <td>
 <?= form_input( 'accomodation_count', set_value('accomodation_count'), 'id="accomodation_count"' );?>
+
 </td>
 </tr>
-	
+<tr>
+<td colspan="3"><label id='acco_query'>  For any queries Contact Hospitality Head:<br>Ram Varanasi(+91-7359457479)<br>Kunal Chawla(+91-8460526214)</label></td>
+</tr>
+
+
 <tr>
 <td>
 </td>

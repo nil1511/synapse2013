@@ -29,7 +29,7 @@ Day 1:
 <li>Introduction to Cyber Crime
 <br />
 <li>For detailed description about day 1 content, visit the following link :
-<a href="https://www.dropbox.com/s/gdmamx5gw4q43wp/Level%201.pdf">Level 1</a></ul>
+<a href="https://www.dropbox.com/s/gdmamx5gw4q43wp/Level%201.pdf" target="_blank">Level 1</a></ul>
 <br />
 Day 2:
 <ul>
@@ -42,7 +42,7 @@ Day 2:
 <li>Wireless Hacking
 <br />
 <li>For detailed description about day 1 content, visit the following link :
-<a href="https://www.dropbox.com/s/3zdodcvk6hphz04/Level%202.pdf">Level 2</a><ul>
+<a href="https://www.dropbox.com/s/3zdodcvk6hphz04/Level%202.pdf" target="_blank">Level 2</a><ul>
     </div>
     <h2>Benefits of Workshop</h2>
     <div class="pane">
@@ -92,9 +92,9 @@ HackTrack Portal Features:
 	<li>TechDefence has been awarded as No.1 Ethical Hacking Training & Coaching Company of INDIA by NBC Awards. TechDefence has trained professionals from reputed corporates like Yahoo, Google, ISACA, k7 Antivirus, ZOHO, TCS, HCL, Elitecore Technologies & Indian Oil. We have solved several cases like Fake Profile Cases, Email Spoofing cases, Phishing case, Espionage cases, Credit Card fraud Cases, Cyber Pornography Case, SMS Spoofing Case in association with Crime Branch, Ahmedabad. The workshops are specifically designed to provide the right knowledge to the aspiring Hacking and Information Security aspirants and has benefited over 25000 students and professionals from over 300 top Institutes and Universities across India and abroad.
 <li>To know more about TechDefence and the awards won by it, visit the following link :
 
-<li><a href="https://www.dropbox.com/s/ldyqntkm1dwchan/TechDefence%20%28Company%20Profile%29.pdf">About TechDefence</a> 
+<li><a href="https://www.dropbox.com/s/ldyqntkm1dwchan/TechDefence%20%28Company%20Profile%29.pdf" target="_blank">About TechDefence</a> 
 
-<li><a href="https://www.dropbox.com/s/34w6hfeqgqwbsvo/TechDefence%20%28Awards%20%26%20Media%20accolades%29.pdf">Awards and Media accolades</a>
+<li><a href="https://www.dropbox.com/s/34w6hfeqgqwbsvo/TechDefence%20%28Awards%20%26%20Media%20accolades%29.pdf" target="_blank">Awards and Media accolades</a>
 
     </div>
 	
