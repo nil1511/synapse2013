@@ -5,9 +5,9 @@
     <div class="pane" style="display:block">
 		<p>The street is your kingdom. Your friends are your allies. You are on the wanted list of the State police department. You have the cars, you have the money. Race through the city at break-neck speed, dodging cops, clearing milestones to be the ultimate NFS pro.</p>
 		
-		<h3>1st prize : Rs. 1300</br>
+		<h3>1st prize : Rs. 1500</br>
 			2nd prize: Rs. 1000</br>
-			3rd prize: Rs. 700 (Special prize for best timings in lab round)</h3>
+			And many more prizes to win.</h3>
 		
 		<?= register_link(); ?>
     </div>
@@ -61,8 +61,8 @@
     <h2>co-ordinators</h2>
 	<div class="pane">
 		<ul>
-		<li>Amit Agarwal - 9782695981
-
+		<li>Amit Agarwal - 7405237842
+		<li>Aaditya Saini - 9898180907
 		</ul>
 	</div>
  </div>   

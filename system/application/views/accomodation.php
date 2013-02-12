@@ -76,7 +76,8 @@ on a <strong>first come, first served</strong> basis.
 </table>
 
 <p>
-Please fill in the form so our hospitality team can contact you. Thanks!
+Please fill in the form so our hospitality team can contact you. Thanks!<br>
+For any queries Contact Hospitality Head:Ram Varanasi(+91-7359457479),Kunal Chawla(+91-8460526214)
 </p>
 
 </div>

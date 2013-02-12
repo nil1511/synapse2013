@@ -112,20 +112,6 @@
           <div class="v">View</div>
           <div class="clo"></div>
           <div id="sd" class="data">
-            <!--<div class="spons">
-              <h1>Title Sponsers</h1>
-              <h2>Name</h2>
-              <h1>Associate Sponsers</h1>
-              <h2>Name</h2>
-              <h1>Banking Partner</h1>
-              <h2>Bank Of Baroda</h2>
-              <h1>Radio Partner</h1>
-              <h2>Radio Mirchi</h2>
-              <h1>Tourism Partner</h1>
-              <h2>Name</h2>
-              <h1>NGO Partner</h1>
-              <h2>Name</h2>
-            </div>-->
             <label id="viewsponsor12" style="padding:0px 0 0px 20px;position:relative;top:10px;cursor:pointer;">Synapse 2012 Sponsors</label><br />
 			<label id="viewsponsor13" style="padding:0px 0 0px 20px;position:relative;top:10px;cursor:pointer;">Synapse 2013 Sponsors</label>
           </div>
@@ -191,8 +177,7 @@
               <div class="cat">Zing</div>
               <span class="item cnam">Rhapsody<label class="sub">Music Mantra</label></span><span class="item cnam">Hip Hop Street<label class="sub">Let's Dance</label></span><span class="item cnam">Footloose<label class="sub">Western Dance</label></span><span class="item cnam">Naach<label class="sub">Indian Dance</label></span>
               <div class="cat">Knotts N Crosses</div>
-              <span class="item cnam">HeadRush<label class="sub">Quiz</label></span><!--<span class="item cnam">JAM<label class="sub">Quiz&amp;Debate</label></span><span class="item cnam">Mizmaze<label class="sub">Quiz&amp;Debate</label></span>--><span class="item cnam">Parley<label class="sub">Debate</label></span>
-              <div class="cat cnam">D Lounge</div>
+ <span class="item cnam">HeadRush<label class="sub">Quiz</label></span><span class="item cnam">Parley<label class="sub">JAM</label></span><span class="item cnam">Parley<label class="sub">Group Discussions</label></span><span class="item cnam">Parley<label class="sub">Senate Parliamentary</label></span>             <div class="cat cnam">D Lounge</div>
               <div class="cat cnam">Synapcity</div>
             </div>
           </div>
@@ -212,14 +197,16 @@
               <span class="item tnam">Rekriti<label class="sub">Innovate, Ideate & Implement</label></span><span class="item tnam">Inc<label class="sub">The B-Plan Contest</label></span>
              <!-- <div class="cat">Nexus</div>
               <span class="item tnam">Catechize<label class="sub">Get Informationaized</label></span><span class="item tnam">Web Unleashed<label class="sub">Harness The Web</label></span>-->
-              <div class="cat">Kernel</div>
+   <div class="cat">Battledrome</div>
+              <span class="item tnam">Counterstrike</span><span class="item tnam">NFS</span><span class="item tnam">Age of Empires</span><span class="item tnam">FIFA</span><span class="item tnam">DOTA</span>
+
+			<div class="cat" style="margin: -0.5% 0 -1.5% 3%;">Kernel</div>
               <!--<span class="item tnam">Algorythmus<label class="sub">Algo Contest</label></span><span class="item tnam">Code Mutants<label class="sub">Coder's Paradise</label></span><span class="item tnam">Collaborate<label class="sub">Electronics Geeks</label>--></span><span class="item tnam">Apps Dreamer<label class="sub">Build Your Own App</label></span><span class="item tnam">Blind C<label class="sub">Blindfolded Coding</label></span>
               <div class="cat">Surge</div>
               <span class="item tnam">Vista<label class="sub">Make Your Movie</label></span><span class="item tnam">Synapshot<label class="sub">Click Away!</label></span><!--<span class="item tnam">Anzeige<label class="sub">Innovate, Ideate & Implement</label></span>--><span class="item tnam">PSD<label class="sub">T-Shirt Design Contest</label></span>
               <div class="cat">Overclock</div>
-              <!--<span class="item tnam">Excogitate<label class="sub">Quiz&amp;Debate</label></span>--><span class="item tnam">Forage<label class="sub">Junkyard Creativity</label></span><span class="item tnam">Imagineer<label class="sub">Innovate, Ideate & Implement</label></span>
-              <div class="cat">Battledrome</div>
-              <span class="item tnam">Counterstrike</span><span class="item tnam">NFS</span><span class="item tnam">Age of Empires</span><span class="item tnam">FIFA</span><span class="item tnam">DOTA</span><br>
+              <!--<span class="item tnam">Excogitate<label class="sub">Quiz&amp;Debate</label></span>--><span class="item tnam">Forage<label class="sub">Junkyard Creativity</label></span><span class="item tnam">Imagineer<label class="sub">Lights,Camera & Action</label></span>
+              <br>
               <br>
               <br>
               <br>
@@ -256,7 +243,8 @@
       <div class="list">
         <div id="online">
           <div class="cont">
-            <div class="cat wnam" style="position:releative;top:30%;left:30%;font-size:3em;">TechDefence<label class="sub">Ethical Hacking</label></div>
+            <div class="cat wnam" style="position:relative;top:10%;left:0%;font-size:3em;">TechDefence<label class="sub">Ethical Hacking</label></div>
+            <div class="cat wnam" style="position:relative;top:10%;left:0%;font-size:3em;">MAD<label class="sub">Dance Workshop</label></div>
           </div>
           <div class="eventpop">
             <div class="en"></div>
@@ -381,7 +369,7 @@
   <div id="trail">
     <div id="player"></div>
   </div>
-  <!-- <div id="register"><iframe id="reg" src="index.php/register" width="100%" height="100%" frameborder="0" ></iframe></div>--></div>
+  </div>
 <div id="mainclose"></div>
 <div id="credit" class="pop">
   <div class="close"></div>

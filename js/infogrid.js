@@ -376,7 +376,7 @@ $('.close').click(function(e) {
     });*/
 	$("#ram").mouseover(function(e) {
 		$("#pnd").show();
-       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Divy Thakkar - 9173703535<br>Shivani Thakkar - 9426204255<br>Utkarsh Bhatla - 8905846430");
+       $("#pnd").html("<p>\"Lights, camera, fashion!! Heads turn when they walk. Catch a glimpse of what\'s new in the glitzy world of fashion as the hottest of models catwalk to the beats of music, oomph and charisma personified. The night will leave you enthralled as the atmosphere is one of beauty, excitement, and most importantly Fashion!!\"</p><br>Date :<br>Theme :<br><br>Co-ordintators – Yash Kumbhani - +91-9799915353<br>Shondhi singhal - +91-9687614655<br>Divy Thakkar - 9173703535<br>Shivani Thakkar - 9426204255<br>Utkarsh Bhatla - 8905846430<br>Parshav Kapadia - 8141937020");
     });
 	$("#rag").mouseover(function(e) {
 				$("#pnd").show();

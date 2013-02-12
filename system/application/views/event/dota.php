@@ -71,7 +71,7 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
     <ul><li>Hardik dhimmar - 9638329126
-	<li>Jatan panchal
+	<li>Jatan panchal - 9925771550
 	<li>Nirav sharda - 9033539149
 </ul>
 </div>
