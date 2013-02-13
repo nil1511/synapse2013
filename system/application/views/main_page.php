@@ -73,6 +73,7 @@
               <li>Technical</li>
               <li>Online</li>
               <li>Workshop</li>
+			  <li>Register</li>
             </ul>
           </div>
           </span></div>
@@ -380,6 +381,9 @@
   </div>
   <div id="trail">
     <div id="player"></div>
+  </div>
+  <div id="register">
+  <iframe id="reg" src="index.php/register" width="100%" height="100%" frameborder="0" ></iframe>
   </div>
   </div>
 <div id="mainclose"></div>

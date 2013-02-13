@@ -17,6 +17,25 @@
 
 			<?= register_link(); ?>
 	</div>
+	<h2>Event Structure</h2>
+	<div class="pane">
+	<ul>
+	<li>Hostel Rounds - 1 week before synapse
+	<br>Place - Hostels.<br>
+	<li>The event structure will promote CS in DA-IICT.
+	<br>Lab Rounds - 3 days of synapse
+	Preferable Place -Lab 005.<br>
+	<ul>
+	Tournament  Structure
+	<ul>
+	<li>Single map knock out matches.
+	<li>8 teams will reach Lab rounds.
+	<li>Expecting 20-25 Teams from outside DA-IICT.
+	<li>Lab round will be knock out.
+
+	</ul>
+	
+	</div>
 	<h2>Rules</h2>
 	<div class="pane">
 		<ul>

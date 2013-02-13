@@ -1,14 +1,16 @@
 <style>
 #register #main-content a {
-	color: #36c;
-	font-weight: bolder;
+        color: #36c;
+        font-weight: bolder;
 }
-a{
+li a{
+color:dodgerblue;
 text-decoration:none;
-padding:1% 0;	
+padding:1% 0;   
 }
 .register-subnav {
-	list-style-type: none;
+        color:#fff;
+        list-style-type: none;
     width: 30%;
     padding: 0 20px;
     float:left;
@@ -16,8 +18,8 @@ padding:1% 0;
 }
 
 #register .register-subnav ul {
-	list-style-type: none;
-	padding:1% 0;	
+        list-style-type: none;
+        padding:1% 0;   
 
 }
 
@@ -31,42 +33,45 @@ padding:1% 0;
 
 </style>
 <!-- cultural -->
+<div style="height:10%;"></div>
 <ul>
 <li class="register-subnav">
-<span style="font-weight: bold; color: orange">Cultural</span>
+<span style="font-weight: bold; color: rgb(64, 228, 0)">Cultural</span>
 <ul>
 
 <li><span>Nautanki Arena</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/proscenium">Proscenium</a></li>
-<li><a href="<?= site_url(); ?>/register/naivete">Naivete</a></li>
-<li><a href="<?= site_url(); ?>/register/instinct">Instinct</a></li>
-<li><a href="<?= site_url(); ?>/register/pehchaan_kaun">Pehchaan Kaun?</a></li>
-<li><a href="<?= site_url(); ?>/register/felicity">Felicity</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/proscenium">Proscenium</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/naivete">Naivete</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/instinct">Instinct</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/vibrant">Vibrant</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/felicity">Felicity</a></li>
 </ul>
 </li>
+
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/synapcity"><span>Synapcity</span></a>
 
 
 <li><span>Pro Nights</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/rampage">Rampage</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/rampage">Rampage</a></li>
 </ul>
 </li>
 
 <li><span>Dance Synapse Dance!</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/rhapsody">Rhapsody</a></li>
-<li><a href="<?= site_url(); ?>/register/footloose">Footloose</a></li>
-<li><a href="<?= site_url(); ?>/register/naach">Naach</a></li>
-<li><a href="<?= site_url(); ?>/register/hiphopstreet">The Hip Hop Street</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/rhapsody">Rhapsody</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/footloose">Footloose</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/naach">Naach</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/hiphopstreet">The Hip Hop Street</a></li>
 </ul>
 </li>
 
 <li>
 <span>Quizzes & Debates</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/headrush">HeadRush</a></li>
-<li><a href="<?= site_url(); ?>/register/parley">Parley</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/headrush">HeadRush</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/parley">Parley</a></li>
 </ul>
 </li>
 
@@ -76,39 +81,40 @@ padding:1% 0;
 
 <!-- technical -->
 <li class="register-subnav">
-<span style="font-weight: bold; color: orange">Technical</span>
+<span style="font-weight: bold; color: rgb(0, 174, 218)">Technical</span>
 <ul>
 <!--<li><span>Odyssey</span>
 <ul>
-<li><a href="<?= base_url(); ?>inc/register-form.php">Inc</a></li>
 </ul>
 </li>-->
 
-<li><span>Innovation Zone</span>
+<li><span>Odyssey</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/excogitate">Excogitate</a></li>
-<li><a href="<?= site_url(); ?>/register/forage">Forage</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/rekriti/">Rekriti</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/inc2013/">INC</a></li>
 </ul>
 </li>
 
-<li><span>ICT Wars</span>
+<li><span>Kernel</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/algorythmus">Algorythmus</a></li>
-<li><a href="<?= site_url(); ?>/register/codemutants">CodeMutants</a></li>
-<li><a href="<?= site_url(); ?>/register/techimagine">Tech Imagine</a></li>
-<li><a href="<?= site_url(); ?>/register/collaborate">Collaborate</a></li>
-<li><a href="<?= site_url(); ?>/register/appsdreamer">Apps Dreamer</a></li>
-<li><a href="<?= site_url(); ?>/register/webunleashed">Web Unleashed</a></li>
-<li><a href="<?= site_url(); ?>/register/blindc">Blind C</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/appsdreamer">Apps Dreamer</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/blindc">Blind C</a></li>
 </ul>
 </li>
 
-<li><span>Photos & Movies</span>
+<li><span>Surge</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/vista">Vista</a></li>
-<li><a href="<?= site_url(); ?>/register/imagineer">Imagineer</a></li>
-<li><a href="<?= site_url(); ?>/register/synapshot">Synapshot</a></li>
-<li><a href="<?= site_url(); ?>/register/psd">.PSD</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/vista">Vista</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/synapshot">Synapshot</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/psd">.PSD</a></li>
+</ul>
+</li>
+
+<li><span>Overclock</span>
+<ul>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/forage">Forage</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/imagineer">Imagineer</a></li>
+
 </ul>
 </li>
 
@@ -120,30 +126,29 @@ padding:1% 0;
 <li class="register-subnav">
 
 <br>
-<span>Battledrome</span>
+<span style="font-weight: bold; color: rgb(236, 51, 25)" >Battledrome</span>
 <ul>
-<li><a href="<?= site_url(); ?>/register/counterstrike">Counterstrike</a></li>
-<li><a href="<?= site_url(); ?>/register/nfs">NFS (Most Wanted)</a></li>
-<li><a href="<?= site_url(); ?>/register/quake3">Quake 3</a></li>
-<li><a href="<?= site_url(); ?>/register/aoe">Age of Empires</a></li>
-<li><a href="<?= site_url(); ?>/register/fifa">FIFA</a></li>
-<li><a href="<?= site_url(); ?>/register/dota">DOTA</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/counterstrike">Counterstrike</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/nfs">NFS (Most Wanted)</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/aoe">Age of Empires</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/fifa">FIFA</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/dota">DOTA</a></li>
 </ul>
 
-<span style="font-weight: bold; color: orange">Online</span>
+<span style="font-weight: bold; color: rgb(235, 0, 255)">Online</span>
 <ul>
-<li><a href="http://synapse.daiict.ac.in/bullzbear/">Bullz Bear</a></li>
-<li><a href="http://synapse.daiict.ac.in/cg/register.html" target="_blank">Crazy Ganith</a></li>
-<li><a href="<?= site_url(); ?>/register/solution">Solution</a></li>
-<li><a href="http://synapse.daiict.ac.in/teamtwister/">Team Twister</a></li>
-<li><a href="http://synapse.daiict.ac.in/googlockholmes/registration.php" target="_blank">Googlock Holmes</a></li>
-<li><a href="http://synapse.daiict.ac.in/csi/csi_reg.html" target="_blank">CSI</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/crazyganith">Crazy Ganith</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/solution">Solution</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/cozener">Cozener</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/teamtwister/">Team Twister</a></li>
+<li><a target="_blank" href="https://docs.google.com/forms/d/15lkQB6dsGxYi49jBTyvUekO61guyJI6jIT_beQGWzbw/viewform?pli=1">Googlock Holmes</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/csi" >CSI</a></li>
 </ul>
 
-<span style="font-weight: bold; color: orange">Workshops</span>
+<span style="font-weight: bold; color: rgb(207, 235, 6)">Workshops</span>
 <ul>
-<li><a href="http://synapse.daiict.ac.in/workshops/android/" target="_blank">Android Workshop</a></li>
-<li><a href="<?= site_url(); ?>/register/shiamak_workshop">Shiamak Workshop</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/techdefence" target="_blank">TechDefence</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/mad">MAD Dance</a></li>
 </ul>
 </li>
 </ul>

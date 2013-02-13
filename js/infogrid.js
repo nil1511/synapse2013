@@ -187,13 +187,13 @@ $('.close').click(function(e) {
 	opendoor();	
 	$("#sponserdata13").fadeIn();
     });
-/*	$("#register").click(function(e) {
+	$("#register").click(function(e) {
 	c('main');
 	$('.data,.clo').hide();
 	opendoor();	
 	$("#register").fadeIn();
         
-    });*/
+    });
 	
 	$("#viewyouth").click(function(e) {
 	$('.data,.clo').hide();
@@ -409,7 +409,7 @@ $('.close').click(function(e) {
 		catch (error){
 			}
 		$("#player").width(0);
-		$("#trail").hide();
+		$("#trail,#register").hide();
 		clo();
 		$('.close').trigger('click');
 		$('.cleft').css('margin-left','-60%');

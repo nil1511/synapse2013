@@ -450,7 +450,7 @@ td {
 }
 #mainclose {
 	position: absolute;
-	top: 0px;
+	top: 15px;
 	cursor: pointer;
 	background: url(../images/closew.png) center no-repeat;
 	background-size:100%;
@@ -608,11 +608,11 @@ font-size:3em;
 	width: 95px;
 	background-size:100% 100%;
 }
-/*#register{
+#register{
 display:none;
 width:100%;
 height:100%;	
-}*/
+}
 #tech {
 	position: relative;
 	left: 0px;
