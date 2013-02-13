@@ -8,7 +8,7 @@ $(function() {
 		return false;
 		
 	});
-
+$('#updates').load('updates.php');	
 function c(t){
 	$(document).unbind('keydown');
 		$(document).keydown(function(e) {
@@ -40,10 +40,7 @@ var ani=1;
 $('ul.box_skitter_ul').load('feed.php',function(e){
 //	   $('.box_skitter_large').skitter();
 		$('.box_skitter_large').skitter({label: false,is_paused:true});
-
 	});
-	
-
 $('#crc').click(function(e) {
 	//clo();
 	c('pop');
@@ -673,7 +670,6 @@ $('.close').click(function(e) {
 	$(document).click(function(e) {
         if(ani)
 		return ;
-//		alert(ani);
     });	
 
 });

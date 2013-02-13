@@ -28,8 +28,8 @@
 			Register.checkboxHandler();
 			Register.accomodationHandler();
             $('#student-id').focus();
-			if("<?= $event_name; ?>"=="Tech Defence")
-			$("td:first").hide();
+//			if("<?= $event_name; ?>"=="Tech Defence")
+	//		$("td:first").hide();
 		},
         attachConfirmListener : function() {
         },

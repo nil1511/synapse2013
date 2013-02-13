@@ -11,7 +11,7 @@
 		<a href="mailto:daiict.debate@gmail.com ">Mail to Parley event coordinators to register (daiict.debate@gmail.com )</a>
 		<br>
 		<br>
-<a href="javascript:void(0);" onclick="window.open('http://synapse.daiict.ac.in/2013/index.php/register/parley', '_blank');">Register for Parley</a>
+<a href="javascript:void(0);" class="registerbutton" onclick="window.open('http://synapse.daiict.ac.in/2013/index.php/register/parley', '_blank');">Click Here to Register for Parley</a>
     </div>
     
    <h2>Venue And Schedule</h2>
@@ -24,7 +24,7 @@
     <div class="pane">
 	<ul>
 		<li>Akshay Ratan - 8866338972
-<li>Yognik Baghel - 9016065063
+<li>Yognik Baghel - 7600871509
  <li>Shubham Srivastava - 7405588348
 
 	</ul>

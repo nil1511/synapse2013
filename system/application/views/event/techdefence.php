@@ -4,9 +4,10 @@
     <h2 class="current">Event Overview</h2>
     <div class="pane" style="display:block">
 		<br />
-		<p>In this era, every person is networked with the planet. Many modes of communication have come to exist, of which the most used is Internet. As Internet users increase each and every day, Security has become a major Issue. New technologies create new criminal opportunities and new types of crime.  It is not impossible for hackers to extract our information in a fraction of minute. Today Cyber Crime has extended across a spectrum of activities ranging from e-mail to SMS and call spoofing, Credit Card Fraud, phishing and Remote key logging etc. As Cyber Crime is increasing every day with advancing technologies, it has become our responsibility to protect ourselves from becoming a victim. Synapse 2013 has taken a step to reduce Cyber Crime by presenting Hack track 2.0 workshop in association with TechDefence. The workshop will be of 2 days scheduled on 16th and 17th Feb.</p>
+		<p>In this era, every person is networked with the planet. Many modes of communication have come to exist, of which the most used is Internet. As Internet users increase each and every day, Security has become a major Issue. New technologies create new criminal opportunities and new types of crime.  It is not impossible for hackers to extract our information in a fraction of minute. Today Cyber Crime has extended across a spectrum of activities ranging from e-mail to SMS and call spoofing, Credit Card Fraud, phishing and Remote key logging etc. As Cyber Crime is increasing every day with advancing technologies, it has become our responsibility to protect ourselves from becoming a victim. Synapse 2013 has taken a step to reduce Cyber Crime by presenting Hack track 2.0 workshop in association with TechDefence. The workshop will be of 2 days scheduled on 16th and 17th Feb.Last date of Registration for DA-IICT Student is 14th Feb</p>
 		<label>For DA-IICT Students</label>	<?= register_link(); ?>
-		<label><br>For Non DA-IICT Students <a href="http://event.ayojak.com/event/e-cell-iit-delhi-techdefence-presents-hacktrack-v2-0-at-daiict-gandhinagar/ticket-widget" target="_blank">Register for Tech Defence(Non DA-IICT)</a></label>
+		<label>For Non DA-IICT Students  those who want to register online <a href="http://event.ayojak.com/event/e-cell-iit-delhi-techdefence-presents-hacktrack-v2-0-at-daiict-gandhinagar/ticket-widget" target="_blank">Register for Tech Defence(Non DA-IICT)</a></label>
+		<p>For Those who want to pay on the spot register <a href="http://synapse.daiict.ac.in/2013/index.php/register/techdefence" target="_blank">here</a>
     </div>
     
     <h2>Details Of Workshop</h2>
@@ -121,10 +122,10 @@ Registration guidelines :
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fee for two day workshop
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software toolkit
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certificate by E-Cell IIT Delhi, TechDefence and Synapse 	
-<li>Deadline for registration is 9th of February or till the seats last.
+<li>Deadline for registration is 14th of February or till the seats last.
 <li>Registration will be completed only after we receive the registration fee. 
 <li>Registration money is not refundable under any circumstances.
-<li>On spot registrations will be conducted only if seats last.        
+<li>On spot registrations will be conducted.
 </ul>
 <br />        
 Payment Guidelines :
@@ -138,13 +139,14 @@ Payment Guidelines :
 2)Online registration and payment can be done <a href="http://event.ayojak.com/event/e-cell-iit-delhi-techdefence-presents-hacktrack-v2-0-at-daiict-gandhinagar/ticket-widget" target="_blank">here</a>
 <br>
 <br/>
-3)Submit the money in person to the organizers.<br/>
+3)You Can Pay Money on the spot during the workshop
+<br><br>4)Submit the money in person to the organizers.<br/>
 You don’t have to register on the website if you are choosing this method.<br/>
-<br/>
 <ul>
 <li>Any other method of payment other than these will not be accepted.
 <li>You can make payments for more than one participant together. But each of them has to register on the website separately.</ul>
 </ul>
+
 </p>
     </div>
     <h2>Contacts</h2>

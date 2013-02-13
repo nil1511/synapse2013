@@ -5,7 +5,7 @@ if ( ! function_exists('register_link'))
         $event = str_replace("/event/", "", uri_string());
         foreach($GLOBALS["REGISTRATIONS"] as $k=>$v) {
             if( $event == $k ) {
-                return anchor_popup('register/'.$event, "Register for {$GLOBALS["REGISTRATIONS"][$event]}");
+                return anchor('register/'.$event, "Click Here to Register for {$GLOBALS["REGISTRATIONS"][$event]}",array('class' => 'registerbutton','target' => '_blank'));
             }
         }
     }

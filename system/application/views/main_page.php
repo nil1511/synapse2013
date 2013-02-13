@@ -14,6 +14,7 @@
     <!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
     <script type='text/javascript' src='<? echo base_url(); ?>js/jquery-1.8.3.min.js'></script>
     <script>
+	
       var tag = document.createElement('script');
       tag.src = "http://www.youtube.com/iframe_api";
       var firstScriptTag = document.getElementsByTagName('script')[0];
@@ -45,6 +46,15 @@
     <script src="<? echo base_url(); ?>js/jquery.animate-colors-min.js"></script>
     </head>
     <body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <audio controls id="music" loop>
   <source src="audio.mp3" type="audio/mpeg">
   <!--[if lt IE 9]><bgsound src="'+mp3snd+'" loop="1"><![endif]--></audio>
@@ -134,6 +144,8 @@
     </dl>
   </div>
 </div>
+<div id="updates">
+</div>
 <div id="footer">
 	<a href="index.php/accomodation" target="_blank">
   <div class="navf">ACCOMODATION</div></a>
@@ -148,7 +160,7 @@
   	<a href="index.php/alumni" target="_blank">
   <div class="navf">ALUMNI</div></a>
   <div class="navf" id="crc">CREDITS</div>
-  
+  <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsynapsedaiict%3Ffref%3Dts&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px; padding-left:10px" allowTransparency="true"></iframe></div>
 </div>
 <div id="presents">
   <div id="topLoader" class="loader">
@@ -242,9 +254,9 @@
       </div>
       <div class="list">
         <div id="online">
-          <div class="cont">
-            <div class="cat wnam" style="position:relative;top:10%;left:0%;font-size:3em;">TechDefence<label class="sub">Ethical Hacking</label></div>
-            <div class="cat wnam" style="position:relative;top:10%;left:0%;font-size:3em;">MAD<label class="sub">Dance Workshop</label></div>
+		<div class="cont">
+            <div class="cat wnam" style="position:relative;top:30%;left:0%;font-size:3em;">TechDefence<label class="sub">Ethical Hacking</label></div>
+            <div class="cat wnam" style="position:relative;top:30%;left:0%;font-size:3em;">MAD<label class="sub">Dance Workshop</label></div>
           </div>
           <div class="eventpop">
             <div class="en"></div>
@@ -382,7 +394,9 @@
   <div class="close"></div>
   <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=DA-IICT,+Gujarat,+India&aq=0&oq=daiic&sll=35.101934,-95.712891&sspn=40.301301,86.572266&t=h&ie=UTF8&hq=DA-IICT,+Gujarat,+India&ll=23.190665,72.628384&spn=0.009467,0.013733&z=16&iwloc=A&output=embed"></iframe>
   <br/>
-  <small><a href="https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=DA-IICT,+Gujarat,+India&aq=0&oq=daiic&sll=35.101934,-95.712891&sspn=40.301301,86.572266&t=h&ie=UTF8&hq=DA-IICT,+Gujarat,+India&ll=23.190665,72.628384&spn=0.009467,0.013733&z=16&iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
+  <small><a href="https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=DA-IICT,+Gujarat,+India&aq=0&oq=daiic&sll=35.101934,-95.712891&sspn=40.301301,86.572266&t=h&ie=UTF8&hq=DA-IICT,+Gujarat,+India&ll=23.190665,72.628384&spn=0.009467,0.013733&z=16&iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+  <label><br>Dhirubhai Ambani Institute of Information and Communication Technology,Near Indroda Circle,Gandhinagar 382 007,Gujarat (India)</label>
+  </div>
 <div id="gallery" class="pop">
   <div class="box_skitter box_skitter_large">
     <ul class="box_skitter_ul">

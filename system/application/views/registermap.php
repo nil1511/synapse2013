@@ -8,7 +8,6 @@ text-decoration:none;
 padding:1% 0;	
 }
 .register-subnav {
-	color:#fff;
 	list-style-type: none;
     width: 30%;
     padding: 0 20px;
@@ -31,11 +30,6 @@ padding:1% 0;
 }
 
 </style>
-<center>
-<p style="color:yellow;font-size:17px;font-family:cursive;padding-top:5px;padding-bottom:5px">
-New events will be added as registrations open for them.
-</p>
-</center>
 <!-- cultural -->
 <ul>
 <li class="register-subnav">

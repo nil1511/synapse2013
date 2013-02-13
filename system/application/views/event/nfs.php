@@ -55,8 +55,6 @@
 	<p>Time: 18th FEB, 3:30 PM</p>-->
 
 	</div>
-
-
     
     <h2>co-ordinators</h2>
 	<div class="pane">

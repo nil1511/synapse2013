@@ -17,14 +17,12 @@
 
 			<?= register_link(); ?>
 	</div>
-	
 	<h2>Rules</h2>
 	<div class="pane">
 		<ul>
 			<li>All the participants should register in a team of "Five" with a clan name, a leader, contact number of the leader.</li>
 			<li>All the team members should be of the same college. and they should carry a ID proof with them.</li>
-			<li>The clans should register before 16th February midnight. The registration money is Rs.500/- for early registration if all the members belong to the same college and Rs.750/- for early registration if one or more members are not from the same college. On the spot registration money is Rs1000/-.</li>
-			<!--<li>On the spot registrations should be done on 17th february.</li>-->
+			<li>The clans should register before 18th February midnight. The registration money is Rs.500/- for early registration if all the members belong to the same college and Rs.750/- for early registration if one or more members are not from the same college. On the spot registration money is Rs1000/-.</li>
 			<li>Team members should carry their ID card with them.</li>
 			<li>Server will be made on Counter Strike 1.6</li>
 			<li>One player will be allowed to play from only one clan. Else both his clans will stand disqualified.</li>
