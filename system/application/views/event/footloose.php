@@ -14,7 +14,7 @@ of dance, and create history with your captivating rendition.
 		<p>or  by mailing us at <span style="color:orange"><strong>footloose.synapse2013@gmail.com</strong></span>with your name
 and also the college. Also do not forget to mention the category in which you wish to participate.</p>
 
-		<p><strong>The final event will take place on 2nd March, 2013 during 5:00P.M. - 8.00P.M.</strong></p>
+		<p><strong>The final event will take place on<br> 2nd March, 2013<br> during 5:00P.M. - 8.00P.M.</strong></p>
 	</div>
 	
 	<h2>Event structure</h2>
@@ -28,7 +28,14 @@ and also the college. Also do not forget to mention the category in which you wi
 			<li>Group: <br>Team size for group category : 5-12 <br> Time Limit : 9 minutes (including setup)</li>
 		</ol>
 	</div>
-	
+<h2>Prelims</h2>
+<div class="pane">
+
+<br><br><br>
+The Prelims will be held on <strong>2nd March. 10 AM onwards</strong>.<br>
+<br>
+The registered contentest have to report at 9:30 am at DA-IICT with their sound tracks.
+</div>	
 	<h2>General Guidelines</h2>
 	<div class="pane">
 <ul style="list-style-type:decimal;list-style-position:inside">

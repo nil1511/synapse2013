@@ -10,14 +10,17 @@
 	<h2>Event Structure</h2>
 	<div class="pane">
 	<ul>
-	<li>Only one phase, which will be held on 18th February. The timing for the event is 7:30 to 10:30 .
+	<li><strong>There Will be 2 phases</strong>
+	<li>First phase, which will be held on <strike>18th February </strike><strong>25th February</strong>. The timing for the first phase is 7:30pm to 10:30pm.
+	<li>There will be 20 teams from DA-IICT to be selected and 20 from other colleges for the 2nd phase.
+	<li>The date for 2nd phase to be announced.
 	<li>There are 40 questions, and you are allowed to use google as much as you want.
 	<li>You have a total of 5 passes, which you can use to skip questions you can't find answer to. 
 	<li>You cannot return to the skipped question.
 	<li>Each question gives you 10 points. The team with the highest points wins at the ending of the game period. If multiple teams finish with the same score, the team which finished earliest wins.
 	<li>Rules can be changed. 
 	<li>The link to the game will be updated soon. Keep checking and stay tuned.
-	
+	<li>Note:Team from DA-IICT will have to play the 2nd phase from the lab.
 	</ul>
 	</div>
 	

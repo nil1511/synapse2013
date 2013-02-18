@@ -56,7 +56,8 @@
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
-	  Achal Seksaria : 9910988339<br />
+	  Achal Seksaria : 9624255094<br />
 	    Saushthav Saxena : 7405129183<br />
+		Prateek Joshi: 9712385086
   </div>
 </div>

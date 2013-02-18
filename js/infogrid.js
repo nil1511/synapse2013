@@ -554,7 +554,7 @@ $('.cl').delegate("#events", "mouseover",function(e) {
 		$("#tech,#work,#online").animate({left:m+'px'},'fast','linear',function(){
 		$("#cult .cont").animate({width:m+'px',marginLeft:window.innerWidth*7/100}).show();	
 		});
-//		$("#cult .cont").load('c.php?t=events',function(e){
+
 				$(".cnam").click(function(e) {
 					var a=e.currentTarget.innerHTML;
 					a=(a=='Pehchaan Kaun?<label class="sub">Mimicry</label>')?'Pehchaan Kaun?':a;
@@ -579,7 +579,6 @@ $('.cl').delegate("#events", "mouseover",function(e) {
 							$("#cult .eventpop").show();
 							 });			
 			});
-  //  });
 	
 	$("#tech").click(function(e) {
        // $("#cult .cont").show();
