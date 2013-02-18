@@ -7,6 +7,7 @@ $GLOBALS['REGISTRATIONS'] = array(
 "aoe"                 => "Age of Empires",
 "appsdreamer"			=> "Apps Dreamer",
 "bullzbear"                 => "Bullzbear",
+"da-street"                 => "DA-Street",
 "blindc"					=> "Blind C",
 "catechize"                 => "Catechize",
 "codemutants"                 => "Code Mutants",

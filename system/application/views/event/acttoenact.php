@@ -18,11 +18,14 @@ creativity and wit, only the very best shall prevail. Good luck!
 You need not to be an expert to participate!
 <br>
 We have PRIZES for all!</p>
+
+		<?= register_link(); ?>
 	</div>
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
 <ul>
+<li>The products could range from Matrimonial Company to footwear to fairness cream for men.
 <li>You would be given the product half an hour prior to the event. Come up with a cool name and phrase a catchy slogan for your product!
 <li>Each team will be assigned the product randomly.
 <li>Props based on the theme will be provided to you. You will have to incorporate them in your act.
@@ -31,7 +34,13 @@ We have PRIZES for all!</p>
 <li>First 10 registered teams will be given sure shot "goodies".
 </ul>
 <br>
-The themes will be available on this site shortly.
+The themes will be available on this site shortly.<br>
+Prizes : <br>
+-	The Best Teams<br>
+-	The Funniest Act<br>
+-	The Best Actor<br>
+-	Peoples' Choice
+
 </div>
 	
 	<h2>Rules</h2>
@@ -49,7 +58,7 @@ power of ad, standard of language used, relativity to the topic/product, use of 
 <p>Goodies for registered teams will be given on 'first come first served' basis.</p>
 
 <p>Use of any vulgar or insulting language or gestures will lead to the immediate disqualification of the
-team.</p>
+team.(Also no reference to any caste or community)</p>
 
 <p>Judges' and coordinators' decision will be final and will not be subjected to any change.</p>
 </ul>
