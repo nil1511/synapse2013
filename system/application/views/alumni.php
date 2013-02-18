@@ -35,7 +35,10 @@ body {
 
 <h1>Perfect!</h1>
 
-<p style="width: 30%; margin: auto;">Somebody should get in contact with you shortly. For any
+<p style="width: 30%; margin: auto;">Your Registration Process is Completed.
+For any queries Contact Hospitality Head:Ram Varanasi(+91-7359457479),Kunal Chawla(+91-8460526214)
+
+Somebody should get in contact with you shortly. For any
 queries you may contact a committee member. Phone numbers
 are on the <a href="http://synapse.daiict.ac.in">Synapse website</a>.</p>
 

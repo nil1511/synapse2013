@@ -16,13 +16,14 @@
 		what naivete is all about. It is more powerful than any other mode of
 		theater because of its proximity between the audience and actors.
 		</p>
-		
+		<p>Email id<a href="mailto:synapse.masquerade13@gmail.com">synapse.masquerade13@gmail.com</a></p>
 		<?= register_link(); ?>
 	</div>
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<ul>
+			<li>Last date of registration to be 22nd Feb.</li>
 			<li>The time limit is 30 minutes. Severe penalties are in place for exceeding time limits.</li>
 			<li>The criteria for selection will be at the judges discretion.</li>
 		</ul>
@@ -51,7 +52,7 @@
 	<div class="pane">
 	<ul>
 <li>Aman Grover - 9727257337
-<li>Kesha Shah - 9016357133
+<li>Kesha Shah - 7600743091
 </ul>
 	</div>
 </div>

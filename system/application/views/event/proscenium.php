@@ -6,6 +6,7 @@
 		<p>
 		A live audience, a story and a spotlight shinning in your face. If you were born to act, to enchant the audience with your charisma then a night full of wonderful plays awaits you. Get ready for the ultimate drama-nite where you will witness some of the most amazing stage-performers. It's showtime, literally!!
 		<br />
+		<p>Email id<a href="mailto:synapse.masquerade13@gmail.com">synapse.masquerade13@gmail.com</a></p>
 		</p>
 		<?= register_link(); ?>
 	</div>
@@ -30,7 +31,7 @@
 	<h2>Rules</h2>
 	<div class="pane">
 		<ul>
-			<li>The script must be submitted at theatres@daiict.ac.in / synapse.masquerade13@gmail.com before 15 feb midnight.</li>
+			<li>The script must be submitted at theatres@daiict.ac.in / synapse.masquerade13@gmail.com before 22nd feb midnight.</li>
 			<li>Multiple entries from a particular college/institution are allowed.</li>
 			<li>All team members must be students of the college/institution carrying valid identity cards.</li>
 			<li>Maximum team size is 25 including backstage/technician crew.</li>

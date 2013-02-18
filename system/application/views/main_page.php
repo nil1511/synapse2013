@@ -8,11 +8,13 @@
 <script src="http://rhtml5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
     <link rel="stylesheet" type='text/css' href="<? echo base_url(); ?>css/jpreloader.css" />
-    <link rel='stylesheet' type='text/css' href='css/style.css' />
-    <link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
-
-    <!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
     <script type='text/javascript' src='<? echo base_url(); ?>js/jquery-1.8.3.min.js'></script>
+	<link rel='stylesheet' type='text/css' href='css/style.css' />
+    <script type='text/javascript' src='<? echo base_url(); ?>js/jpreloader.min.js'></script>
+	<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+<script type='text/javascript' src='<? echo base_url(); ?>js/jquery.easing.min.js'></script>
+    <!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+    
     <script>
 	
       var tag = document.createElement('script');
@@ -37,8 +39,8 @@
       function stopVideo(){
         player.stopVideo();}
     </script>
-    <script type='text/javascript' src='<? echo base_url(); ?>js/jpreloader.min.js'></script>
-    <script type='text/javascript' src='<? echo base_url(); ?>js/jquery.easing.min.js'></script>
+    
+    
     <script type="text/javascript" src="<? echo base_url(); ?>js/jquery.hoverdir.js"></script>
     <script type='text/javascript' src='<? echo base_url(); ?>js/infogrid.js'></script>
     <script type='text/javascript' src='<? echo base_url(); ?>js/script.js'></script>
@@ -186,12 +188,13 @@
             <div><br>
               <br>
               <div class="cat">Masquerade</div>
-              <span class="item cnam">Proscenium<label class="sub">Stage Play</label></span><span class="item cnam"  style="margin-left:0">Naiv&#232;te<label class="sub">Street Play</label></span><span class="item cnam" style="margin-left:0">Instinct<label class="sub">On The Spot</label></span><span class="item cnam" style="margin-left:0">Felicity<label class="sub">Musical Play & Mime</label></span><span class="item cnam" style="margin-left:0">Vibrant<label class="sub">Mimicry</label></span>
+              <span class="item cnam">Proscenium<label class="sub">Stage Play</label></span><span class="item cnam"  style="margin-left:0">Naiv&#232;te<label class="sub">Street Play</label></span><span class="item cnam" style="margin-left:0">Felicity<label class="sub">Musical Play & Mime</label></span><span class="item cnam" style="margin-left:0">Pehchaan Kaun?<label class="sub">Mimicry</label></span>
               <div class="cat">Zing</div>
               <span class="item cnam">Rhapsody<label class="sub">Music Mantra</label></span><span class="item cnam">Hip Hop Street<label class="sub">Let's Dance</label></span><span class="item cnam">Footloose<label class="sub">Western Dance</label></span><span class="item cnam">Naach<label class="sub">Indian Dance</label></span>
               <div class="cat">Knotts N Crosses</div>
  <span class="item cnam">HeadRush<label class="sub">Quiz</label></span><span class="item cnam">Parley<label class="sub">JAM</label></span><span class="item cnam">Parley<label class="sub">Group Discussions</label></span><span class="item cnam">Parley<label class="sub">Senate Parliamentary</label></span>             <div class="cat cnam">D Lounge</div>
               <div class="cat cnam">Synapcity</div>
+<div class="cat cnam" style="position: relative;top: -60px;left: 250px;">Act to enact</div>
             </div>
           </div>
           <div class="eventpop">
@@ -208,17 +211,15 @@
             <div style="overflow-x:auto;height:inherit;"><br>
               <div class="cat">Odyssey</div>
               <span class="item tnam">Rekriti<label class="sub">Innovate, Ideate & Implement</label></span><span class="item tnam">Inc<label class="sub">The B-Plan Contest</label></span>
-             <!-- <div class="cat">Nexus</div>
-              <span class="item tnam">Catechize<label class="sub">Get Informationaized</label></span><span class="item tnam">Web Unleashed<label class="sub">Harness The Web</label></span>-->
    <div class="cat">Battledrome</div>
               <span class="item tnam">Counterstrike</span><span class="item tnam">NFS</span><span class="item tnam">Age of Empires</span><span class="item tnam">FIFA</span><span class="item tnam">DOTA</span>
 
 			<div class="cat" style="margin: -0.5% 0 -1.5% 3%;">Kernel</div>
-              <!--<span class="item tnam">Algorythmus<label class="sub">Algo Contest</label></span><span class="item tnam">Code Mutants<label class="sub">Coder's Paradise</label></span><span class="item tnam">Collaborate<label class="sub">Electronics Geeks</label>--></span><span class="item tnam">Apps Dreamer<label class="sub">Build Your Own App</label></span><span class="item tnam">Blind C<label class="sub">Blindfolded Coding</label></span>
+              </span><span class="item tnam">Apps Dreamer<label class="sub">Build Your Own App</label></span><span class="item tnam">Blind C<label class="sub">Blindfolded Coding</label></span>
               <div class="cat">Surge</div>
-              <span class="item tnam">Vista<label class="sub">Make Your Movie</label></span><span class="item tnam">Synapshot<label class="sub">Click Away!</label></span><!--<span class="item tnam">Anzeige<label class="sub">Innovate, Ideate & Implement</label></span>--><span class="item tnam">PSD<label class="sub">T-Shirt Design Contest</label></span>
+              <span class="item tnam">Vista<label class="sub">Make Your Movie</label></span><span class="item tnam">Synapshot<label class="sub">Click Away!</label></span><span class="item tnam">PSD<label class="sub">T-Shirt Design Contest</label></span>
               <div class="cat">Overclock</div>
-              <!--<span class="item tnam">Excogitate<label class="sub">Quiz&amp;Debate</label></span>--><span class="item tnam">Forage<label class="sub">Junkyard Creativity</label></span><span class="item tnam">Imagineer<label class="sub">Lights,Camera & Action</label></span>
+              <span class="item tnam">Forage<label class="sub">Junkyard Creativity</label></span><span class="item tnam">Imagineer<label class="sub">Lights,Camera & Action</label></span>
               <br>
               <br>
               <br>

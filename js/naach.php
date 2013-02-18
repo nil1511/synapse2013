@@ -14,7 +14,7 @@
 		
 		<p>Naach is a platform that brings back to us a touch of our culture, our 
 		heritage. Students bring forth their genius through various <strong>"classical and folk"</strong> dance forms.</br>
-		Experience tradition in its brightest colours!!Last Date for Registration is 27th Feb.
+		Experience tradition in its brightest colours!!
 		</p>
 		
 		<?= register_link(); ?>
@@ -22,7 +22,7 @@
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
-		<ol>
+		<!--<ol>
 			<li> The event would be conducted in two phases:
 				<ul>
 					<li> Phase 1. Preliminary Round</li>
@@ -49,7 +49,7 @@
 					<li> Group:	15</li>
 				</ul>
 			  </li>
-		</ol>
+		</ol>-->
 	</div>
 	
 	<h2>Rules</h2>
@@ -76,7 +76,7 @@
 		<h4>Time will be informed via mail to all participants a day before. Event will be at Club House, DA-IICT</h4>
 
 		<h3>Final round</h3>
-		<h4>1st March 2013 6PM onwards at OAT, DA-IICT</h4>
+		<h4>17th Feb 2012 6PM onwards at OAT, DA-IICT</h4>
 	</div>
 
 

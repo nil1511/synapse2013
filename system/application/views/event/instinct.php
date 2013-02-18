@@ -4,13 +4,14 @@
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
 		<p>Ready. Set. Act. No lines, no scripts. Just you, the actor inside and the character you are to play. If you think you have that actor within you who can come up with the most entertaining act on the spot, be a part of Instinct !!
-		</p>
+		</p><p>Email id<a href="mailto:synapse.masquerade13@gmail.com">synapse.masquerade13@gmail.com</a></p>
 		<?= register_link(); ?>
 	</div>
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<ul>
+			<li>You can register anytime before synapse and there will be on spot registrations also.</li>
 			<li>Teams will be provided a theme to work on half an hour before the event begins.</li>
 			<li>Themes would be distributed randomly.</li>
 			<li>Maximum time for each performance - 10 min. </li>

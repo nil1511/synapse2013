@@ -246,7 +246,7 @@ $('.close').click(function(e) {
 //	$(".clt,.crt").animate({height:"100%",width:"30%"},{duration:'400',queue:false});	
 		
     });
-	$("#events").click(function(e) {
+$('.cl').delegate("#events", "click",function(e) {
 		if(!ani)
 		return;
 		ani=0;
@@ -265,7 +265,8 @@ $('.close').click(function(e) {
 	//	$("#events #tag").animate({height:"100%",top:"0%"},{duration:'400',queue:false});
 
     });
-	$("#aboutus").click(function(e) {
+	
+	$('.cl').delegate("#aboutus", "click",function(e) {
 		if(!ani)
 		return;
 		ani=0;
@@ -283,7 +284,8 @@ $('.close').click(function(e) {
 		}
 	});
 	});
-	$("#pronites").click(function(e) {
+	
+	$('.cr').delegate("#pronites", "click",function(e) {
 		if(!ani)
 		return;
 		ani=0;
@@ -300,7 +302,8 @@ $('.close').click(function(e) {
 		$("#pronites .clo").show();
 		}});
 	});
-	$("#sponsors").click(function(e) {
+	
+	$('.cr').delegate("#sponsors", "click",function(e) {
 		if(!ani)
 		return;
 		ani=0;
@@ -316,7 +319,8 @@ $('.close').click(function(e) {
 		$("#sd").show();
 		}});
 	});
-	$("#teasar").click(function(e) {
+	
+	$('.cr').delegate("#teasar", "click",function(e) {
 		if(!ani)
 		return;
 		ani=0;
@@ -332,7 +336,7 @@ $('.close').click(function(e) {
 		$("#yd").show();
 		}});
     });
-	$("ul#eventlabels li").click(function(e) {
+		$("ul#eventlabels li").click(function(e) {
 			//console.log(e.currentTarget.innerHTML);
 			$('.data,.clo').hide();
 			opendoor();	
@@ -377,7 +381,7 @@ $('.close').click(function(e) {
     });
 	$("#rag").mouseover(function(e) {
 				$("#pnd").show();
-       $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br>Kaushal Parmar <br>Tapan Kumar<br>Moxad Thakar<br>Ankit Sharma");
+       $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br>Kaushal Parmar <br>Tapan Kumar<br>Moxad Thakar<br>Ankit Sharma<br>Jayshil Hapani - 9558019578");
     });
 	$("#cyn").mouseover(function(e) {		$("#pnd").show();
        $("#pnd").html("<p>Stars brighten up the night. But the kind cynosure offer can set the night ablaze. The celebrity walks up to the stage amidst loud cheers from the crowd. The next few hours of the night will leave you mesmerized, for sure . The Raghu Dixit Project, Agnee , Indian Ocean , Aditya Narayan , Tochi Raina and still counting…</p><br>Date : <br>Co-Ordinators :<br>Himanshu Singhal - 8469281057<br>Yasir Rentiya - 9924968600<br>Bansari rao<br>");
@@ -429,7 +433,7 @@ $('.close').click(function(e) {
 		$('.indata').hide();
 		ani=1;
     });
-	$('#events').mouseover(function(e) {	
+$('.cl').delegate("#events", "mouseover",function(e) {	
 		if(!ani)
 		return;
 	//	console.log(e.relatedTarget)
@@ -448,7 +452,7 @@ $('.close').click(function(e) {
 		
     });
 	
-		$('#aboutus').mouseover(function(e) {
+		$('.cl').delegate("#aboutus", "mouseover",function(e) {
 		if(!ani)
 		return;
 		$('*').clearQueue();
@@ -466,7 +470,8 @@ $('.close').click(function(e) {
 		}
 		}});
 	 });
-	$('#pronites').mouseover(function(e) {	
+	 
+	$('.cr').delegate("#pronites", "mouseover",function(e) {	
 		if(!ani)
 		return;		
 		$('*').clearQueue();
@@ -484,7 +489,7 @@ $('.close').click(function(e) {
 		}});
 	});
 		
-	$('#sponsors').mouseover(function(e) {	
+	$('.cr').delegate("#sponsors", "mouseover",function(e) {	
 		if(!ani)
 		return;		
 		$('*').clearQueue();
@@ -500,7 +505,8 @@ $('.close').click(function(e) {
 		$("#sponsors .v").show('fast');}
 		}});
     });
-	$('#teasar').mouseover(function(e) {
+	
+	$('.cr').delegate("#teasar", "mouseover",function(e) {
 		if(!ani)
 		return;
 		$(".v").hide(5,function(){
@@ -548,7 +554,7 @@ $('.close').click(function(e) {
 //		$("#cult .cont").load('c.php?t=events',function(e){
 				$(".cnam").click(function(e) {
 					var a=e.currentTarget.innerHTML;
-
+					a=(a=='Pehchaan Kaun?<label class="sub">Mimicry</label>')?'Pehchaan Kaun?':a;
 					a=(a=='Parley<label class="sub">Group Discussions</label>')?'Parley Group Discussions':a;
 					a=(a=='Parley<label class="sub">Senate Parliamentary</label>')?'Parley Senate Parliamentary':a;
 					a=(a=='Parley<label class="sub">JAM</label>')?'Parley JAM':a;
@@ -560,6 +566,7 @@ $('.close').click(function(e) {
 							b=b.toLowerCase();
 							console.log(a);
 							b=(b=='naivète')?'naivete':b;
+							a=(a=='pehchaankaun?')?'pehchaankaun':a;
 							b=(b=='parleysenateparliamentary')?'parleysenate':b;
 							b=(b=='parleyjam')?'parleyjam':b;
 							b=(b=='parleygroupdiscussions')?'parleygroup':b;

@@ -3,6 +3,7 @@
 $GLOBALS['REGISTRATIONS'] = array(
 "anzeige"             => "Anzeige",
 "algorythmus"         => "Algorythmus",
+"acttoenact"         => "Act to enact",
 "aoe"                 => "Age of Empires",
 "appsdreamer"			=> "Apps Dreamer",
 "bullzbear"                 => "Bullzbear",
@@ -48,7 +49,7 @@ $GLOBALS['REGISTRATIONS'] = array(
 "synapcity"					=> "Synapcity",
 "techmarket"                 => "Tech Market",
 "techimagine"                 => "Tech Imagine",
-"pehchaan_kaun"                 => "Pehchaan Kaun?",
+"pehchaankaun"                 => "Pehchaan Kaun?",
 "rekriti"				=> "Rekriti",
 "vista"                 => "Vista",
 "parleyjam"                 => "Parle JAM",

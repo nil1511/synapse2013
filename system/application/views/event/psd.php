@@ -44,6 +44,7 @@ Coming Soon
 	<ul><li>  Kunal Doshi - 9638810277
 <li>Arkit Vora - 9033098611
 <li>Manan Dhawan - 8866286047
+<li>Harsh Kothari
 </ul>
     </div>
 </div>

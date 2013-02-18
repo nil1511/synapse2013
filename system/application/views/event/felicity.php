@@ -5,17 +5,20 @@
 	<div class="pane" style="display:block">
 		<p>Are words always necessary to express yourself? Imagine a world which consists of only words which are just said and not meant! 
 		Felicity is all about expressing your feelings through various forms of drama. If you can feel what you want to convey then words are not always necessary to express yourself. &ldquo;Most of the time things are conveyed without words, certain things always remain UNSPOKEN&rdquo;. Come to Felicity and let the beats of your heart be heard aloud.</p>
+		<p>Email id<a href="mailto:synapse.masquerade13@gmail.com">synapse.masquerade13@gmail.com</a></p>
 
 		<?= register_link(); ?>
 	</div>
 	
 	<h2>Event Structure</h2>
 	<div class="pane">
+				<li>Last date of registration to be 22nd Feb.</li>
+
 		<h3>Preliminary round</h3>
 		<ol>
 			<li>The teams have to submit a soft/hard copy of their play scripts. The script can be in English, Hindi or both.</li>
 			<li>The selection of teams for stage performance will be on the basis of their script.</li>
-			<li>Maximum 6 teams will be selected for phase 1 and 8 for phase 2.</li>
+			<li>Maximum 15 teams will be selected for phase 1 and 8 for phase 2.</li>
 		</ol>
 
 		<h3>Phase  1 (Mime drama)</h3>
@@ -25,7 +28,7 @@
 
 		<h3>Phase 2 (Musical drama)</h3>
 		<ol>
-			<li>Instead of using dialogues music should be used as a tool to convey the message.  Music should be prepared from the list of songs provided by us. Self composed parodies are also allowed.</li>
+			<li>You may select the music on your own and also dialoges are allowed in between the music but more fraction should be of the music.Self composed parodies are also allowed.</li>
 			<li>Maximum time limit allotted to each team will be 15-20 minutes.</li>
 		</ol>
 	</div>

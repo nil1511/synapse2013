@@ -13,6 +13,7 @@
     
     <h2>Schedule And Categories</h2>
     <div class="pane">
+	Main event dates: 1st and 3rd March.
 
       <!--      <br />
 		<h3>DAY 1 - 28th FEB:</h3>
@@ -55,7 +56,27 @@
     
     <h2>Rules</h2>
     <div class="pane">
-			  <p><strong>General Rules and Regulations:-<br />
+	<ul>
+<li>1) Only one team is allowed per college.
+<li>2) Prelims will be held one day before the finals.
+<li>3) The Music Nite winners of the Bollywood Rock round (first place only) will get direct entry into the
+finals.
+<li>4) For group rounds, no. of members in the team should not exceed 8.
+<li>5) Each team will get 8 mins (max) on stage and for solo rounds each participant will get a maximum
+of 6 mins.
+<li>6) For solo and instrumental round, the vocals and the instrumentals can have only one person in
+the lead and only one participant accompanying him.
+<li>7) The drum kit is the only instrument that will be provided. Participants have to arrange for
+everything else.
+<li>8) Registrations are to be made in name of your college. For registrations kindly log on to
+synapse.daiict.ac.in
+<br>
+or send a mail to
+<br>
+rhapsody.synapse@gmail.com with the subject format as Synapse_Rhapsody_<CollegeName>
+	</ul>
+	
+			  <!--<p><strong>General Rules and Regulations:-<br />
 		<br />
 		</strong>1) Prelims will be held one day before the finals.<strong><br />
 		</strong>2) Drum kit is the only instrument that will be  provided. Participants have to arrange for everything else.<strong><br />
@@ -97,7 +118,7 @@
 		<br />
 		</strong>1) No. of members in a team should not exceed 8.<strong><br />
 		</strong>2) Each participant will get a maximum of 8 mins  (including time for sound check).<strong><br />
-		</strong>3) The songs should be from the list we give you  only. The list will be provided to all participants a week prior to the  prelims. You are free to suggest songs at <a href="mailto:synapse.rhapsody2013@gmail.com" target="_blank">synapse.rhapsody2012@gmail.com</a></p>
+		</strong>3) The songs should be from the list we give you  only. The list will be provided to all participants a week prior to the  prelims. You are free to suggest songs at <a href="mailto:synapse.rhapsody2013@gmail.com" target="_blank">rhapsody.synapse@gmail.com</a></p>-->
     </div>
     
   

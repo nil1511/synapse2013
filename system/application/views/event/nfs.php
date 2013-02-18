@@ -16,18 +16,20 @@
     <div class="pane">
 		<h3>Phase 1: Hostel Rounds</h3>
 		<ul>
-			<li>We will select around 40 participants for Lab round (40 will vary according to participation in hostel round).<!-- Hostel round will be conducted on 10th and 11th February 2012.</li>-->
+			<li>Only for DA-IICT students. DA-IICT students can directly register in Hostel Rounds. There is no registration fee for Hostel Rounds. There will be multiple knock-out rounds and 30 students will be qualified for lab round out of which 5 participants from winners of Hostel Round will be given free entry for Lab Round. Participants should reach on time failing to reach will result in elimination.</li>
 		</ul>
 		
 		<h3>Phase 2: Lab Rounds</h3>
 		<ul>
-			<li>We will select 4 semi-finalists.</li>
+			<li>Open for DA-IICT and outside students. You can register for the event on Synapse website by 20th February. There is on the spot registration for lab round. Registration fees are Rs. 30 (DA-IICT and Outside DA-IICT). Students not able to qualify in hostel rounds can participate in Lab Rounds providing the registration fees.</li>
 		</ul>
 		
 		<h3>Phase 3: Final Round</h3>
 		<ul>
-			<li>Three different types of races will be played between two finalists. Whoever wins two of them will be declared as winner.</li>
+			<li>Three different types of races will be played between two finalists. Whoever wins, two of them will be declared as winner.</li>
 		</ul>
+		<br>
+		First prize : Rs. 1500(or According to no. of registration)
     </div>
     
     <h2>Rules</h2>
