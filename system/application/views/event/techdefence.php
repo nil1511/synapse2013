@@ -5,9 +5,10 @@
     <div class="pane" style="display:block">
 		<br />
 		<p>In this era, every person is networked with the planet. Many modes of communication have come to exist, of which the most used is Internet. As Internet users increase each and every day, Security has become a major Issue. New technologies create new criminal opportunities and new types of crime.  It is not impossible for hackers to extract our information in a fraction of minute. Today Cyber Crime has extended across a spectrum of activities ranging from e-mail to SMS and call spoofing, Credit Card Fraud, phishing and Remote key logging etc. As Cyber Crime is increasing every day with advancing technologies, it has become our responsibility to protect ourselves from becoming a victim. Synapse 2013 has taken a step to reduce Cyber Crime by presenting Hack track 2.0 workshop in association with TechDefence. The workshop will be of 2 days scheduled on 16th and 17th Feb.Last date of Registration for DA-IICT Student is 14th Feb</p>
-		<label>For DA-IICT Students</label>	<?= register_link(); ?>
+		REGISTRATION CLOSED
+		<!--<label>For DA-IICT Students</label>	<?= register_link(); ?>
 		<label>For Non DA-IICT Students  those who want to register online <a href="http://event.ayojak.com/event/e-cell-iit-delhi-techdefence-presents-hacktrack-v2-0-at-daiict-gandhinagar/ticket-widget" target="_blank">Register for Tech Defence(Non DA-IICT)</a></label>
-		<p>For Those who want to pay on the spot register <a href="http://synapse.daiict.ac.in/2013/index.php/register/techdefence" target="_blank">here</a>
+		<p>For Those who want to pay on the spot register <a href="http://synapse.daiict.ac.in/2013/index.php/register/techdefence" target="_blank">here</a>-->
     </div>
     
     <h2>Details Of Workshop</h2>

@@ -43,8 +43,7 @@ padding:1% 0;
 <ul>
 <li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/proscenium">Proscenium</a></li>
 <li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/naivete">Naivete</a></li>
-<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/instinct">Instinct</a></li>
-<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/vibrant">Vibrant</a></li>
+<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/pehchaankaun">Pehchaan Kaun?</a></li>
 <li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/felicity">Felicity</a></li>
 </ul>
 </li>
@@ -147,7 +146,6 @@ padding:1% 0;
 
 <span style="font-weight: bold; color: rgb(207, 235, 6)">Workshops</span>
 <ul>
-<li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/techdefence" target="_blank">TechDefence</a></li>
 <li><a target="_blank" href="http://synapse.daiict.ac.in/2013/index.php/register/mad">MAD Dance</a></li>
 </ul>
 </li>

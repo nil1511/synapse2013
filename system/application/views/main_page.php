@@ -58,7 +58,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <audio controls id="music" loop>
-  <source src="audio.mp3" type="audio/mpeg">
+ <source src="audio.mp3" type="audio/mpeg">
   <!--[if lt IE 9]><bgsound src="'+mp3snd+'" loop="1"><![endif]--></audio>
 <div id="page-wrap">
   <div class="cleft">
@@ -125,7 +125,7 @@
           <div class="v">View</div>
           <div class="clo"></div>
           <div id="sd" class="data">
-            <label id="viewsponsor12" style="padding:0px 0 0px 20px;position:relative;top:10px;cursor:pointer;">Synapse 2012 Sponsors</label><br />
+            <!--<label id="viewsponsor12" style="padding:0px 0 0px 20px;position:relative;top:10px;cursor:pointer;">Synapse 2012 Sponsors</label><br />-->
 			<label id="viewsponsor13" style="padding:0px 0 0px 20px;position:relative;top:10px;cursor:pointer;">Synapse 2013 Sponsors</label>
           </div>
           </span></div>
@@ -269,7 +269,7 @@
       </div>
     </div>
   </div>
-  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"><iframe src="sponser.html" scrolling="auto" frameborder="0" id="sp13"></iframe></span> </div>
+  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"><iframe src="sponser.html" scrolling="auto" frameborder="0" id="sp13" style="margin-top:25px;"></iframe></span> </div>
   <div id="yrun" class="indata"></div>
   <div id="sponserdata12" class="indata">
     <ul id="da-thumbs" class="da-thumbs">
