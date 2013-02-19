@@ -3,11 +3,11 @@
 
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
-		<p>Sports is one area where India lags behind even some of the poorest nations in the world. This despite the huge pool of talented sportsperson that exists in all parts of India. At the junior levels, our boys and girls can compete with the best in the world in almost every sport. However when it comes to the senior levels, where the actual capabilities of our sportsperson are tested, we fail miserably. This shows that it is not the lack of talent that bogs down our athletes but somewhere along the line, it is the lack of proper training that lead to their poor performances in the international arena.</p>
-		<p>"India has a huge population of about more than 100 crores. Still India has never been able to reach a tally of medals, which are double digits in number, in Olympics games."</p>
-		<p>We are searching for some good, genuine and practical solutions to help improve condition of sports in India.</p>
+		<p>In our daily newspapers, rape rears its ugly fa&ccedil;ade almost every day.  Sometimes, it is a brutal rape and murder by a stranger, gang-rape of a girl by her acquaintances or in many cases rape of a girl by her own father or elderly relatives. In recent years, there has been an alarming rise in ratio of rape in India. It is becoming such a common thing in our newspapers that we are apt to not even pay any remarkable attention.In India, a woman is raped every 25 minutes. In such an alarming situation,</p>
+		<p>" Should parents ask their daughters not to dress skinny or ask their sons to change their mindset towards women  ?"</p>
+		<p>We are searching for some good, genuine and practical responses concerning the above issue.</p>
 		
-		<h3>Prizes worth Rs. 6000!</h3>
+		<h3 style="color:red;">Prizes worth RS 3000 to be won !!</h3>
 	
 		<?= register_link(); ?>
 	</div>
@@ -26,7 +26,7 @@
 			Dhirubhai Ambani Institute of Information & Communication Technology,<br>
 			Gandhinagar,<br>
 			Gujrat 382009</p>
-			<h3>Results will be declared by 28th February, 2012.</h3>
+			<h3>Results will be declared by 3rdth March, 2013.</h3>
 	</div>
 	
 	<h2>Rules</h2>

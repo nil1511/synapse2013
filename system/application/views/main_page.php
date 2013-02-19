@@ -193,8 +193,9 @@
               <span class="item cnam">Rhapsody<label class="sub">Music Mantra</label></span><span class="item cnam">Hip Hop Street<label class="sub">Let's Dance</label></span><span class="item cnam">Footloose<label class="sub">Western Dance</label></span><span class="item cnam">Naach<label class="sub">Indian Dance</label></span>
               <div class="cat">Knotts N Crosses</div>
  <span class="item cnam">HeadRush<label class="sub">Quiz</label></span><span class="item cnam">Parley<label class="sub">JAM</label></span><span class="item cnam">Parley<label class="sub">Group Discussions</label></span><span class="item cnam">Parley<label class="sub">Senate Parliamentary</label></span>             <div class="cat cnam">D Lounge</div>
-              <div class="cat cnam">Synapcity</div>
-<div class="cat cnam" style="position: relative;top: -60px;left: 250px;">Act to enact</div>
+              <span class="cat item cnam">Synapcity</span>
+				<span class="cat item cnam">Act to enact</span>
+              <span class="cat item cnam"> Mr-Ms Synapse</span>
             </div>
           </div>
           <div class="eventpop">
@@ -269,7 +270,7 @@
       </div>
     </div>
   </div>
-  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"><iframe src="sponser.html" scrolling="auto" frameborder="0" id="sp13" style="margin-top:25px;"></iframe></span> </div>
+  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"><iframe src="sponser.html" scrolling="auto" frameborder="0" id="sp13" style="margin-top:25px;margin-bottom:50px;"></iframe></span> </div>
   <div id="yrun" class="indata"></div>
   <div id="sponserdata12" class="indata">
     <ul id="da-thumbs" class="da-thumbs">

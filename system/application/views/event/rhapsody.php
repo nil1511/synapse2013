@@ -55,35 +55,15 @@
     </div>
     
     <h2>Rules</h2>
-    <div class="pane">
-	<ul>
-<li>1) Only one team is allowed per college.
-<li>2) Prelims will be held one day before the finals.
-<li>3) The Music Nite winners of the Bollywood Rock round (first place only) will get direct entry into the
-finals.
-<li>4) For group rounds, no. of members in the team should not exceed 8.
-<li>5) Each team will get 8 mins (max) on stage and for solo rounds each participant will get a maximum
-of 6 mins.
-<li>6) For solo and instrumental round, the vocals and the instrumentals can have only one person in
-the lead and only one participant accompanying him.
-<li>7) The drum kit is the only instrument that will be provided. Participants have to arrange for
-everything else.
-<li>8) Registrations are to be made in name of your college. For registrations kindly log on to
-synapse.daiict.ac.in
-<br>
-or send a mail to
-<br>
-rhapsody.synapse@gmail.com with the subject format as Synapse_Rhapsody_<CollegeName>
-	</ul>
-	
-			  <!--<p><strong>General Rules and Regulations:-<br />
+    <div class="pane">	
+			 <p><strong>General Rules and Regulations:-<br />
 		<br />
 		</strong>1) Prelims will be held one day before the finals.<strong><br />
 		</strong>2) Drum kit is the only instrument that will be  provided. Participants have to arrange for everything else.<strong><br />
 		</strong>3) Registrations are to be made in name of your  college.<strong><br />
 		</strong>For registrations kindly log on to <strong><a href="http://synapse.daiict.ac.in/" target="_blank">synapse.daiict.ac.in</a><br />
 		</strong>or send a mail to <strong><br />
-		</strong><a href="mailto:rhapsody.synapse@gmail.com" target="_blank">rhapsody.synapse@gmail.com</a> with the subject  format as Synapse_Rhapsody_&lt;CollegeName&gt;<strong><br />
+		</strong><a href="mailto:rhapsody.synapse13@gmail.com" target="_blank">rhapsody.synapse13@gmail.com</a> with the subject  format as Synapse_Rhapsody_&lt;CollegeName&gt;<strong><br />
 		<br />
 		<br />
 		</strong>The competition is split into  six categories:<strong><br />
@@ -103,8 +83,8 @@ rhapsody.synapse@gmail.com with the subject format as Synapse_Rhapsody_<CollegeN
 		</strong>3) Backing track will be allowed (without vocals).<strong><br />
 		<br />
 		</strong><strong>Western Group<br />
-		</strong>1) Number of members in the team should not exceed  10 mins (including time for sound-check).<strong><br />
-		</strong>2) Each team will get 10 mins (max) on stage.<strong><br />
+		</strong>1) Number of members in the team should not exceed  10.<strong><br />
+		</strong>2) Each team will get 10 mins (max) on stage (including time for sound-check).<strong><br />
 		<br />
 		<br />
 		</strong><strong>Instrumental<br />
@@ -118,7 +98,7 @@ rhapsody.synapse@gmail.com with the subject format as Synapse_Rhapsody_<CollegeN
 		<br />
 		</strong>1) No. of members in a team should not exceed 8.<strong><br />
 		</strong>2) Each participant will get a maximum of 8 mins  (including time for sound check).<strong><br />
-		</strong>3) The songs should be from the list we give you  only. The list will be provided to all participants a week prior to the  prelims. You are free to suggest songs at <a href="mailto:synapse.rhapsody2013@gmail.com" target="_blank">rhapsody.synapse@gmail.com</a></p>-->
+		</strong>3) The song you choose for bolly rock should be from bollywood only, you may change tune of the song but it should be a rock version.</p>
     </div>
     
   
@@ -126,9 +106,12 @@ rhapsody.synapse@gmail.com with the subject format as Synapse_Rhapsody_<CollegeN
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 		<ul>
-		<li>Vaibhav Devpura - 9016398839
+<li>Lavish Mantri - 7878779762
+<li>Sahil Sikka - 9624122862
+<li>Ankush Ahir - 7567117334
+<li>Vaibhav Devpura - 9016398839
 <li>Shailaja Shah - 8905742457
-<li>Harsh Patel - 8866352906
+
 </ul>
 
 	</div>

@@ -384,7 +384,7 @@ $('.cl').delegate("#events", "click",function(e) {
     });
 	$("#rag").mouseover(function(e) {
 				$("#pnd").show();
-       $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br>Kaushal Parmar <br>Tapan Kumar<br>Moxad Thakar<br>Ankit Sharma<br>Jayshil Hapani - 9558019578");
+       $("#pnd").html("<p>Figure a state of limb-numbing and mental frenzy caused by the cacophonous wall of sound combined with hypersonic double bass rhythms and your heart thumping with the bassline constantly urging you to mosh and fu** your own shadow from behind.</p><br>Get high with __ performing in Synapse 2013.<br>Date : <br>Co-Ordinators :<br>Jayshil Hapani - 9558019578<br>Kaushal Parmar <br>Tapan Kumar<br>Moxad Thakar<br>Ankit Sharma<br>Parth Sarupria<br>Harsh Trivedi");
     });
 	$("#cyn").mouseover(function(e) {		$("#pnd").show();
        $("#pnd").html("<p>Stars brighten up the night. But the kind cynosure offer can set the night ablaze. The celebrity walks up to the stage amidst loud cheers from the crowd. The next few hours of the night will leave you mesmerized, for sure . The Raghu Dixit Project, Agnee , Indian Ocean , Aditya Narayan , Tochi Raina and still counting…</p><br>Date : <br>Co-Ordinators :<br>Himanshu Singhal - 8469281057<br>Yasir Rentiya - 9924968600<br>Bansari rao<br>");
