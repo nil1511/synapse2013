@@ -83,10 +83,10 @@
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 	<ul>
-	<li>Unnikrishnan Patel - 9638528439
-<li>Mohit Thakkar - 9824771710 
-<li>Rushi Shukla
-
+<li>Kavya Jain
+<li>Ronak Patel
+<li>Rishab Sexana
+<li>Sanchit Agarawal
 	</ul>
 	
 	</div>

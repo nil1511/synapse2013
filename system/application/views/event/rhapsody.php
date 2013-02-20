@@ -111,7 +111,7 @@
 <li>Ankush Ahir - 7567117334
 <li>Vaibhav Devpura - 9016398839
 <li>Shailaja Shah - 8905742457
-
+<li>Harsh Thakker
 </ul>
 
 	</div>

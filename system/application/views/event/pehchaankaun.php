@@ -15,11 +15,58 @@
 	<h2>Event Structure</h2>
 	<div class="pane">
 		<ul>
-		<li>You can register anytime before synapse and there will be on spot registrations also.</li>
+			<li>You can register anytime before synapse and there will be on spot registrations also.</li>
 			<li>Person needs to enact and know about the celebrity that he has chosen.</li>
 			<li>The list of the celebrities will be available on the site a few days before the events.</li>
 			<li>One can also personally request for a celebrity name to be mentioned in the list.</li>
 		</ul>
+	</div>
+	<h2>List of Characters</h2>
+	<div class="pane">
+	<br>
+	List of male characters:List of male characters:<br>
+<br>
+1. Nana Patekar<br>
+2. Shahrukh Khan<br>
+3. Gabbar<br>
+4. Baburao(Hera Pheri)<br>
+5. Barney Stinson<br>
+6. Amitabh Bachhan<br>
+7. Hrithik Roshan(Koi Mil Gaya)<br>
+8. Circuit(Munnabhai MBBS)<br>
+9. Chatur(3 Idiots)<br>
+10. Lalu Prasad Yadav<br>
+11. Rajesh Khanna<br>
+12. Aamir Khan<br>
+13. Sunny Deol<br>
+14. Veeru(Sholay)<br>
+15. Chulbul Pandey<br>
+16. Praful(Khichdi)<br>
+17. Raju Srivastava<br>
+18. Ahsaan Qureshi<br>
+19. Naveen Prabhakar<br>
+20. Baba Ramdev<br>
+21. Sachin Tendulkar<br>
+22. VJ Andy(channel V)<br>
+<br>
+<br>
+List of female characters:<br>
+<br>
+1. Kareena(Jab We Met)<br>
+2. Vidya Balan(Dirty picture)<br>
+3. Basanti(Sholay)<br>
+4. Hansa in Khichdi<br>
+5. Maya(sarabhai vs. sarabhai)<br>
+6. Monjulika(Vidya Balan)<br>
+7. Sonia Gandhi<br>
+8. Priyanka Chopra(Barfi)<br>
+9. Daya(Taarak Mehta ka Ulta Chashma)<br>
+10. Rakhi sawant<br>
+11. Ellen<br>
+12. Oprah Winfrey<br>
+13. Amy Winehouse<br>
+14. Lola Kutty(channel V)<br>
+
 	</div>
 	
 	<h2>Rules</h2>

@@ -639,6 +639,10 @@ $('.cl').delegate("#events", "mouseover",function(e) {
 							window.open('http://synapse.daiict.ac.in/teamtwister/','_blank');
 							return;
 							}
+							else if(a=='CrazyGanith'){
+							window.open('http://synapse.daiict.ac.in/cg/','_blank');
+							return;
+							}
 							var b=a.replace(/ /g,"");	
 							$('#work .en').html(c);
 							b=b.toLowerCase();
