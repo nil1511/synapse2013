@@ -6,17 +6,17 @@
 		
 		<p>
 Hey there all you budding directors and actors!
-<br>
-'ACT TO ENACT' is here to let you flaunt your ability to innovate, create, explore, discover and bring forth original, new concepts and ideas through your Ads.  The ad making competition 'ACT TO ENACT' provides you with a wonderful opportunity to showcase your acting and directing talent in front of the professional in the field. It is a chance to bring out the creativity within you.
-<br>
+<br><br>
+&rsquo;ACT TO ENACT&rsquo; is here to let you flaunt your ability to innovate, create, explore, discover and bring forth original, new concepts and ideas through your Ads.  The ad making competition &rsquo;ACT TO ENACT&rsquo; provides you with a wonderful opportunity to showcase your acting and directing talent in front of the professional in the field. It is a chance to bring out the creativity within you.
+<br><br>
 It's time to rekindle that imagination of yours and chalk out an idea for success. In this arena of creativity and wit, only the very best shall prevail. Good luck!
-<br>
+<br><br>
 You need not to be an expert to participate!
-<br>
+<br><br>
 Prizes worth 3K at stake!
-<br>
+<br><br>
 We have PRIZES for all!</p>
-
+<br>
 		<?= register_link(); ?>
 	</div>
 	

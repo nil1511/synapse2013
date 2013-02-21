@@ -48,6 +48,7 @@ $GLOBALS['REGISTRATIONS'] = array(
 "solution"                 => "Solution",
 "synapshot"                 => "Synapshot",
 "mad"                 => "MAD",
+"shailee"                 => "Shailee",
 "synapcity"					=> "Synapcity",
 "techmarket"                 => "Tech Market",
 "techimagine"                 => "Tech Imagine",

@@ -10,7 +10,7 @@ Positives about anything sink below the negatives. Common it might seem, but you
 Use the latest technology and multimedia to create an enthralling experience.
 
 		</p>
-
+Last Date for Registration is 27th Feb.<br>
 		<?= register_link(); ?>
 	</div>
 	
@@ -83,18 +83,7 @@ Use the latest technology and multimedia to create an enthralling experience.
 	<h2>Rules</h2>
 	<div class="pane">
 			<ul>
-			<li>You are required to submit a CD of your work before 17th February, 2012.</li>
-
-			<li>The CD should contain a script with the following format:
-				<ol>
-				<li>Title of the movie(must be related to movie)</li>
-				<li>Team name</li>
-				<li>Name of the participants and their colleges, e-mail ids, contact  no.(if any) </li>
-				</ol>
-			</li>
-
-			<li>You can also upload your video on youtube and mail us the link with the script attached at <strong>imagineer.synapse2013@gmail.com</strong></li>
-
+			
 			<li>A short note must be attached with your entry explaining your theme/subject. </li>
 
 			<li>Only one submission is accepted per team per category. A team can take part in more than one category. </li>
@@ -169,6 +158,25 @@ Use the latest technology and multimedia to create an enthralling experience.
 			<li>No living beings should be filmed in the movie. Though body parts (eg.fingers, movement of hands) can be used as characters only. </li>
 			<li>No max team size</li>
 			</ul>
+	</div>
+	<h2>Submission Details</h2>
+	<div class="pane">
+	<li>You are required to submit a CD of your work before 28th February, 2013.</li>
+
+			<li>The CD should contain a script with the following format:
+				<ol>
+				<li>Title of the movie(must be related to movie)</li>
+				<li>Team name</li>
+				<li>Name of the participants and their colleges, e-mail ids, contact  no.(if any) </li>
+				</ol>
+			</li>
+
+			<li>You can also upload your video on youtube and mail us the link with the script attached at <strong>imagineer.synapse2013@gmail.com</strong></li>
+			<br>
+      <p>Participating  teams must send a CD containing their movie and proper documentation explaining  their theme. They must send a copy of their <strong>College ID cards</strong> along with the CD. They can also submit their  movies by uploading them on any video hosting/video sharing sites like  You-tube, etc. They would then have to send an email containing the link(URL) for  the video, along with the document illuminating their theme and an image of  their College ID cards as attachments to <a href="mailto:imagineer.synapse2013@gmail.com">imagineer.synapse2013@gmail.com</a>. Subject  of the mail should contain submission &lt;team_name&gt; &lt;movie_name&gt; &lt;category&gt;<br />
+        Submission  can also be made personally to any of the event coordinators in a CD.<br />
+        Entries  from outside are to be mailed to the address below:</p>
+		In Submission Details you must write your category.<br>
 	</div>
 	
 	<h2>Prizes</h2>

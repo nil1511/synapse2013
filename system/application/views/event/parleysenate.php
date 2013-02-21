@@ -10,7 +10,7 @@
 		</p>
 
 		<p>
-		This is  the prime parliamentary debating event organized by The Debate Club,DAIICT .The format is 3 on 3 Asian Parliamentary Debate. Reiterating its tradition, SENATE foresees a prestigious participation from all over the country yet again. Prize money worth Rupees 60,000/- is up for stakes. Besides this year, we allow cross-college teams as well.
+		This is  the prime parliamentary debating event organized by The Debate Club,DAIICT .The format is 3 on 3 Asian Parliamentary Debate. Reiterating its tradition, SENATE foresees a prestigious participation from all over the country yet again. Prize money worth Rupees 1,30,000/- is up for stakes. Besides this year, we allow cross-college teams as well.
 		</p>
 
 		<a href="mailto:daiict.debate@gmail.com ">Mail to Parley event coordinators to register (daiict.debate@gmail.com )</a>

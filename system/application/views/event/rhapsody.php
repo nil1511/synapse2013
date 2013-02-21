@@ -12,8 +12,10 @@
     </div>
     
     <h2>Schedule And Categories</h2>
-    <div class="pane">
-	Main event dates: 1st and 3rd March.
+    <div class="pane"><br><br>
+	Main event dates: 1st and 3rd March.<br><br>
+1st March : Indian<br><br>
+3rd March : Western
 
       <!--      <br />
 		<h3>DAY 1 - 28th FEB:</h3>
