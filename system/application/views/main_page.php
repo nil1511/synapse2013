@@ -58,7 +58,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <audio controls id="music" loop>
-  <source src="audio.mp3" type="audio/mpeg">
+   <source src="audio.mp3" type="audio/mpeg">
   <!--[if lt IE 9]><bgsound src="'+mp3snd+'" loop="1"><![endif]--></audio>
 <div id="page-wrap">
   <div class="cleft">
@@ -116,6 +116,7 @@
               <li id="ram">Rampage</li>
               <li id="rag">Ragnarock</li>
               <li id="cyn">Cynosure</li>
+			  <li id="ino">Inaugural</li>
             </ul>
           </div>
           </span></div>
@@ -192,7 +193,7 @@
               <div class="cat">Zing</div>
               <span class="item cnam">Rhapsody<label class="sub">Music Mantra</label></span><span class="item cnam">Hip Hop Street<label class="sub">Let's Dance</label></span><span class="item cnam">Footloose<label class="sub">Western Dance</label></span><span class="item cnam">Naach<label class="sub">Indian Dance</label></span>
               <div class="cat">Knotts N Crosses</div>
- <span class="item cnam">HeadRush<label class="sub">Quiz</label></span><span class="item cnam">Parley<label class="sub">JAM</label></span><span class="item cnam">Parley<label class="sub">Group Discussions</label></span><span class="item cnam">Parley<label class="sub">Senate Parliamentary</label></span>             <br><span class="cat item cnam">D Lounge</span><span class="cat item cnam">Shailee<label class="sub">Literary Event</label></span>
+ <span class="item cnam">HeadRush<label class="sub">Quiz</label></span><span class="item cnam">Parley<label class="sub">JAM</label></span><span class="item cnam">Parley<label class="sub">Group Discussions</label></span><span class="item cnam">Parley<label class="sub">Senate Parliamentary</label></span>             <br><span class="cat item cnam">D Lounge</span><span class="cat item cnam">Shailee<label class="sub">Literary Event</label></span><span class="cat item cnam">Slow Cycling</span>
               <br><span class="cat item cnam">Synapcity</span>
 <span class="cat item cnam">Act to enact</span>
               <span class="cat item cnam"> Mr-Ms Synapse</span>
@@ -270,8 +271,10 @@
       </div>
     </div>
   </div>
-  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"><iframe src="sponser.html" scrolling="auto" frameborder="0" id="sp13" style="margin-top:25px;margin-bottom:50px;"></iframe></span> </div>
+  <div id="sponserdata13" class="indata"><span style="font-size:5em;color:white;"><iframe src="sponser.html" scrolling="auto" frameborder="0" id="sp13" style="margin-top:25px;"></iframe></span></div>
   <div id="yrun" class="indata"></div>
+  <div id="ragdata13" style="height: 100%;" class="indata"><iframe src="ragna.html" scrolling="auto" frameborder="0" id="rag13" style="margin-top:25px;width: 100%;height: 100%;background: #fff;"></div>
+  
   <div id="sponserdata12" class="indata">
     <ul id="da-thumbs" class="da-thumbs">
       <li><a><img src="images/sponsors/1.png"/>
