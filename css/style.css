@@ -811,3 +811,8 @@ list-style-position:inside;
 .pane p{
 padding-bottom:15px;
 }
+#mma{
+width: 100%;
+margin-top: 26px;
+height: 150px;
+}

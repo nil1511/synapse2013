@@ -3,7 +3,7 @@
 
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
-		
+	<?= register_link(); ?>	
 		<p>
 Hey there all you budding directors and actors!
 <br><br>
@@ -17,7 +17,6 @@ Prizes worth 3K at stake!
 <br><br>
 We have PRIZES for all!</p>
 <br>
-		<?= register_link(); ?>
 	</div>
 	
 	<h2>Event Structure</h2>
@@ -30,13 +29,14 @@ We have PRIZES for all!</p>
 <li>You have to prepare an ad within 30 minutes using at least one of the props.
 <li>Each team has to prepare a three minute ad for the given topic.
 <li>First 10 registered teams will be given sure shot "goodies".
+<li>You have to prepare an ad within 30 minutes using all the props
 </ul>
 <br>
 The themes will be available on this site shortly.<br>
 Prizes : <br>
 -	The Best Teams<br>
 -	The Funniest Act<br>
--	The Best Actor<br>
+-	The Best Punchline<br>
 -	Peoples' Choice
 
 </div>
