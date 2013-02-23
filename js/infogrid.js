@@ -400,6 +400,13 @@ $('.cl').delegate("#events", "click",function(e) {
 	$("#rag13").prop('src','ino.html');
 	$("#ragdata13").fadeIn();
 	});	
+	$("#cyn").click(function(e) {
+	c('main');
+	$('.data,.clo').hide();
+	opendoor();
+	$("#rag13").prop('src','cyno.html');
+	$("#ragdata13").fadeIn();
+	});	
 	$("#cyn").mouseover(function(e) {		$("#pnd").show();
        $("#pnd").html("<p>Stars brighten up the night. But the kind cynosure offer can set the night ablaze. The celebrity walks up to the stage amidst loud cheers from the crowd. The next few hours of the night will leave you mesmerized, for sure . The Raghu Dixit Project, Agnee , Indian Ocean , Aditya Narayan , Tochi Raina and still counting…</p><br>Date : <br>Co-Ordinators :<br>Himanshu Singhal - 8469281057<br>Yasir Rentiya - 9924968600<br>Bansari rao<br>");
     });
@@ -581,7 +588,8 @@ $('.cl').delegate("#events", "mouseover",function(e) {
 							$('#cult .en').html(a);
 					var b=a.replace(/ /g,"");		
 							b=b.toLowerCase();
-							console.log(a);
+							console.log(b);
+							b=(b=='tourdesynapse')?'slowcycling':b;
 							b=(b=='naivète')?'naivete':b;
 							a=(a=='pehchaankaun?')?'pehchaankaun':a;
 							b=(b=='parleysenateparliamentary')?'parleysenate':b;

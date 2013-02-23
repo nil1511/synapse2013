@@ -1,0 +1,308 @@
+<html>
+<head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+background:#0d0d0d;
+}
+#lucky{
+position:absolute;
+top:2%;
+left:2%;
+display:inline-block;
+width:40%;
+3background:url('images/luckyali.png') center center no-repeat;
+background-size:100% 100%;
+height:90%;
+}
+.message {
+    font-size: 30pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:  #FFF;
+    text-shadow: #999 2px 2px 40px;
+	top: 30%;
+left: 5%;
+position: absolute;
+}
+.m2{
+top: 37%;
+left: 5%;
+position: absolute;
+}
+.hidden {
+    display: none;
+} 
+.te-perspective{ 
+	-webkit-perspective: 1000;
+}
+.te-cover,
+.te-transition{
+	width: 525px;
+	height: 567px;
+}
+.te-cover.te-hide,
+.te-transition,
+.te-images{ display: none; }
+.te-transition.te-show{ display: block; }
+.te-back,
+.te-front{
+	overflow: hidden;
+	position: absolute;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+}
+.te-transition img{ position: absolute; left: 0px; top: 0px; }
+/***************** unfold2 ********************/
+.te-unfold2 .te-front{ 
+	-webkit-transform-origin: 100% 50%; 
+}
+.te-unfold2 .te-back{ 
+	-webkit-transform-origin: 0% 50%; 
+}
+.te-unfold2 .te-front, .te-unfold2 .te-back { width: 110px; height: 100%; }	
+.te-unfold2 .te-front.te-front2, .te-unfold2 .te-back.te-back2{ left: 110px; }
+.te-unfold2 .te-front.te-front2 img, .te-unfold2 .te-back.te-back2 img{ left: -110px; }
+.te-unfold2 .te-front.te-front3, .te-unfold2 .te-back.te-back3{ left: 220px; }
+.te-unfold2 .te-front.te-front3 img, .te-unfold2 .te-back.te-back3 img{ left: -220px; }
+.te-unfold2.te-show .te-front.te-front1{
+	-webkit-animation: unfold2_1Front 1s ease-in-out;
+}
+.te-unfold2.te-show .te-front.te-front2{ 
+	-webkit-animation: unfold2_2Front 1s ease-in-out; 
+}
+.te-unfold2.te-show .te-front.te-front3{ 
+	-webkit-animation: unfold2_3Front 1s ease-in-out;
+}
+.te-unfold2.te-show .te-back.te-back1{ 
+	-webkit-animation: unfold2_1Back 1s ease-in-out; -webkit-animation-delay:0.9s; 
+}
+.te-unfold2.te-show .te-back.te-back2{ 
+	-webkit-animation: unfold2_2Back 1s ease-in-out; -webkit-animation-delay:0.9s; 
+}
+.te-unfold2.te-show .te-back.te-back3{ 
+	-webkit-animation: unfold2_3Back 1s ease-in-out; -webkit-animation-delay:0.9s; 
+}
+@-webkit-keyframes unfold2_1Front{
+	0% { opacity: 1; -webkit-transform: rotate3d(0,1,0,0); }
+	33% { -webkit-transform: rotate3d(0,1,0,-100deg); }
+	100% { opacity: 1; -webkit-transform: rotate3d(0,1,0,-100deg); }
+}
+@-webkit-keyframes unfold2_2Front{
+	0% { opacity: 1; -webkit-transform: rotate3d(0,1,0,0); }
+	33% { -webkit-transform: rotate3d(0,1,0,0); }
+	66% { -webkit-transform: rotate3d(0,1,0,-100deg); }
+	100% { opacity: 1; -webkit-transform: rotate3d(0,1,0,-100deg); }
+}
+@-webkit-keyframes unfold2_3Front{
+	0% { opacity: 1; -webkit-transform: rotate3d(0,1,0,0); }
+	66% { -webkit-transform: rotate3d(0,1,0,0); }
+	83% { -webkit-transform: rotate3d(0,1,0,-50); }
+	100% { opacity: 1; -webkit-transform: rotate3d(0,1,0,-100deg); }
+}
+@-webkit-keyframes unfold2_1Back {
+	0% { opacity:1; -webkit-transform: rotate3d(0,1,0,100deg); }
+	30% { opacity:1; -webkit-transform: rotate3d(0,1,0,0); }
+	100% { opacity:1; -webkit-transform: rotate3d(0,1,0,0); }
+}
+@-webkit-keyframes unfold2_2Back {
+	0% { opacity: 1; -webkit-transform: rotate3d(0,1,0,100deg); }
+	26% { -webkit-transform: rotate3d(0,1,0,100deg); }
+	60% { -webkit-transform: rotate3d(0,1,0,0); }
+	100% { opacity: 1; -webkit-transform: rotate3d(0,1,0,0); }
+}
+@-webkit-keyframes unfold2_3Back {
+	0% { opacity: 1; -webkit-transform: rotate3d(0,1,0,100deg); }
+	55% { -webkit-transform: rotate3d(0,1,0,100deg); }
+	78% { -webkit-transform: rotate3d(0,1,0,-28deg); }
+	86% { -webkit-transform: rotate3d(0,1,0,28deg); }
+	94% { -webkit-transform: rotate3d(0,1,0,-12deg); }
+	98% { -webkit-transform: rotate3d(0,1,0,12deg); }
+	100% { opacity: 1; -webkit-transform: rotate3d(0,1,0,0); }
+}
+.te-wrapper{
+	position: relative;
+	width: 525px;
+	height: 567px;
+left: 50%;
+margin-top: 5%;
+}
+#im:hover{
+-webkit-transform: rotateY(30deg);
+}
+</style>
+<script type='text/javascript' src='js/jquery-1.8.3.min.js'></script>
+<script>
+function joshua_type(element, selector, extra_char,delay, callback) {
+    if (!extra_char) extra_char = '';
+    text = $.trim(element.text());
+    element.html("");
+    element.show();
+
+    function type_next(final_text, element, delay, i, callback) {
+        $(element).html( final_text.substr(0, i)+extra_char );
+        if (final_text.length > i) {
+            setTimeout(function() {
+                type_next(final_text, element, delay, i+1, callback);
+            }, delay);
+        }
+        else {
+            $(element).html( final_text );
+            var next = $(element).next(selector);
+            if (next.length) {
+                joshua_type(next, selector, extra_char, delay, callback);
+            }
+            else if (callback) callback();
+        }
+    }
+    type_next(text,element, delay, 0, callback);
+}
+$(function() {
+
+    var TransitionEffects = (function() {
+
+        var $teWrapper = $('#te-wrapper'),
+            $teCover = $teWrapper.find('div.te-cover'),
+            $teImages = $teWrapper.find('div.te-images > img'),
+            imagesCount = $teImages.length,
+            currentImg = 0,
+            $navNext = $('#lucky'),
+            $type = $('.message'),
+            type = 'te-unfold2',
+            $teTransition = $teWrapper.find('.te-transition'),
+            // requires perspective
+            wPerspective = ['te-unfold2'],
+            animated = false,
+            // check for support
+            hasPerspective = true,
+            init = function() {
+
+                $teTransition.addClass(type);
+                $navNext.on('click', function(event) {
+                    if (hasPerspective && animated) return false;
+
+                    animated = true;
+                    showNext();
+                    return false;
+
+                });
+
+                if (hasPerspective) {
+
+                    $teWrapper.on({
+                        'webkitAnimationStart': function(event) {
+
+                            $type.prop('disabled', true);
+
+                        },
+                        'webkitAnimationEnd': function(event) {
+
+                            if ((type === 'te-unfold1' && event.originalEvent.animationName !== 'unfold1_3Back') || (type === 'te-unfold2' && event.originalEvent.animationName !== 'unfold2_3Back')) return false;
+
+                            $teCover.removeClass('te-hide');
+                            if ($.inArray(type, wPerspective) !== -1) $teWrapper.removeClass('te-perspective');
+                            $teTransition.removeClass('te-show');
+                            animated = false;
+                            $type.prop('disabled', false);
+
+                        }
+                    });
+
+                }
+
+                $type.on('change.TransitionEffects', function(event) {
+
+                    type = $(this)
+                        .val();
+                    $teTransition.removeClass()
+                        .addClass('te-transition')
+                        .addClass(type);
+
+                });
+
+            },
+            showNext = function() {
+
+                if (hasPerspective) {
+                    $teTransition.addClass('te-show');
+                    $teCover.addClass('te-hide');
+                    if ($.inArray(type, wPerspective) !== -1) {
+                        $teWrapper.addClass('te-perspective');
+
+                    }
+
+                }
+
+                updateImages();
+
+            },
+            updateImages = function() {
+
+                var $back = $teTransition.find('div.te-back'),
+                    $front = $teTransition.find('div.te-front');
+
+                (currentImg === imagesCount - 1) ? (last_img = imagesCount - 1, currentImg = 0) : (last_img = currentImg, ++currentImg);
+
+                var $last_img = $teImages.eq(last_img),
+                    $currentImg = $teImages.eq(currentImg);
+                $front.empty()
+                    .append('<img src="' + $last_img.attr('src') + '">');
+                $back.empty()
+                    .append('<img src="' + $currentImg.attr('src') + '">');
+
+                $teCover.find('img')
+                    .attr('src', $currentImg.attr('src'));
+
+            };
+
+        return {
+            init: init
+        };
+
+    })();
+
+    TransitionEffects.init();
+
+});
+$(document).ready(function() {
+    // fade in the UI
+    joshua_type($('.message:first'),'.message', "", 100, function(){
+	$('#lucky').trigger('click');
+    });
+    // bind the squares
+});
+</script>
+</head>
+<body>
+<div>
+<div id="lucky"></div>
+<div class="message hidden">
+Cynosure Presents,</div>
+<div class="message m2 hidden">
+Lucky Ali Live in Concert.</div>
+<div class="te-container">
+				<div id="te-wrapper" class="te-wrapper">
+					<div class="te-images">
+						<img src="images/lucky-ali.png"/>
+						<img src="images/luckyali.png"/>
+					</div>
+					<div class="te-cover">
+						<img src="images/lucky-ali.png"/>
+					</div>
+					<div class="te-transition">
+						<div class="te-front te-front1"></div>
+						<div class="te-front te-front2"></div>
+						<div class="te-front te-front3"></div>
+						<div class="te-back te-back1"></div>
+						<div class="te-back te-back2"></div>
+						<div class="te-back te-back3"></div>
+					</div>
+				</div>
+			</div>
+<div id="content"></div>
+
+</body>
+</html>

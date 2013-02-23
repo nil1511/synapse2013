@@ -114,8 +114,8 @@
 <li>Vaibhav Devpura - 9016398839
 <li>Shailaja Shah - 8905742457
 <li>Harsh Thakker
-<li>Ishant Mehta - 7567249433
 <li>Jay Chaudhary - 7878327400
+<li>Ishant Mehta - 7567249433
 </ul>
 
 	</div>

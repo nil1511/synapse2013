@@ -1,49 +1,72 @@
 <html>
 <head>
 <style>
+* {
+	margin: 0;
+	padding: 0;
+}
 #name{
 position: absolute;
 width: 100%;
+background:url('images/smil.png') center center no-repeat;
 text-align: center;
 font-size: 4.5em;
+z-index:2;
+background-size: contain;
+left: -13%;
+height: 25%;
+top: 5%;
 }
 #hal{
 position:absolute;
-top:15%;
+top:0%;
 display:inline-block;
 width:33%;
 background:url('images/i1.jpg') center center no-repeat;
-background-size:contain;
-height:66%;
+background-size:100% 100%;
+height:100%;
 }
 #neil{
 position:absolute;
-top:15%;left:33%;
+top:0%;left:33%;
 display:inline-block;
 width:33%;
 background:url('images/i2.jpg') center center no-repeat;
-background-size:contain;
-height:66%;
+background-size:100% 100%;
+height:100%;
 }
 #silver{
 position:absolute;
-top:15%;
+top:0%;
 left:66%;
 display:inline-block;
 width:33%;
 background:url('images/i3.jpg') center center no-repeat;
-background-size:contain;
-height:66%;
+background-size:100% 100%;
+height:100%;
 }
+#sou{
+position: absolute;
+top: -7%;
+left: 56%;
+display: inline-block;
+width: 20%;
+background: url('images/sou.png') center center no-repeat;
+height: 106%;
+background-size: 77% 83%;
+}
+
 </style>
 
 </head>
 <body>
-<div id="name">Inaugural Nite</div>
+<div id="name"></div>
 <div>
 <div id="hal"></div>
 <div id="neil"></div>
 <div id="silver"></div>
+<div id="sou"></div>
+
 </div>
 </body>
 </html>

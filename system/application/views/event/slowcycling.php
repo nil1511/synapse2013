@@ -40,19 +40,16 @@
 	2. No part of the competitor's body may touch the ground.<br>
 	3. The bicycle must maintain forward motion at all times.<br>
 	4. The bicycle must remain within the boundaries of the race.<br>
-	5. Multiple registration will be allowed.
+	5. Multiple registration will be allowed.<br>
+	6. Incase of any dispute Co-ordinators decision will be final.
 		</ul>
-	</div>
-	<h2>Judging Criteria</h2>
-	<div class="pane">
-		<p>Participant who takes more time to complete the race other than his/her 4 competitors, following all the rules and regulations, will be the winner one.</p>
 	</div>
 	
 	<h2>Co-ordinators</h2>
 	<div class="pane">
 <ul>
 <li>Ishan Modi - 9033879087
-<li>Prasoon Rungta
+<li>Prasoon Rungta - 8980914879
 <li>Deepak kumar
 </ul>
 	</div>
