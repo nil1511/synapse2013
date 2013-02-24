@@ -7,7 +7,9 @@
 		Look around you. Spot the one person who's playing his game very smartly. Or else, if you are the
 		deceiver, how long can you lie until you are finally caught ?
 		</p>
-		<?= register_link(); ?>
+<a href="http://dacozener.appspot.com/" class="registerbutton" target="_blank">Click Here to Register for Cozener</a>
+<br>
+Visit website<a href="http://dacozener.appspot.com/" class="registerbutton" target="_blank">DACozener.appspot.com</a>
 	</div>
 	<h2>Event Structure</h2>
 	<div class="pane">

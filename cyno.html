@@ -8,16 +8,6 @@
 body{
 background:#0d0d0d;
 }
-#lucky{
-position:absolute;
-top:2%;
-left:2%;
-display:inline-block;
-width:40%;
-3background:url('images/luckyali.png') center center no-repeat;
-background-size:100% 100%;
-height:90%;
-}
 .message {
     font-size: 30pt;
     font-family: sans-serif;
@@ -27,6 +17,7 @@ height:90%;
 	top: 30%;
 left: 5%;
 position: absolute;
+z-index:2;
 }
 .m2{
 top: 37%;
@@ -41,8 +32,20 @@ position: absolute;
 }
 .te-cover,
 .te-transition{
-	width: 525px;
-	height: 567px;
+	width: 100%;
+	height: 100%;
+	}
+.te-wrapper{
+	position: relative;
+	width: 55%;
+	height: 100%;
+	left: 45%;
+}
+
+.te-cover img{
+	max-width:100%; max-height:100%;}
+.te-wrapper img{
+max-height:100%;
 }
 .te-cover.te-hide,
 .te-transition,
@@ -122,13 +125,6 @@ position: absolute;
 	94% { -webkit-transform: rotate3d(0,1,0,-12deg); }
 	98% { -webkit-transform: rotate3d(0,1,0,12deg); }
 	100% { opacity: 1; -webkit-transform: rotate3d(0,1,0,0); }
-}
-.te-wrapper{
-	position: relative;
-	width: 525px;
-	height: 567px;
-left: 50%;
-margin-top: 5%;
 }
 #im:hover{
 -webkit-transform: rotateY(30deg);
@@ -287,7 +283,7 @@ Lucky Ali Live in Concert.</div>
 				<div id="te-wrapper" class="te-wrapper">
 					<div class="te-images">
 						<img src="images/lucky-ali.png"/>
-						<img src="images/luckyali.png"/>
+						<img src="images/luckyali.jpg"/>
 					</div>
 					<div class="te-cover">
 						<img src="images/lucky-ali.png"/>
