@@ -4,7 +4,7 @@
 	<h2 class="current">Event Overview</h2>
 	<div class="pane" style="display:block">
 		<p>If you are searching for an event to unleash the puzzle busting  instincts in you then you are at the right place. Here you dawn the light of  Sherlock Holmes in you, with the help of illustrious aide Mr. Google and fire  away the silver-bullets from the tricky guns.</p>
-<a href="https://docs.google.com/forms/d/15lkQB6dsGxYi49jBTyvUekO61guyJI6jIT_beQGWzbw/viewform" target="_blank">Register for GooglockHolmes</a>
+<h2 style="color:red;">UPDATES:</h2><a href="http://googlockholmes13.appspot.com" target="_blank">Link to Website</a>
 	</div>
 	
 	<h2>Event Structure</h2>

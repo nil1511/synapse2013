@@ -40,6 +40,18 @@
 			<li>In case of absence of a team in their allotted slot, the team shall be considered disqualified and no further queries shall be entertained.</li>
 			<li>In case the match prolongs, the team with a better at the end of two hours will be declared as the winner only in phase 2 games. </li>
 		</ul>
+		<br>
+		Game Settings will be as follows<br>
+		Game:Random map<br>
+		Map Style:Standard<br>
+		Location:Arabia<br>
+		Size:Medium(4 Players)<br>
+		Diffculty:Standard<br>
+		Resources:Standard<br>
+		Population:200<br>
+		Reveal Map:Normal<br>
+		Starting Age:Normal<br>
+		Victory:Conquest<br>
 	</div>
 	
 	<h2>Co-ordinators</h2>

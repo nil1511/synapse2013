@@ -1,4 +1,4 @@
-$(function() {
+$(function(){
 	//$('#dp').animate({width:'300px'},1500,'easeOutBounce',function(){});
 //	$('#navf li').css('width',window.innerWidth/14);
 		$(".cont,.eventpop").hide();
@@ -32,7 +32,7 @@ $('#pronites').css('height',window.innerHeight/1.75);
 $('#sponsors').css('height',window.innerHeight/2);
 $('#teasar').css('height',window.innerHeight/3);
 $("#jpreButton").click(function(e) {
-    $("#page-wrap").css('visibility','visible');
+    $("#ppage-wrap").css('visibility','visible');
 	$("#footer").css('visibility','visible');
 	$("#presents").css('visibility','collapse');
 });
@@ -44,7 +44,7 @@ $('ul.box_skitter_ul').load('feed.php',function(e){
 $('#crc').click(function(e) {
 	//clo();
 	c('pop');
-	$("#page-wrap").css('opacity','0.5');
+	$("#ppage-wrap").css('opacity','0.5');
 	$('.pop').css('visibility','collapse');
     $('#credit').css('visibility','visible');
 	$('.pop').animate({height:'80%',top:'5%'},'400','easeOutQuart');
@@ -84,7 +84,7 @@ $('#condata').html('<ul class="contactimages"><li><div id="mem"><a href="http://
 $('#conc').click(function(e) {
 	//clo();
 		c('pop');
-		$("#page-wrap").css('opacity','0.5');
+		$("#ppage-wrap").css('opacity','0.5');
 	$('.pop').css('visibility','collapse');
     $('#contact').css('visibility','visible');
 	$("#convener").trigger('mouseover');
@@ -95,7 +95,7 @@ $('#conc').click(function(e) {
 $('#mapc').click(function(e) {
 	//clo();
 		c('pop');
-	$("#page-wrap").css('opacity','0.5');
+	$("#ppage-wrap").css('opacity','0.5');
 	$('.pop').css('visibility','collapse');
     $('#maps').css('visibility','visible');
 	$('.pop').animate({height:'80%',top:'5%'},'400','easeOutQuart');
@@ -105,7 +105,7 @@ $('#mapc').click(function(e) {
 $('#gallc').click(function(e) {
 	//clo();
 		c('pop');
-			$("#page-wrap").css('opacity','0.5');
+			$("#ppage-wrap").css('opacity','0.5');
 
 	$('.pop').css('visibility','collapse');
     $('#gallery').css('visibility','visible');
@@ -115,7 +115,7 @@ $('#gallc').click(function(e) {
 });
 $('.close').click(function(e) {
 	clo();
-	$("#page-wrap").css('opacity','1');
+	$("#ppage-wrap").css('opacity','1');
 		$('.pop').animate({height:'0%',top:'5%'},'400','easeInCubic',function(e){
 	    $('.pop').css('visibility','collapse');			
 			});
@@ -390,7 +390,7 @@ $('.cl').delegate("#events", "click",function(e) {
 	c('main');
 	$('.data,.clo').hide();
 	opendoor();
-	$("#rag13").prop('src','ragna.html');
+	$("#rag13").prop('src','ragna2.html');
 	$("#ragdata13").fadeIn();
 	});	
 	$("#ino").click(function(e) {

@@ -29,6 +29,10 @@ position: absolute;
 } 
 .te-perspective{ 
 	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-o-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
 }
 .te-cover,
 .te-transition{
@@ -53,42 +57,108 @@ max-height:100%;
 .te-transition.te-show{ display: block; }
 .te-back,
 .te-front{
-	overflow: hidden;
-	position: absolute;
-	opacity: 0;
-	-webkit-backface-visibility: hidden;
+overflow:hidden;
+position:absolute;
+opacity:0;
+/*backface-visibility*/
+-webkit-backface-visibility:hidden;
+   -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+     -o-backface-visibility:hidden;
+        backface-visibility:hidden;
 }
+
 .te-transition img{ position: absolute; left: 0px; top: 0px; }
 /***************** unfold2 ********************/
-.te-unfold2 .te-front{ 
-	-webkit-transform-origin: 100% 50%; 
+.te-unfold2 .te-front{
+/*transform-origin*/
+-webkit-transform-origin:100% 50%;
+   -moz-transform-origin:100% 50%;
+    -ms-transform-origin:100% 50%;
+     -o-transform-origin:100% 50%;
+        transform-origin:100% 50%;
 }
-.te-unfold2 .te-back{ 
-	-webkit-transform-origin: 0% 50%; 
+.te-unfold2 .te-back{
+/*transform-origin*/
+-webkit-transform-origin:0% 50%;
+   -moz-transform-origin:0% 50%;
+    -ms-transform-origin:0% 50%;
+     -o-transform-origin:0% 50%;
+        transform-origin:0% 50%;
 }
+
 .te-unfold2 .te-front, .te-unfold2 .te-back { width: 110px; height: 100%; }	
 .te-unfold2 .te-front.te-front2, .te-unfold2 .te-back.te-back2{ left: 110px; }
 .te-unfold2 .te-front.te-front2 img, .te-unfold2 .te-back.te-back2 img{ left: -110px; }
 .te-unfold2 .te-front.te-front3, .te-unfold2 .te-back.te-back3{ left: 220px; }
 .te-unfold2 .te-front.te-front3 img, .te-unfold2 .te-back.te-back3 img{ left: -220px; }
 .te-unfold2.te-show .te-front.te-front1{
-	-webkit-animation: unfold2_1Front 1s ease-in-out;
+/*animation*/
+-webkit-animation:unfold2_1Front 1s ease-in-out;
+   -moz-animation:unfold2_1Front 1s ease-in-out;
+    -ms-animation:unfold2_1Front 1s ease-in-out;
+     -o-animation:unfold2_1Front 1s ease-in-out;
+        animation:unfold2_1Front 1s ease-in-out;
 }
-.te-unfold2.te-show .te-front.te-front2{ 
-	-webkit-animation: unfold2_2Front 1s ease-in-out; 
+.te-unfold2.te-show .te-front.te-front2{
+/*animation*/
+-webkit-animation:unfold2_2Front 1s ease-in-out;
+   -moz-animation:unfold2_2Front 1s ease-in-out;
+    -ms-animation:unfold2_2Front 1s ease-in-out;
+     -o-animation:unfold2_2Front 1s ease-in-out;
+        animation:unfold2_2Front 1s ease-in-out;
 }
-.te-unfold2.te-show .te-front.te-front3{ 
-	-webkit-animation: unfold2_3Front 1s ease-in-out;
+.te-unfold2.te-show .te-front.te-front3{
+/*animation*/
+-webkit-animation:unfold2_3Front 1s ease-in-out;
+   -moz-animation:unfold2_3Front 1s ease-in-out;
+    -ms-animation:unfold2_3Front 1s ease-in-out;
+     -o-animation:unfold2_3Front 1s ease-in-out;
+        animation:unfold2_3Front 1s ease-in-out;
 }
-.te-unfold2.te-show .te-back.te-back1{ 
-	-webkit-animation: unfold2_1Back 1s ease-in-out; -webkit-animation-delay:0.9s; 
+.te-unfold2.te-show .te-back.te-back1{
+/*animation*/
+-webkit-animation:unfold2_1Back 1s ease-in-out;
+   -moz-animation:unfold2_1Back 1s ease-in-out;
+    -ms-animation:unfold2_1Back 1s ease-in-out;
+     -o-animation:unfold2_1Back 1s ease-in-out;
+        animation:unfold2_1Back 1s ease-in-out;
+/*animation-delay*/
+-webkit-animation-delay:0.9s;
+   -moz-animation-delay:0.9s;
+    -ms-animation-delay:0.9s;
+     -o-animation-delay:0.9s;
+        animation-delay:0.9s;
 }
-.te-unfold2.te-show .te-back.te-back2{ 
-	-webkit-animation: unfold2_2Back 1s ease-in-out; -webkit-animation-delay:0.9s; 
+.te-unfold2.te-show .te-back.te-back2{
+/*animation*/
+-webkit-animation:unfold2_2Back 1s ease-in-out;
+   -moz-animation:unfold2_2Back 1s ease-in-out;
+    -ms-animation:unfold2_2Back 1s ease-in-out;
+     -o-animation:unfold2_2Back 1s ease-in-out;
+        animation:unfold2_2Back 1s ease-in-out;
+/*animation-delay*/
+-webkit-animation-delay:0.9s;
+   -moz-animation-delay:0.9s;
+    -ms-animation-delay:0.9s;
+     -o-animation-delay:0.9s;
+        animation-delay:0.9s;
 }
-.te-unfold2.te-show .te-back.te-back3{ 
-	-webkit-animation: unfold2_3Back 1s ease-in-out; -webkit-animation-delay:0.9s; 
+.te-unfold2.te-show .te-back.te-back3{
+/*animation*/
+-webkit-animation:unfold2_3Back 1s ease-in-out;
+   -moz-animation:unfold2_3Back 1s ease-in-out;
+    -ms-animation:unfold2_3Back 1s ease-in-out;
+     -o-animation:unfold2_3Back 1s ease-in-out;
+        animation:unfold2_3Back 1s ease-in-out;
+/*animation-delay*/
+-webkit-animation-delay:0.9s;
+   -moz-animation-delay:0.9s;
+    -ms-animation-delay:0.9s;
+     -o-animation-delay:0.9s;
+        animation-delay:0.9s;
 }
+
 @-webkit-keyframes unfold2_1Front{
 	0% { opacity: 1; -webkit-transform: rotate3d(0,1,0,0); }
 	33% { -webkit-transform: rotate3d(0,1,0,-100deg); }
