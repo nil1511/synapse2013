@@ -74,7 +74,7 @@
 	<div class="pane"><uL>
 	<li>Atur Somani - 8000340569
 <li>Nikhil Pritmani - 9429937349
-<li>Vishnu Meena - 7359468604
+<li>Vishnu Kumar Meena - 7359468604
 <li>Saharsh Yaslaha - 9824362633
 
 	</uL>

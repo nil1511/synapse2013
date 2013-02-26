@@ -16,19 +16,6 @@
 		<?= register_link(); ?>
 	</div>
 	
-	<h2>Event Structure</h2>
-	<div class="pane">
-		<h3>Phase 1 </h3>
-		<p> This will be the preliminary knockout phase where teams will have to play a 
-		King Of The Hill (To capture and retain a wonder till 350 years) game with their opponents and the winners will move on to the next round.(There will also be a hostel round for in-house qualifications if required)
-		</p>
-
-		<h3>Phase 2 </h3>
-		<p> The winners of the preliminary phase will play a regular standard map game(any map suitable to both teams) and the winners will move on to quarter-finals </p>
-
-		<h3> Phase 3 </h3>
-		<p> There will be quarter-finals, semi-finals and a final where both teams will fight it out for the ultimate prize.</p>
-	</div>
 	
 	<h2>Rules</h2>
 	<div class="pane">

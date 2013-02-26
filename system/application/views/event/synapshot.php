@@ -42,20 +42,20 @@
 		<li>Minor digital enhancement is acceptable, but borders, frames, special filters, 	text, copyright,    watermarks or signatures are not permitted.</li>
 		<li>All images must be submitted digitally as JPEG files.</li>
 		<li>Photos mailed should be accompanied with full details regarding the title of the photograph, name  of the participant, email id, college name and location.</li>
-		<li>Mail your entries to <a href="mailto:synapse.synapshot@gmail.com">synapse.synapshot@gmail.com</a> before <b>23:59:59, Feb 25th, 2012 </b>for Phase I and before <b>23:59:59, March 5th, 2012</b> for Phase II.</li>
+		<li>Mail your entries to <a href="mailto:synapse.synapshot@gmail.com">synapse.synapshot@gmail.com</a> before <b>23:59:59, Feb 26th, 2012 </b>for Phase I and before <b>23:59:59, March 5th, 2012</b> for Phase II.</li>
 		</ul>  
     </div>
     
     <h2>Dates</h2>
     <div class="pane">
-   Mail your entries to <a href="mailto:synapse.synapshot@gmail.com">synapse.synapshot@gmail.com</a> before <b>23:59:59, Feb 25th, 2012 </b>for Phase I and before <b>23:59:59, March 5th, 2012</b> for Phase II.
+   Mail your entries to <a href="mailto:synapse.synapshot@gmail.com">synapse.synapshot@gmail.com</a> before <b>23:59:59, Feb 26th, 2012 </b>for Phase I and before <b>23:59:59, March 5th, 2012</b> for Phase II.
     </div>
 	
     <h2>Sponsors</h2>
     <div class="pane">
 
 <h3>Shah Photo services Ahmadabad</h3>
-<h3>Nikon Pvt. Ltd India</h3>
+<h3>Punjab Hyundai</h3>
 </div>
 	
     <h2>Co-ordinators</h2>

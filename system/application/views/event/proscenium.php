@@ -37,6 +37,7 @@
 			<li>Maximum team size is 25 including backstage/technician crew.</li>
 			<li>Props like table,chairs would be provided.</li>
 			<li>The decision of the judges and the co-ordinators shall be final and binding to all teams.</li>
+			<li>If Event play takes more than 45 minutes its reflection will be shown in the points.</li>
 		</ul>
 	</div>
 	
